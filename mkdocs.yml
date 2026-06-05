@@ -1,56 +1,86 @@
-name: Deploy SigGear Docs
+site_name: SigGear Robotics Documentation
+site_description: Precision transmission solutions for robotics and automation.
+site_url: https://siggeardrive.github.io/SigGear-product-docs/
 
-on:
-  push:
-    branches:
-      - main
-  workflow_dispatch:
+repo_name: SigGearDrive/SigGear-product-docs
+repo_url: https://github.com/SigGearDrive/SigGear-product-docs
 
-permissions:
-  contents: read
-  pages: write
-  id-token: write
+theme:
+  name: material
+  language: en
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.highlight
+    - search.share
+    - content.code.copy
 
-concurrency:
-  group: siggear-docs-pages
-  cancel-in-progress: true
+nav:
+  - Home: README.md
 
-jobs:
-  build:
-    runs-on: ubuntu-latest
+  - Products:
+      - SG6010C: SG6010C.md
+      - SG8021: SG8021.md
+      - CPM80-25: CPM80-25.md
+      - CPM100-25: CPM100-25.md
 
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+  - Applications:
+      - Humanoid Robots: Applications/Humanoid-Robots.md
+      - Quadruped Robots: Applications/Quadruped-Robots.md
+      - Exoskeletons: Applications/Exoskeletons.md
+      - Robot Arms: Applications/Robot-Arms.md
+      - AGV & AMR: Applications/AGV-AMR.md
 
-      - name: Setup Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.x"
+  - Industries:
+      - Medical Robotics: Industries/Medical-Robotics.md
+      - Industrial Automation: Industries/Industrial-Automation.md
+      - Service Robotics: Industries/Service-Robotics.md
+      - Agricultural Robotics: Industries/Agricultural-Robotics.md
 
-      - name: Install dependencies
-        run: pip install -r requirements.txt
+  - Selection Guides:
+      - How to Choose a Robot Joint: Selection-Guides/How-to-Choose-a-Robot-Joint.md
+      - Planetary vs Cycloidal: Selection-Guides/Planetary-vs-Cycloidal.md
 
-      - name: Build documentation
-        run: mkdocs build
+  - Case Studies:
+      - Humanoid Robot Joint Solution: Case-Studies/Humanoid-Robot-Joint-Solution.md
+      - Exoskeleton Joint Solution: Case-Studies/Exoskeleton-Joint-Solution.md
+      - Robot Arm Actuator Solution: Case-Studies/Robot-Arm-Actuator-Solution.md
+      - Reduce Robot Development Time: Case-Studies/How-SigGear-Reduces-Robot-Development-Time.md
 
-      - name: Setup Pages
-        uses: actions/configure-pages@v5
+  - Comparisons:
+      - Planetary vs Harmonic: Comparisons/Planetary-vs-Harmonic.md
+      - Cycloidal vs Harmonic: Comparisons/Cycloidal-vs-Harmonic.md
+      - Integrated Joint vs Separate Reducer: Comparisons/Integrated-Joint-vs-Separate-Reducer.md
 
-      - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: site
+  - Buyers Guides:
+      - Select a Humanoid Robot Joint: Buyers-Guides/How-to-Select-a-Humanoid-Robot-Joint.md
+      - Choose a Gearbox for Robotics: Buyers-Guides/How-to-Choose-a-Gearbox-for-Robotics.md
+      - Before Buying a Robot Actuator: Buyers-Guides/Top-5-Things-to-Check-Before-Buying-a-Robot-Actuator.md
+      - Evaluate Backlash: Buyers-Guides/How-to-Evaluate-Backlash-in-Robotics.md
 
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+  - Resources:
+      - Humanoid Robot Joint Torque Reference: Resources/Humanoid-Robot-Joint-Torque-Reference.md
+      - CAN vs EtherCAT: Resources/CAN-vs-EtherCAT-for-Robotics.md
+      - Robot Joint Communication Protocols: Resources/Robot-Joint-Communication-Protocols.md
+      - Robot Joint Glossary: Resources/Robot-Joint-Glossary.md
 
-    runs-on: ubuntu-latest
-    needs: build
+  - Developers:
+      - Getting Started: Developers/Getting-Started.md
+      - CAN Quick Start: Developers/CAN-Quick-Start.md
+      - MIT Control Quick Start: Developers/MIT-Control-Quick-Start.md
+      - Python Examples: Developers/Python-Examples.md
+      - FAQ: Developers/FAQ.md
 
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+markdown_extensions:
+  - tables
+  - toc:
+      permalink: true
+  - fenced_code
+  - admonition
+  - attr_list
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/SigGearDrive
