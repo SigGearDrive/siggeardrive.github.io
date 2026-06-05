@@ -5,23 +5,16 @@ site_url: https://siggeardrive.github.io/SigGear-product-docs/
 theme:
 name: material
 language: en
-features:
-- navigation.tabs
-- navigation.sections
-- navigation.top
-- content.code.copy
 
 nav:
 
 * Home: README.md
-
 * Products:
 
   * SG6010C: SG6010C.md
   * SG8021: SG8021.md
   * CPM80-25: CPM80-25.md
   * CPM100-25: CPM100-25.md
-
 * Applications:
 
   * Humanoid Robots: Applications/Humanoid-Robots.md
@@ -29,14 +22,12 @@ nav:
   * Exoskeletons: Applications/Exoskeletons.md
   * Robot Arms: Applications/Robot-Arms.md
   * AGV AMR: Applications/AGV-AMR.md
-
 * Industries:
 
   * Medical Robotics: Industries/Medical-Robotics.md
   * Industrial Automation: Industries/Industrial-Automation.md
   * Service Robotics: Industries/Service-Robotics.md
   * Agricultural Robotics: Industries/Agricultural-Robotics.md
-
 * Developers:
 
   * Getting Started: Developers/Getting-Started.md
