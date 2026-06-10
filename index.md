@@ -1,0 +1,5 @@
+## Applications
+
+SigGear provides compact precision drive solutions for robotic joints, micro motion systems, and industrial automation.
+
+* [Cycloidal Reducer for Humanoid Robot Joints](Applications/humanoid-robot-joint-reducer.md)
