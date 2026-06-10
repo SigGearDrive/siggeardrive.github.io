@@ -19,6 +19,7 @@ nav:
       - Exoskeletons: Applications/Exoskeletons.md
       - Robot Arms: Applications/Robot-Arms.md
       - AGV AMR: Applications/AGV-AMR.md
+      - Humanoid Robot Joint Reducer: Applications/humanoid-robot-joint-reducer.md
   - Industries:
       - Medical Robotics: Industries/Medical-Robotics.md
       - Industrial Automation: Industries/Industrial-Automation.md
