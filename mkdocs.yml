@@ -38,3 +38,5 @@ nav:
       - MIT Control Quick Start: Developers/MIT-Control-Quick-Start.md
       - Python Examples: Developers/Python-Examples.md
       - FAQ: Developers/FAQ.md
+  - Selection Guides:
+      - Robot Joint Gearbox Selection Guide: Selection-Guides/robot-joint-gearbox-selection-guide.md
