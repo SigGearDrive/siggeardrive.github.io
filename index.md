@@ -42,7 +42,7 @@ SigGear provides compact precision drive solutions for robotic joints, micro mot
 | [Robot Arm Joint Gearbox](Applications/robot-arm-joint-gearbox.md)                          | Compact cycloidal reducers, robotic joint modules, precision drive solutions   |
 | [Quadruped Robot Joint Gearbox](Applications/quadruped-robot-joint-gearbox.md)              | Compact cycloidal robotic joint modules, high-torque robotic actuators         |
 | [Cycloidal Reducer for Humanoid Robot Joints](Applications/humanoid-robot-joint-reducer.md) | CPM100-25, CPM80-25, compact robotic joint drive solutions                     |
-
+- [Micro Gear Motor for Medical Devices](Applications/medical-device-micro-gear-motor.md)
 ## Engineering Resources
 
 SigGear supports engineers with product documentation, CAD models, and developer resources for faster evaluation and prototype development.
