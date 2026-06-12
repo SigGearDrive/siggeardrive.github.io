@@ -49,6 +49,7 @@ SigGear provides compact precision drive solutions for robotic joints, micro mot
 ## Selection Guides
 
 - [Robot Joint Gearbox Selection Guide](Selection-Guides/robot-joint-gearbox-selection-guide.md)
+- [Micro Gear Motor Selection Guide](Selection-Guides/micro-gear-motor-selection-guide.md)
 
 ## Engineering Resources
 
