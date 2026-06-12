@@ -193,7 +193,7 @@ Servo motor planetary gearbox applications are closely related to robotics and p
 * [6mm Micro Gear Motor for Micro Robotics](micro-robotics-gear-motor.md)
 * [Micro Gear Motor for Medical Devices](medical-device-micro-gear-motor.md)
 * [AGV / AMR Wheel Drive Gearbox](agv-amr-wheel-drive-gearbox.md)
-
+- [Servo Motor Planetary Gearbox](servo-motor-planetary-gearbox.md)
 ## Related Products
 
 * [SG6010C Compact Precision Drive Solution](../SG6010C.md)
