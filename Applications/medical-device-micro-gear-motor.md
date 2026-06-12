@@ -189,6 +189,7 @@ Medical device micro gear motor applications are closely related to compact prec
 * [AGV / AMR Wheel Drive Gearbox](agv-amr-wheel-drive-gearbox.md)
 - [Micro Gear Motor for Medical Devices](medical-device-micro-gear-motor.md)
 - [Robot Gripper Gear Motor](robot-gripper-gear-motor.md)
+- [Micro Gear Motor Selection Guide](../Selection-Guides/micro-gear-motor-selection-guide.md)
 ## FAQ
 
 ### What type of gear motor is used in medical devices?
