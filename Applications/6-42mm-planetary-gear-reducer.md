@@ -510,7 +510,7 @@ SigGear 6-42mm planetary gear reducers are suitable for many compact robotics an
 * [Robot Arm Joint Gearbox](robot-arm-joint-gearbox.md)
 * [Quadruped Robot Joint Gearbox](quadruped-robot-joint-gearbox.md)
 * [Cycloidal Reducer for Humanoid Robot Joints](humanoid-robot-joint-reducer.md)
-
+- [Micro Gear Motor Selection Guide](../Selection-Guides/micro-gear-motor-selection-guide.md)
 ## Related Products
 
 * [SG6010C Compact Precision Drive Solution](../SG6010C.md)
