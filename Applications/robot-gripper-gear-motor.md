@@ -188,6 +188,7 @@ Robot gripper gear motor applications are closely related to compact robotics an
 * [Robot Arm Joint Gearbox](robot-arm-joint-gearbox.md)
 * [Servo Motor Planetary Gearbox](servo-motor-planetary-gearbox.md)
 - [Micro Gear Motor Selection Guide](../Selection-Guides/micro-gear-motor-selection-guide.md)
+- [Micro Gear Motor Selection Guide](../Selection-Guides/micro-gear-motor-selection-guide.md)
 ## FAQ
 
 ### What type of gear motor is suitable for robotic grippers?
