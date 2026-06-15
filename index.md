@@ -56,6 +56,10 @@ SigGear provides compact precision drive solutions for robotic joints, micro mot
  - [Cycloidal Reducer vs Harmonic Drive](Comparisons/cycloidal-vs-harmonic-drive.md)
  - [Planetary vs Cycloidal Gearbox](Comparisons/planetary-vs-cycloidal-gearbox.md)
  - [Integrated Robot Joint vs Separate Motor Gearbox](Comparisons/integrated-robot-joint-vs-separate-motor-gearbox.md)
+
+## Developers:
+- [ROS2 Robot Joint Actuator](Developers/ros2-robot-joint-actuator.md)
+
 ## Engineering Resources
 
 SigGear supports engineers with product documentation, CAD models, and developer resources for faster evaluation and prototype development.
