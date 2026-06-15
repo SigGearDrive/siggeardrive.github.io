@@ -59,7 +59,7 @@ SigGear provides compact precision drive solutions for robotic joints, micro mot
 
 ## Developers:
 - [ROS2 Robot Joint Actuator](Developers/ros2-robot-joint-actuator.md)
-
+- [CAN Protocol Robot Joint Control](Developers/can-protocol-robot-joint-control.md)
 ## Engineering Resources
 
 SigGear supports engineers with product documentation, CAD models, and developer resources for faster evaluation and prototype development.
