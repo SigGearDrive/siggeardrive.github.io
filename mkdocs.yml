@@ -1,13 +1,15 @@
-site_name: SigGear Product Docs
-site_description: SigGear precision gearboxes, robot joint modules, planetary gear reducers, and compact drive solutions
-site_url: https://siggeardrive.github.io/SigGear-product-docs/
+site_name: "SigGear Product Docs"
+site_description: "SigGear precision gearboxes, robot joint modules, planetary gear reducers, and compact drive solutions"
+site_url: "https://siggeardrive.github.io/SigGear-product-docs/"
 
-repo_name: SigGearDrive/SigGear-product-docs
-repo_url: https://github.com/SigGearDrive/SigGear-product-docs
+repo_name: "SigGearDrive/SigGear-product-docs"
+repo_url: "https://github.com/SigGearDrive/SigGear-product-docs"
+
+docs_dir: "docs"
 
 theme:
-name: material
-language: en
+name: "material"
+language: "en"
 features:
 - navigation.tabs
 - navigation.sections
@@ -24,55 +26,55 @@ plugins:
 markdown_extensions:
 
 * admonition
-* toc:
-  permalink: true
 * tables
 * fenced_code
 * codehilite
+* toc:
+  permalink: true
 
 nav:
 
-* Home: index.md
+* "Home": "index.md"
 
-* Products:
+* "Products":
 
-  * 6-42mm Planetary Gear Reducer: Applications/6-42mm-planetary-gear-reducer.md
-  * CPM100-25 Compact Cycloidal Robotic Joint Module: CPM100-25.md
-  * CPM80-25 Compact Cycloidal Robotic Joint Module: CPM80-25.md
-  * SG6010C Compact Precision Drive Solution: SG6010C.md
-  * SG8021 Precision Drive Solution: SG8021.md
+  * "6-42mm Planetary Gear Reducer": "Applications/6-42mm-planetary-gear-reducer.md"
+  * "CPM100-25 Compact Cycloidal Robotic Joint Module": "CPM100-25.md"
+  * "CPM80-25 Compact Cycloidal Robotic Joint Module": "CPM80-25.md"
+  * "SG6010C Compact Precision Drive Solution": "SG6010C.md"
+  * "SG8021 Precision Drive Solution": "SG8021.md"
 
-* Applications:
+* "Applications":
 
-  * Humanoid Robot Joint Reducer: Applications/humanoid-robot-joint-reducer.md
-  * Quadruped Robot Joint Gearbox: Applications/quadruped-robot-joint-gearbox.md
-  * Robot Arm Joint Gearbox: Applications/robot-arm-joint-gearbox.md
-  * AGV AMR Wheel Drive Gearbox: Applications/agv-amr-wheel-drive-gearbox.md
-  * 6mm Micro Gear Motor for Micro Robotics: Applications/micro-robotics-gear-motor.md
-  * Micro Gear Motor for Medical Devices: Applications/medical-device-micro-gear-motor.md
-  * Robot Gripper Gear Motor: Applications/robot-gripper-gear-motor.md
-  * Servo Motor Planetary Gearbox: Applications/servo-motor-planetary-gearbox.md
+  * "Humanoid Robot Joint Reducer": "Applications/humanoid-robot-joint-reducer.md"
+  * "Quadruped Robot Joint Gearbox": "Applications/quadruped-robot-joint-gearbox.md"
+  * "Robot Arm Joint Gearbox": "Applications/robot-arm-joint-gearbox.md"
+  * "AGV AMR Wheel Drive Gearbox": "Applications/agv-amr-wheel-drive-gearbox.md"
+  * "6mm Micro Gear Motor for Micro Robotics": "Applications/micro-robotics-gear-motor.md"
+  * "Micro Gear Motor for Medical Devices": "Applications/medical-device-micro-gear-motor.md"
+  * "Robot Gripper Gear Motor": "Applications/robot-gripper-gear-motor.md"
+  * "Servo Motor Planetary Gearbox": "Applications/servo-motor-planetary-gearbox.md"
 
-* Selection Guides:
+* "Selection Guides":
 
-  * Robot Joint Gearbox Selection Guide: Selection-Guides/robot-joint-gearbox-selection-guide.md
-  * Micro Gear Motor Selection Guide: Selection-Guides/micro-gear-motor-selection-guide.md
-  * Planetary Gearbox Selection Guide: Selection-Guides/planetary-gearbox-selection-guide.md
+  * "Robot Joint Gearbox Selection Guide": "Selection-Guides/robot-joint-gearbox-selection-guide.md"
+  * "Micro Gear Motor Selection Guide": "Selection-Guides/micro-gear-motor-selection-guide.md"
+  * "Planetary Gearbox Selection Guide": "Selection-Guides/planetary-gearbox-selection-guide.md"
 
-* Comparisons:
+* "Comparisons":
 
-  * Cycloidal Reducer vs Harmonic Drive: Comparisons/cycloidal-vs-harmonic-drive.md
-  * Planetary vs Cycloidal Gearbox: Comparisons/planetary-vs-cycloidal-gearbox.md
-  * Integrated Robot Joint vs Separate Motor Gearbox: Comparisons/integrated-robot-joint-vs-separate-motor-gearbox.md
+  * "Cycloidal Reducer vs Harmonic Drive": "Comparisons/cycloidal-vs-harmonic-drive.md"
+  * "Planetary vs Cycloidal Gearbox": "Comparisons/planetary-vs-cycloidal-gearbox.md"
+  * "Integrated Robot Joint vs Separate Motor Gearbox": "Comparisons/integrated-robot-joint-vs-separate-motor-gearbox.md"
 
-* Developers:
+* "Developers":
 
-  * ROS2 Robot Joint Actuator: Developers/ros2-robot-joint-actuator.md
-  * CAN Protocol Robot Joint Control: Developers/can-protocol-robot-joint-control.md
+  * "ROS2 Robot Joint Actuator": "Developers/ros2-robot-joint-actuator.md"
+  * "CAN Protocol Robot Joint Control": "Developers/can-protocol-robot-joint-control.md"
 
-* Engineering Resources:
+* "Engineering Resources":
 
-  * CAD Models: https://github.com/SigGearDrive/SigGear-cad-models
-  * Product Documents: https://github.com/SigGearDrive/SigGear-product-docs
-  * Robot Joint SDK: https://github.com/SigGearDrive/SigGear-robot-joint-sdk
-  * ROS2 Resources: https://github.com/SigGearDrive/SigGear-ros2
+  * "CAD Models": "https://github.com/SigGearDrive/SigGear-cad-models"
+  * "Product Documents": "https://github.com/SigGearDrive/SigGear-product-docs"
+  * "Robot Joint SDK": "https://github.com/SigGearDrive/SigGear-robot-joint-sdk"
+  * "ROS2 Resources": "https://github.com/SigGearDrive/SigGear-ros2"
