@@ -39,6 +39,7 @@ nav:
       - Python Examples: Developers/Python-Examples.md
       - FAQ: Developers/FAQ.md
       - ROS2 Robot Joint Actuator: Developers/ros2-robot-joint-actuator.md
+      - CAN Protocol Robot Joint Control: Developers/can-protocol-robot-joint-control.md
   - Selection Guides:
       - Robot Joint Gearbox Selection Guide: Selection-Guides/robot-joint-gearbox-selection-guide.md
       - Micro Gear Motor Selection Guide: Selection-Guides/micro-gear-motor-selection-guide.md
