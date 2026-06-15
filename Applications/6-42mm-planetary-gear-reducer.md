@@ -501,6 +501,28 @@ SigGear provides engineering support to help customers evaluate and integrate pl
 
 These resources help engineers reduce supplier evaluation time, check installation space, and accelerate product development.
 
+## Related Selection Guides and Comparisons
+
+If you are not sure which gearbox or reducer is suitable for your application, the following guides can help you compare different options and select the right drive solution.
+
+### Selection Guides
+
+* [Planetary Gearbox Selection Guide](../Selection-Guides/planetary-gearbox-selection-guide.md)
+* [Micro Gear Motor Selection Guide](../Selection-Guides/micro-gear-motor-selection-guide.md)
+* [Robot Joint Gearbox Selection Guide](../Selection-Guides/robot-joint-gearbox-selection-guide.md)
+
+### Comparison Pages
+
+* [Planetary vs Cycloidal Gearbox](../Comparisons/planetary-vs-cycloidal-gearbox.md)
+* [Cycloidal Reducer vs Harmonic Drive](../Comparisons/cycloidal-vs-harmonic-drive.md)
+* [Integrated Robot Joint vs Separate Motor Gearbox](../Comparisons/integrated-robot-joint-vs-separate-motor-gearbox.md)
+
+### Developer Resources
+
+* [ROS2 Robot Joint Actuator](../Developers/ros2-robot-joint-actuator.md)
+* [CAN Protocol Robot Joint Control](../Developers/can-protocol-robot-joint-control.md)
+
+
 ## Related Applications
 
 SigGear 6-42mm planetary gear reducers are suitable for many compact robotics and automation applications:
