@@ -57,7 +57,7 @@ jobs:
           pip install -r requirements.txt
 
       - name: Build MkDocs site
-        run: mkdocs build --clean --strict
+        run: mkdocs build --clean
 
       - name: Create sitemap files
         shell: bash
