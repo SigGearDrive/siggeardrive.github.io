@@ -9,6 +9,8 @@ SigGear provides precision gearbox and compact robotic joint drive solutions for
 
 This page introduces SigGear's manufacturing capability, engineering support, quality control focus, sample support, and OEM / ODM customization capability for international robotics and automation customers.
 
+For non-standard torque, speed, size, mechanical interface, motor integration, control interface, or production customization requirements, see [Custom Robotic Joint Actuator and OEM Gearbox Solutions](custom-robotic-joint-actuator-oem-gearbox-solutions.md).
+
 ## Core Manufacturing Focus
 
 SigGear focuses on compact precision drive products, including:
@@ -126,6 +128,7 @@ To help SigGear evaluate your project, please provide:
 
 ## Related Product Pages
 
+- [Custom Robotic Joint Actuator and OEM Gearbox Solutions](custom-robotic-joint-actuator-oem-gearbox-solutions.md)
 - [CPM100-25 Compact Cycloidal Robotic Joint Module](CPM100-25.md)
 - [CPM80-25 Compact Cycloidal Robotic Joint Module](CPM80-25.md)
 - [SG6010C Compact Planetary Robotic Joint Module](SG6010C.md)
@@ -137,6 +140,8 @@ To help SigGear evaluate your project, please provide:
 For CAD model request, 2D drawing, datasheet confirmation, sample evaluation, quotation, or OEM / ODM customization, send your requirements to SigGear.
 
 [Request CAD, Datasheet, Sample, or Quote](request-cad-sample-quote.md)
+
+For project-specific actuator or gearbox customization, see [Custom Robotic Joint Actuator and OEM Gearbox Solutions](custom-robotic-joint-actuator-oem-gearbox-solutions.md).
 
 **Website:** https://www.siggear.com  
 **Email:** [wangwanrong984@gmail.com](mailto:wangwanrong984@gmail.com)  
