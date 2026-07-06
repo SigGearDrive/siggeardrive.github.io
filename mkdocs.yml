@@ -35,6 +35,8 @@ nav:
 
   - "Request CAD / Sample / Quote": "request-cad-sample-quote.md"
 
+  - "Factory Capability": "factory-capability-quality-oem-odm.md"
+
   - "Products":
       - "6-42mm Planetary Gear Reducer": "Applications/6-42mm-planetary-gear-reducer.md"
       - "CPM100-25 Compact Cycloidal Robotic Joint Module": "CPM100-25.md"
