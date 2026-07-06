@@ -9,6 +9,8 @@ Use this page to request CAD models, 2D drawings, datasheets, samples, quotation
 
 SigGear provides compact precision drive solutions for humanoid robots, quadruped robots, robot arms, exoskeletons, AGV / AMR systems, grippers, medical devices, automation equipment, and custom robotic actuator projects.
 
+For non-standard torque, speed, size, mechanical interface, motor integration, control interface, or production customization requirements, see [Custom Robotic Joint Actuator and OEM Gearbox Solutions](custom-robotic-joint-actuator-oem-gearbox-solutions.md).
+
 For manufacturing capability, quality control focus, and OEM / ODM customization support, see [Factory Capability, Quality Control, and OEM / ODM Support](factory-capability-quality-oem-odm.md).
 
 ## What You Can Request
@@ -31,7 +33,7 @@ For manufacturing capability, quality control focus, and OEM / ODM customization
 | [SG6010C Compact Planetary Robotic Joint Module](SG6010C.md) | Lightweight robotic joint, exoskeleton, service robot, research platform. |
 | [SG8021 High-Performance Planetary Robotic Joint Module](SG8021.md) | Humanoid robot, quadruped robot, robot arm, compact integrated actuator. |
 | [6-42mm Planetary Gear Reducer](Applications/6-42mm-planetary-gear-reducer.md) | Micro robotics, grippers, medical devices, compact automation, servo applications. |
-| Custom robotic joint module | Project-specific torque, speed, size, motor, encoder, brake, and communication interface. |
+| [Custom Robotic Joint Actuator and OEM Gearbox Solutions](custom-robotic-joint-actuator-oem-gearbox-solutions.md) | Project-specific torque, speed, size, motor, encoder, brake, and communication interface. |
 
 ## Please Include These Requirements
 
@@ -103,6 +105,7 @@ After receiving your requirements, SigGear can help with:
 
 ## Related Resources
 
+- [Custom Robotic Joint Actuator and OEM Gearbox Solutions](custom-robotic-joint-actuator-oem-gearbox-solutions.md)
 - [Factory Capability, Quality Control, and OEM / ODM Support](factory-capability-quality-oem-odm.md)
 - [Robot Joint Gearbox Selection Guide](Selection-Guides/robot-joint-gearbox-selection-guide.md)
 - [Planetary Gearbox Selection Guide](Selection-Guides/planetary-gearbox-selection-guide.md)
