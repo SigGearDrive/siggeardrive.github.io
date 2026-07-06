@@ -14,12 +14,14 @@ Our product range includes compact cycloidal robotic joint modules, 6-42mm plane
 <div style="display:flex; gap:12px; flex-wrap:wrap; margin: 18px 0 24px 0;">
   <a href="request-cad-sample-quote/" style="display:inline-block; padding:12px 18px; background:#0b5cad; color:#ffffff; text-decoration:none; border-radius:6px; font-weight:600;">Request CAD / Sample / Quote</a>
   <a href="#featured-products" style="display:inline-block; padding:12px 18px; border:1px solid #0b5cad; color:#0b5cad; text-decoration:none; border-radius:6px; font-weight:600;">View Product Datasheets</a>
+  <a href="factory-capability-quality-oem-odm/" style="display:inline-block; padding:12px 18px; border:1px solid #0b5cad; color:#0b5cad; text-decoration:none; border-radius:6px; font-weight:600;">Factory Capability</a>
 </div>
 
 Send your torque, speed, size, application, control interface, and quantity requirements. SigGear can help evaluate a suitable gearbox, reducer, robotic joint module, or customized drive solution.
 
 **Email:** [wangwanrong984@gmail.com](mailto:wangwanrong984@gmail.com)  
-**Request page:** [Request CAD, Datasheet, Sample, or Quote](request-cad-sample-quote.md)
+**Request page:** [Request CAD, Datasheet, Sample, or Quote](request-cad-sample-quote.md)  
+**Factory capability:** [Manufacturing, Quality Control, and OEM / ODM Support](factory-capability-quality-oem-odm.md)
 
 ## Featured Products
 
@@ -68,6 +70,7 @@ Use these guides when you need help choosing the right gearbox, reducer, or micr
 | Resource | Link |
 | --- | --- |
 | Request CAD / sample / quote | [Request CAD, Datasheet, Sample, or Quote](request-cad-sample-quote.md) |
+| Factory capability / quality / OEM ODM | [Factory Capability, Quality Control, and OEM / ODM Support](factory-capability-quality-oem-odm.md) |
 | CAD models | [SigGear CAD Models](https://github.com/SigGearDrive/SigGear-cad-models) |
 | Product documents | [SigGear Product Documents](https://github.com/SigGearDrive/SigGear-product-docs) |
 | Robot joint SDK | [SigGear Robot Joint SDK](https://github.com/SigGearDrive/SigGear-robot-joint-sdk) |
@@ -83,6 +86,7 @@ If you are developing a robot joint, compact actuator, micro robot, robotic grip
 
 <div style="display:flex; gap:12px; flex-wrap:wrap; margin: 18px 0 24px 0;">
   <a href="request-cad-sample-quote/" style="display:inline-block; padding:12px 18px; background:#0b5cad; color:#ffffff; text-decoration:none; border-radius:6px; font-weight:600;">Request CAD / Sample / Quote</a>
+  <a href="factory-capability-quality-oem-odm/" style="display:inline-block; padding:12px 18px; border:1px solid #0b5cad; color:#0b5cad; text-decoration:none; border-radius:6px; font-weight:600;">View Factory Capability</a>
   <a href="mailto:wangwanrong984@gmail.com?subject=SigGear%20CAD%20Sample%20Quote%20Request" style="display:inline-block; padding:12px 18px; border:1px solid #0b5cad; color:#0b5cad; text-decoration:none; border-radius:6px; font-weight:600;">Email SigGear</a>
 </div>
 
