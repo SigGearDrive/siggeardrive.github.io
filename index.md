@@ -14,6 +14,7 @@ Our product range includes compact cycloidal robotic joint modules, 6-42mm plane
 <div style="display:flex; gap:12px; flex-wrap:wrap; margin: 18px 0 24px 0;">
   <a href="request-cad-sample-quote/" style="display:inline-block; padding:12px 18px; background:#0b5cad; color:#ffffff; text-decoration:none; border-radius:6px; font-weight:600;">Request CAD / Sample / Quote</a>
   <a href="#featured-products" style="display:inline-block; padding:12px 18px; border:1px solid #0b5cad; color:#0b5cad; text-decoration:none; border-radius:6px; font-weight:600;">View Product Datasheets</a>
+  <a href="custom-robotic-joint-actuator-oem-gearbox-solutions/" style="display:inline-block; padding:12px 18px; border:1px solid #0b5cad; color:#0b5cad; text-decoration:none; border-radius:6px; font-weight:600;">Custom Solutions</a>
   <a href="factory-capability-quality-oem-odm/" style="display:inline-block; padding:12px 18px; border:1px solid #0b5cad; color:#0b5cad; text-decoration:none; border-radius:6px; font-weight:600;">Factory Capability</a>
 </div>
 
@@ -21,6 +22,7 @@ Send your torque, speed, size, application, control interface, and quantity requ
 
 **Email:** [wangwanrong984@gmail.com](mailto:wangwanrong984@gmail.com)  
 **Request page:** [Request CAD, Datasheet, Sample, or Quote](request-cad-sample-quote.md)  
+**Custom solutions:** [Custom Robotic Joint Actuator and OEM Gearbox Solutions](custom-robotic-joint-actuator-oem-gearbox-solutions.md)  
 **Factory capability:** [Manufacturing, Quality Control, and OEM / ODM Support](factory-capability-quality-oem-odm.md)
 
 ## Featured Products
@@ -70,6 +72,7 @@ Use these guides when you need help choosing the right gearbox, reducer, or micr
 | Resource | Link |
 | --- | --- |
 | Request CAD / sample / quote | [Request CAD, Datasheet, Sample, or Quote](request-cad-sample-quote.md) |
+| Custom robotic joint actuator / OEM gearbox | [Custom Robotic Joint Actuator and OEM Gearbox Solutions](custom-robotic-joint-actuator-oem-gearbox-solutions.md) |
 | Factory capability / quality / OEM ODM | [Factory Capability, Quality Control, and OEM / ODM Support](factory-capability-quality-oem-odm.md) |
 | CAD models | [SigGear CAD Models](https://github.com/SigGearDrive/SigGear-cad-models) |
 | Product documents | [SigGear Product Documents](https://github.com/SigGearDrive/SigGear-product-docs) |
@@ -80,12 +83,15 @@ Use these guides when you need help choosing the right gearbox, reducer, or micr
 
 SigGear can support project-specific gearbox and actuator requirements, including custom gear ratio, output torque, output speed, shaft design, mounting interface, flange, housing, motor matching, encoder option, brake option, wire and connector customization, low-noise optimization, CAD and drawing support, prototype samples, and OEM / ODM production.
 
+For non-standard torque, speed, size, shaft, flange, control interface, or integration requirements, see [Custom Robotic Joint Actuator and OEM Gearbox Solutions](custom-robotic-joint-actuator-oem-gearbox-solutions.md).
+
 ## Request Drawing, Datasheet, CAD Model, Sample, or Quote
 
 If you are developing a robot joint, compact actuator, micro robot, robotic gripper, medical device, laboratory automation system, servo drive module, or custom motion system, send your requirements to SigGear.
 
 <div style="display:flex; gap:12px; flex-wrap:wrap; margin: 18px 0 24px 0;">
   <a href="request-cad-sample-quote/" style="display:inline-block; padding:12px 18px; background:#0b5cad; color:#ffffff; text-decoration:none; border-radius:6px; font-weight:600;">Request CAD / Sample / Quote</a>
+  <a href="custom-robotic-joint-actuator-oem-gearbox-solutions/" style="display:inline-block; padding:12px 18px; border:1px solid #0b5cad; color:#0b5cad; text-decoration:none; border-radius:6px; font-weight:600;">View Custom Solutions</a>
   <a href="factory-capability-quality-oem-odm/" style="display:inline-block; padding:12px 18px; border:1px solid #0b5cad; color:#0b5cad; text-decoration:none; border-radius:6px; font-weight:600;">View Factory Capability</a>
   <a href="mailto:wangwanrong984@gmail.com?subject=SigGear%20CAD%20Sample%20Quote%20Request" style="display:inline-block; padding:12px 18px; border:1px solid #0b5cad; color:#0b5cad; text-decoration:none; border-radius:6px; font-weight:600;">Email SigGear</a>
 </div>
