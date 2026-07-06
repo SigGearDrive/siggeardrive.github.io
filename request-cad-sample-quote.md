@@ -9,6 +9,8 @@ Use this page to request CAD models, 2D drawings, datasheets, samples, quotation
 
 SigGear provides compact precision drive solutions for humanoid robots, quadruped robots, robot arms, exoskeletons, AGV / AMR systems, grippers, medical devices, automation equipment, and custom robotic actuator projects.
 
+For manufacturing capability, quality control focus, and OEM / ODM customization support, see [Factory Capability, Quality Control, and OEM / ODM Support](factory-capability-quality-oem-odm.md).
+
 ## What You Can Request
 
 | Request Type | Description |
@@ -101,6 +103,7 @@ After receiving your requirements, SigGear can help with:
 
 ## Related Resources
 
+- [Factory Capability, Quality Control, and OEM / ODM Support](factory-capability-quality-oem-odm.md)
 - [Robot Joint Gearbox Selection Guide](Selection-Guides/robot-joint-gearbox-selection-guide.md)
 - [Planetary Gearbox Selection Guide](Selection-Guides/planetary-gearbox-selection-guide.md)
 - [Micro Gear Motor Selection Guide](Selection-Guides/micro-gear-motor-selection-guide.md)
