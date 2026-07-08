@@ -33,6 +33,7 @@ jobs:
           cp -f *.md docs/ 2>/dev/null || true
           cp -f *.html docs/ 2>/dev/null || true
           cp -f *.txt docs/ 2>/dev/null || true
+          cp -f *.xml docs/ 2>/dev/null || true
 
           cp -R Applications docs/ 2>/dev/null || true
           cp -R Selection-Guides docs/ 2>/dev/null || true
