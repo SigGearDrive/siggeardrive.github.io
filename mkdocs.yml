@@ -57,6 +57,7 @@ nav:
       - "Servo Motor Planetary Gearbox": "Applications/servo-motor-planetary-gearbox.md"
 
   - "Selection Guides":
+      - "How to Choose a Gearbox for Humanoid Robot Joints": "Selection-Guides/humanoid-robot-joint-gearbox-selection-guide.md"
       - "Robot Joint Gearbox Selection Guide": "Selection-Guides/robot-joint-gearbox-selection-guide.md"
       - "Micro Gear Motor Selection Guide": "Selection-Guides/micro-gear-motor-selection-guide.md"
       - "Planetary Gearbox Selection Guide": "Selection-Guides/planetary-gearbox-selection-guide.md"
