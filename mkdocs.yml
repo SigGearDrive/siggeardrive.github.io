@@ -53,6 +53,7 @@ nav:
   - "Developers":
       - "Robot Actuator Developer Portal": "Developers/index.md"
       - "Robot Joint Actuator Platform": "Developers/robot-actuator-platform.md"
+      - "CAD Center": "Developers/cad-center.md"
       - "Control Support Matrix": "Developers/control-support-matrix.md"
       - "CAN Protocol": "Developers/can-protocol-robot-joint-control.md"
       - "ROS2 Integration Roadmap": "Developers/ros2-robot-joint-actuator.md"
