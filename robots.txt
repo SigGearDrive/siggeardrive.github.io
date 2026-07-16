@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://siggeardrive.github.io/SigGear-product-docs/sitemap.xml
+Sitemap: https://siggeardrive.github.io/sitemap.xml
