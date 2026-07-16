@@ -1,9 +1,9 @@
 site_name: "SigGear Product Docs"
 site_description: "SigGear precision gearboxes, robot joint modules, planetary gear reducers, and compact drive solutions"
-site_url: "https://siggeardrive.github.io/SigGear-product-docs/"
+site_url: "https://siggeardrive.github.io/"
 
-repo_name: "SigGearDrive/SigGear-product-docs"
-repo_url: "https://github.com/SigGearDrive/SigGear-product-docs"
+repo_name: "SigGearDrive/siggeardrive.github.io"
+repo_url: "https://github.com/SigGearDrive/siggeardrive.github.io"
 
 docs_dir: "docs"
 
@@ -76,6 +76,6 @@ nav:
 
   - "Engineering Resources":
       - "CAD Models": "https://github.com/SigGearDrive/SigGear-cad-models"
-      - "Product Documents": "https://github.com/SigGearDrive/SigGear-product-docs"
+      - "Product Documents": "https://github.com/SigGearDrive/siggeardrive.github.io"
       - "Robot Joint SDK": "https://github.com/SigGearDrive/SigGear-robot-joint-sdk"
       - "ROS2 Resources": "https://github.com/SigGearDrive/SigGear-ros2"
