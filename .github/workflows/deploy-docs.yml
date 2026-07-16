@@ -19,34 +19,16 @@ jobs:
   build:
     name: Build documentation
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Setup Python
+      - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
 
-      - name: Install MkDocs
+      - name: Install documentation dependencies
         run: |
-          python -m pip install --upgrade pip
-          pip install mkdocs-material
-
-      - name: Prepare docs directory
-        run: |
-          rm -rf docs
-          mkdir docs
-          cp -f *.md docs/ || true
-          for d in Applications Selection-Guides Comparisons Developers Products assets; do
-            if [ -d "$d" ]; then cp -R "$d" docs/; fi
-          done
-
-      - name: Build site
-        run: mkdocs build --strict
-
-      - name: Setup Pages
-        uses: actions/configure-pages@v5
-
-      - name: Upload artifact
-        uses: actions
+          python -m pip install
