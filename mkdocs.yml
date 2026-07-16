@@ -1,10 +1,8 @@
 site_name: "SigGear Product Docs"
 site_description: "SigGear precision gearboxes, robot joint actuators, planetary gear reducers, cycloidal joint modules, and compact motion solutions"
 site_url: "https://siggeardrive.github.io/"
-
 repo_name: "SigGearDrive/siggeardrive.github.io"
 repo_url: "https://github.com/SigGearDrive/siggeardrive.github.io"
-
 docs_dir: "docs"
 
 theme:
@@ -36,50 +34,25 @@ nav:
   - "Factory Capability": "factory-capability-quality-oem-odm.md"
   - "Custom Solutions": "custom-robotic-joint-actuator-oem-gearbox-solutions.md"
   - "SEO Site Map": "site-map.md"
-
   - "Products":
       - "Product Family Overview": "Products/index.md"
       - "Integrated Planetary Robot Joint Actuators":
-          - "SG6010C Compact Planetary Robot Joint Actuator": "SG6010C.md"
-          - "SG6010D Integrated Planetary Robot Joint Actuator": "SG6010D.md"
-          - "SG8021 High-Performance Planetary Robot Joint Actuator": "SG8021.md"
+          - "SG6010C": "SG6010C.md"
+          - "SG6010D": "SG6010D.md"
+          - "SG8021": "SG8021.md"
       - "Cycloidal Robot Joint Modules":
-          - "CPM80-25 Compact Cycloidal Robotic Joint Module": "CPM80-25.md"
-          - "CPM100-25 Compact Cycloidal Robotic Joint Module": "CPM100-25.md"
-          - "SG78-39 Compact Cycloidal Robot Joint Module": "SG78-39.md"
-      - "Planetary Gear Reducers":
-          - "6-42mm Planetary Gear Reducer": "Applications/6-42mm-planetary-gear-reducer.md"
-
+          - "CPM80-25": "CPM80-25.md"
+          - "CPM100-25": "CPM100-25.md"
+          - "SG78-39": "SG78-39.md"
+      - "Planetary Gear Reducers": "Applications/6-42mm-planetary-gear-reducer.md"
   - "Applications":
       - "Humanoid Robot Joint Reducer": "Applications/humanoid-robot-joint-reducer.md"
       - "Quadruped Robot Joint Gearbox": "Applications/quadruped-robot-joint-gearbox.md"
       - "Robot Arm Joint Gearbox": "Applications/robot-arm-joint-gearbox.md"
       - "AGV AMR Wheel Drive Gearbox": "Applications/agv-amr-wheel-drive-gearbox.md"
-      - "6mm Micro Gear Motor for Micro Robotics": "Applications/micro-robotics-gear-motor.md"
-      - "Micro Gear Motor for Medical Devices": "Applications/medical-device-micro-gear-motor.md"
-      - "Robot Gripper Gear Motor": "Applications/robot-gripper-gear-motor.md"
-      - "Servo Motor Planetary Gearbox": "Applications/servo-motor-planetary-gearbox.md"
-
-  - "Selection Guides":
-      - "How to Choose a Gearbox for Humanoid Robot Joints": "Selection-Guides/humanoid-robot-joint-gearbox-selection-guide.md"
-      - "Robot Joint Torque Calculation Guide": "Selection-Guides/robot-joint-torque-calculation-gearbox-selection.md"
-      - "Robot Joint Gearbox Selection Guide": "Selection-Guides/robot-joint-gearbox-selection-guide.md"
-      - "Micro Gear Motor Selection Guide": "Selection-Guides/micro-gear-motor-selection-guide.md"
-      - "Planetary Gearbox Selection Guide": "Selection-Guides/planetary-gearbox-selection-guide.md"
-
-  - "Comparisons":
-      - "Cycloidal Reducer vs Harmonic Drive": "Comparisons/cycloidal-vs-harmonic-drive.md"
-      - "Planetary vs Cycloidal Gearbox": "Comparisons/planetary-vs-cycloidal-gearbox.md"
-      - "Integrated Robot Joint vs Separate Motor Gearbox": "Comparisons/integrated-robot-joint-vs-separate-motor-gearbox.md"
-
   - "Developers":
       - "Robot Actuator Developer Portal": "Developers/index.md"
+      - "Robot Joint Actuator Platform": "Developers/robot-actuator-platform.md"
       - "Control Support Matrix": "Developers/control-support-matrix.md"
-      - "CAN Protocol Robot Joint Control": "Developers/can-protocol-robot-joint-control.md"
+      - "CAN Protocol": "Developers/can-protocol-robot-joint-control.md"
       - "ROS2 Integration Roadmap": "Developers/ros2-robot-joint-actuator.md"
-
-  - "Engineering Resources":
-      - "CAD Models": "https://github.com/SigGearDrive/SigGear-cad-models"
-      - "Product Documents": "https://github.com/SigGearDrive/siggeardrive.github.io"
-      - "Robot Joint SDK": "https://github.com/SigGearDrive/SigGear-robot-joint-sdk"
-      - "ROS2 Resources": "https://github.com/SigGearDrive/SigGear-ros2"
