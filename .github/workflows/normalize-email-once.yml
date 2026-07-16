@@ -1,0 +1,12 @@
+name: Normalize email once
+on: push
+permissions:
+  contents: write
+jobs:
+  normalize:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Replace legacy emails and remove workflow
+        run: |
+          grep -rIlZ -E 'wangwanrong984@gmail.com|wwang109@163.com' --exclude-dir=.git . | xargs -0 -r sed -i -e 's/wangwanrong984@gmail.com/wangwanrong@siggear.com/g' -e 's/wwang109@163.com/wangwanrong@sig
