@@ -8,4 +8,12 @@ This repository powers the official SigGear engineering documentation site and i
 
 - [SigGear Product Docs](https://siggeardrive.github.io/)
 
-## Product
+## Main Resources
+
+- Products: robot joint modules, cycloidal reducers, planetary gear reducers, micro gear motors
+- Applications: humanoid robots, quadruped robots, robot arms, grippers, AGV/AMR, medical devices
+- Engineering: CAD resources, SDK references, ROS2 integration resources
+
+## Engineering Contact
+
+Email: wangwanrong984@gmail.com
