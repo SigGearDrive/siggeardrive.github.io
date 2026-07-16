@@ -1,0 +1,23 @@
+name: Normalize contact email once
+
+on:
+  push:
+    paths:
+      - ".github/workflows/normalize-contact-email-once.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  normalize:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Replace legacy contact emails
+        shell: python
+        run: |
+          from pathlib
