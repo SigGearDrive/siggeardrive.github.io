@@ -11,4 +11,7 @@ This guide helps robotics engineers quickly compare SigGear actuator solutions.
 
 ## Product Comparison
 
-| Model |
+| Model | Structure | Rated Torque | Peak Torque | Weight | Recommended Applications |
+| --- | --- | --- | --- | --- | --- |
+| SG6010D | Integrated Planetary Actuator | 16 Nm | 50 Nm | 791 g | Exoskeletons, robotic arms, lightweight humanoid joints |
+| SG802
