@@ -15,18 +15,4 @@ jobs:
       url: ${{ steps.d.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
-        with: {python-version: "3.12"}
-      - run: pip install mkdocs-material
-      - run: |
-          rm -rf docs
-          mkdir docs
-          cp *.md docs/
-          for d in Applications Developers Selection-Guides Comparisons Products assets images; do [ ! -d "$d" ] || cp -r "$d" docs/; done
-          cp robots.txt docs/
-          mkdocs build --clean
-      - uses: actions/configure-pages@v5
-      - uses: actions/upload-pages-artifact@v3
-        with: {path: site}
-      - id: d
-        uses: actions/deploy-pages@v4
+      - uses: actions/setup-python@
