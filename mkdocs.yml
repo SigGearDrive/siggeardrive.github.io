@@ -5,9 +5,64 @@ repo_name: "SigGearDrive/siggeardrive.github.io"
 repo_url: "https://github.com/SigGearDrive/siggeardrive.github.io"
 docs_dir: "docs"
 
+plugins:
+  - search
+
 theme:
   name: "material"
   language: "en"
   features:
     - navigation.tabs
-    - navigation
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.highlight
+    - search.share
+    - content.code.copy
+
+markdown_extensions:
+  - admonition
+  - tables
+  - fenced_code
+  - toc:
+      permalink: true
+
+nav:
+  - Home: index.md
+  - Request CAD / Sample / Quote: request-cad-sample-quote.md
+  - Factory Capability: factory-capability-quality-oem-odm.md
+  - Custom Solutions: custom-robotic-joint-actuator-oem-gearbox-solutions.md
+  - Products:
+      - Product Family Overview: Products/index.md
+      - Integrated Planetary Actuators:
+          - SG6010C: SG6010C.md
+          - SG6010D: SG6010D.md
+          - SG8021: SG8021.md
+      - Cycloidal Joint Modules:
+          - CPM80-25: CPM80-25.md
+          - CPM100-25: CPM100-25.md
+          - SG78-39: SG78-39.md
+      - Planetary Gear Reducers: Applications/6-42mm-planetary-gear-reducer.md
+  - Applications:
+      - Humanoid Robot Joint Reducer: Applications/humanoid-robot-joint-reducer.md
+      - Quadruped Robot Joint Gearbox: Applications/quadruped-robot-joint-gearbox.md
+      - Robot Arm Joint Gearbox: Applications/robot-arm-joint-gearbox.md
+      - AGV AMR Wheel Drive Gearbox: Applications/agv-amr-wheel-drive-gearbox.md
+      - Micro Robotics Gear Motor: Applications/micro-robotics-gear-motor.md
+      - Medical Device Micro Gear Motor: Applications/medical-device-micro-gear-motor.md
+      - Robot Gripper Gear Motor: Applications/robot-gripper-gear-motor.md
+      - Servo Motor Planetary Gearbox: Applications/servo-motor-planetary-gearbox.md
+  - Selection Guides:
+      - Robot Joint Gearbox Selection Guide: Selection-Guides/robot-joint-gearbox-selection-guide.md
+      - Humanoid Robot Joint Selection Guide: Selection-Guides/humanoid-robot-joint-gearbox-selection-guide.md
+      - Torque Calculation Guide: Selection-Guides/robot-joint-torque-calculation-gearbox-selection.md
+  - Comparisons:
+      - Cycloidal vs Harmonic Drive: Comparisons/cycloidal-vs-harmonic-drive.md
+      - Planetary vs Cycloidal: Comparisons/planetary-vs-cycloidal-gearbox.md
+      - Integrated Joint vs Separate Gearbox: Comparisons/integrated-robot-joint-vs-separate-motor-gearbox.md
+  - Developers:
+      - Developer Portal: Developers/index.md
+      - CAN Protocol Robot Joint Control: Developers/can-protocol-robot-joint-control.md
+      - ROS2 Integration Roadmap: Developers/ros2-robot-joint-actuator.md
+      - Control Support Matrix: Developers/control-support-matrix.md
+  - SEO Site Map: site-map.md
