@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://siggeardrive.github.io/sitemap.xml
