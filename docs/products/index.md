@@ -4,7 +4,7 @@ This section is the authoritative public source for SigGear product specificatio
 
 ## Robot Joint Actuators
 
-Integrated planetary and cycloidal joint actuators for humanoid robots, quadruped robots, robotic arms, exoskeletons and automation systems.
+Integrated planetary robot joint actuators for humanoid robots, quadruped robots, robotic arms, exoskeletons and automation systems.
 
 [Browse robot joint actuators](robot-joint-actuators/index.md)
 
@@ -19,6 +19,18 @@ Compact high-torque cycloidal joint modules for robot joints and precision motio
 Miniature and compact planetary gearboxes for robotics, medical devices, laboratory automation, precision instruments and industrial mechanisms.
 
 [Browse the 6–42 mm planetary gearbox series](planetary-gearboxes/6-42mm-planetary-gear-reducer.md)
+
+## Micro Gear Motors
+
+Miniature planetary gear motors and custom motor-transmission integration for robotics, medical devices, precision instruments and compact automation.
+
+[Browse micro gear motors](micro-gear-motors/index.md)
+
+## Flat BLDC Motors and Joint Drives
+
+Flat motor and integrated joint-drive solutions, including the planetary-core SigGear-Horse family and cycloidal-core SigGear-Tiger family.
+
+[Browse flat BLDC motors and joint drives](flat-bldc-motors/index.md)
 
 ## Hub Gear Motors
 
