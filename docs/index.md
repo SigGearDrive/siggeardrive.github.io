@@ -4,6 +4,7 @@ SigGear develops and manufactures integrated robot joint actuators, cycloidal jo
 
 [Browse Products](products/index.md){ .md-button .md-button--primary }
 [Explore Applications](applications/index.md){ .md-button }
+[Selection Guides](selection-guides/index.md){ .md-button }
 [Contact SigGear](contact.md){ .md-button }
 
 ## Product Solutions
@@ -85,6 +86,16 @@ Additional supported application area:
 - Compact industrial automation
 
 [Browse all applications](applications/index.md)
+
+## Selection Guides
+
+### Robot Joint Actuator Selection Guide
+
+A step-by-step engineering guide covering joint definition, gravity and acceleration torque, continuous and peak torque, speed, installation envelope, external loads, transmission architecture, encoder, driver, communication, thermal conditions, braking and prototype validation.
+
+[Open the robot joint actuator selection guide](selection-guides/robot-joint-actuator-selection-guide.md)
+
+[Browse all selection guides](selection-guides/index.md)
 
 ## Engineering and Customization
 
