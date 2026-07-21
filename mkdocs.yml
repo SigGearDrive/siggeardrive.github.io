@@ -2,6 +2,9 @@ site_name: SigGear Product Documentation
 site_description: Integrated robot joint actuators, cycloidal reducers, planetary gearboxes and precision gear motors from SigGear.
 site_url: https://siggeardrive.github.io/SigGear-product-docs/
 repo_url: https://github.com/SigGearDrive/SigGear-product-docs
+repo_name: SigGearDrive/SigGear-product-docs
+
+docs_dir: docs
 
 copyright: Copyright &copy; Guangdong SigGear Drive Intelligent Technology Co., Ltd.
 
@@ -13,6 +16,7 @@ theme:
     - navigation.top
     - search.suggest
     - search.highlight
+    - content.code.copy
 
 plugins:
   - search
@@ -31,9 +35,12 @@ nav:
       - Product Overview: products/index.md
       - Robot Joint Actuators:
           - Series Overview: products/robot-joint-actuators/index.md
+          - SG-6010C: products/robot-joint-actuators/sg6010c.md
           - SG-6010D: products/robot-joint-actuators/sg6010d.md
           - SG-8021: products/robot-joint-actuators/sg8021.md
-      - Cycloidal Joint Modules: products/cycloidal-joint-modules/index.md
+      - Cycloidal Joint Modules:
+          - Series Overview: products/cycloidal-joint-modules/index.md
+          - CPM-100-25: products/cycloidal-joint-modules/cpm100-25.md
       - Planetary Gearboxes: products/planetary-gearboxes/index.md
       - Hub Gear Motors: products/hub-gear-motors/index.md
   - Company:
