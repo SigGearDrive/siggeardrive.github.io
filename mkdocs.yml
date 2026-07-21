@@ -52,6 +52,9 @@ nav:
           - Series Overview: products/hub-gear-motors/index.md
           - SG-2877: products/hub-gear-motors/sg2877.md
           - SG-2878: products/hub-gear-motors/sg2878.md
+  - Applications:
+      - Application Overview: applications/index.md
+      - Humanoid Robot Joint Actuators: applications/humanoid-robot-joint-actuators.md
   - Company:
       - About SigGear: company/about-siggear.md
       - Certifications: company/certifications.md
