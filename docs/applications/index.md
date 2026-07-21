@@ -42,11 +42,18 @@ Selection guidance for finger joints, tendon spools, rotary jaws and compact end
 
 [Explore robot gripper gear motors](./robot-gripper-gear-motors.md)
 
+## Medical and Laboratory Applications
+
+### Micro Gear Motors for Medical and Laboratory Equipment
+
+Selection guidance for pumps, valves, sample handling, dosing, positioning and small automation axes, covering load, speed, size, feedback, noise, cleaning conditions, service life and integration responsibilities.
+
+[Explore medical and laboratory micro gear motors](./medical-device-micro-gear-motors.md)
+
 ## Additional Application Areas
 
 SigGear also supports projects involving:
 
-- Medical and laboratory equipment
 - Precision instruments and optical mechanisms
 - Compact industrial automation
 
