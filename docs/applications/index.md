@@ -18,11 +18,16 @@ Selection guidance for hip, knee and ankle projects, covering gait cycles, conti
 
 [Explore quadruped robot joint gearboxes](./quadruped-robot-joint-gearboxes.md)
 
+### Robotic Arm Joint Actuators and Gearboxes
+
+Selection guidance for base, shoulder, elbow, wrist and rotary-axis projects, covering payload, reach, torque, speed, inertia, positioning, external loads, brake and control requirements.
+
+[Explore robotic arm joint actuators](./robotic-arm-joint-actuators.md)
+
 ## Additional Application Areas
 
 SigGear also supports projects involving:
 
-- Robotic arms and collaborative automation
 - Exoskeleton and rehabilitation equipment
 - AGV, AMR and mobile service robots
 - Robot grippers and end effectors
