@@ -56,9 +56,14 @@ Selection guidance for wearable hip, knee, ankle, shoulder and elbow axes, inclu
 
 [View exoskeleton joint actuator guide](applications/exoskeleton-joint-actuators.md)
 
+### AGV and AMR Wheel Drive Gearboxes and Motors
+
+Selection guidance for mobile-robot wheel drives, including vehicle mass, payload, wheel diameter, speed, acceleration, slope, traction, braking, duty cycle and external-controller requirements. The guide connects these requirements with the SG-2877 and SG-2878 hub gear motors.
+
+[View AGV and AMR wheel drive guide](applications/agv-amr-wheel-drive-gearboxes.md)
+
 Additional supported application areas include:
 
-- AGV, AMR and mobile service robots
 - Robot grippers and end effectors
 - Medical and laboratory equipment
 - Precision instruments and optical mechanisms
