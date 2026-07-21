@@ -50,9 +50,14 @@ Selection guidance for base, shoulder, elbow, wrist and rotary-axis projects, in
 
 [View robotic arm joint actuator guide](applications/robotic-arm-joint-actuators.md)
 
+### Exoskeleton Joint Actuators and Gearboxes
+
+Selection guidance for wearable hip, knee, ankle, shoulder and elbow axes, including assistance torque, motion cycle, size, weight, human interaction, power-off behavior, brake, thermal, acoustic and control requirements.
+
+[View exoskeleton joint actuator guide](applications/exoskeleton-joint-actuators.md)
+
 Additional supported application areas include:
 
-- Exoskeleton and rehabilitation equipment
 - AGV, AMR and mobile service robots
 - Robot grippers and end effectors
 - Medical and laboratory equipment
