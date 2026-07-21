@@ -55,6 +55,7 @@ nav:
   - Applications:
       - Application Overview: applications/index.md
       - Humanoid Robot Joint Actuators: applications/humanoid-robot-joint-actuators.md
+      - Quadruped Robot Joint Gearboxes: applications/quadruped-robot-joint-gearboxes.md
   - Company:
       - About SigGear: company/about-siggear.md
       - Certifications: company/certifications.md
