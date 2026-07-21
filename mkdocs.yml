@@ -48,7 +48,10 @@ nav:
           - 6–42 mm Series: products/planetary-gearboxes/6-42mm-planetary-gear-reducer.md
       - Micro Gear Motors: products/micro-gear-motors/index.md
       - Flat BLDC Motors and Joint Drives: products/flat-bldc-motors/index.md
-      - Hub Gear Motors: products/hub-gear-motors/index.md
+      - Hub Gear Motors:
+          - Series Overview: products/hub-gear-motors/index.md
+          - SG-2877: products/hub-gear-motors/sg2877.md
+          - SG-2878: products/hub-gear-motors/sg2878.md
   - Company:
       - About SigGear: company/about-siggear.md
       - Certifications: company/certifications.md
