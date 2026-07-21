@@ -50,11 +50,18 @@ Selection guidance for pumps, valves, sample handling, dosing, positioning and s
 
 [Explore medical and laboratory micro gear motors](./medical-device-micro-gear-motors.md)
 
+## Precision Instrument Applications
+
+### Gear Motors for Precision Instruments and Optical Mechanisms
+
+Selection guidance for focus systems, filter wheels, aperture drives, rotary stages, pan-and-tilt axes and sensor positioning, covering torque, speed, accuracy, repeatability, backlash, shaft loads, vibration, feedback and environmental requirements.
+
+[Explore precision instrument and optical motion systems](./precision-instruments-optical-mechanisms.md)
+
 ## Additional Application Areas
 
 SigGear also supports projects involving:
 
-- Precision instruments and optical mechanisms
 - Compact industrial automation
 
 Dedicated pages for these application areas will be published after the related product and selection information has been reviewed.
