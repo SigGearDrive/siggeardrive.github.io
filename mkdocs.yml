@@ -58,6 +58,7 @@ nav:
       - Quadruped Robot Joint Gearboxes: applications/quadruped-robot-joint-gearboxes.md
       - Robotic Arm Joint Actuators: applications/robotic-arm-joint-actuators.md
       - Exoskeleton Joint Actuators: applications/exoskeleton-joint-actuators.md
+      - AGV and AMR Wheel Drives: applications/agv-amr-wheel-drive-gearboxes.md
   - Company:
       - About SigGear: company/about-siggear.md
       - Certifications: company/certifications.md
