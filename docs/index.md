@@ -1,35 +1,81 @@
 # SigGear Robot Joint Actuators and Precision Gearboxes
 
-SigGear develops integrated robot joint actuators, cycloidal reducers, planetary gearboxes and compact gear motors for robotics and automation.
+SigGear develops and manufactures integrated robot joint actuators, cycloidal joint modules, planetary gearboxes, micro gear motors and hub gear motors for robotics and precision automation.
 
-## Product Families
+[Browse Products](products/index.md){ .md-button .md-button--primary }
+[Contact SigGear](contact.md){ .md-button }
 
-### Robot Joint Actuators
+## Product Solutions
 
-Integrated actuator solutions combining precision transmission, BLDC motor, encoder and optional intelligent driver.
+| Product family | Typical use | Explore |
+| --- | --- | --- |
+| Robot joint actuators | Humanoid robots, quadruped robots, robotic arms and exoskeletons | [View actuator series](products/robot-joint-actuators/index.md) |
+| Cycloidal joint modules | Compact robot joints requiring high torque and low backlash | [View cycloidal modules](products/cycloidal-joint-modules/index.md) |
+| Planetary gearboxes | Robotics, medical devices, instruments and automation mechanisms | [View 6–42 mm series](products/planetary-gearboxes/6-42mm-planetary-gear-reducer.md) |
+| Micro gear motors | Grippers, laboratory automation, medical devices and compact mechanisms | [View micro gear motors](products/micro-gear-motors/index.md) |
+| Flat BLDC motors and joint drives | Short-axial robot joints and integrated rotary axes | [View flat joint drives](products/flat-bldc-motors/index.md) |
+| Hub gear motors | AGV, AMR, mobile robots and compact wheel-drive systems | [View hub gear motors](products/hub-gear-motors/index.md) |
 
-[Browse robot joint actuators](products/robot-joint-actuators/index.md)
+## Featured Robot Joint Products
 
-### Precision Gearboxes
+| Model | Transmission | Rated torque | Peak torque | Rated output speed |
+| --- | --- | ---: | ---: | ---: |
+| [SG-6010C](products/robot-joint-actuators/sg6010c.md) | Planetary | 6 Nm | 18 Nm | 310 rpm |
+| [SG-6010D](products/robot-joint-actuators/sg6010d.md) | Planetary | 16 Nm | 50 Nm | 100 rpm |
+| [SG-8021](products/robot-joint-actuators/sg8021.md) | Planetary | 10 Nm | 30 Nm | 160 rpm |
+| [CPM-100-25](products/cycloidal-joint-modules/cpm100-25.md) | Cycloidal pinwheel | 25 Nm | 75 Nm | 60 rpm |
+| [CPM-80-25](products/cycloidal-joint-modules/cpm80-25.md) | Cycloidal pinwheel | 10 Nm | 50 Nm | 120 rpm |
+| [CPM-78-39](products/cycloidal-joint-modules/cpm78-39.md) | Cycloidal pinwheel | 20 Nm | 52 Nm | 48 rpm |
 
-Cycloidal and planetary transmission solutions for robot joints, automation equipment and compact motion systems.
+Peak-torque duration depends on the selected controller, current limit, duty cycle, cooling and installation conditions. Confirm the required operating cycle during selection.
 
-[Browse all products](products/index.md)
+## Application Areas
 
-## Featured Product
+SigGear transmission products are developed for applications including:
 
-### SG-6010D Integrated Planetary Robot Joint Actuator
+- Humanoid and quadruped robot joints
+- Robotic arms and collaborative automation
+- Exoskeleton and rehabilitation equipment
+- AGV, AMR and mobile service robots
+- Robot grippers and end effectors
+- Medical and laboratory equipment
+- Precision instruments and optical mechanisms
+- Compact industrial automation
 
-- 80 mm outer diameter
-- 16 Nm rated torque
-- 50 Nm peak torque
-- 100 rpm rated output speed
-- Available with or without integrated driver
+## Engineering and Customization
 
-[View SG-6010D](products/robot-joint-actuators/sg6010d.md)
+SigGear provides OEM and ODM engineering support for applicable projects, including:
 
-## Engineering Support
+- Motor, gearbox, encoder and driver integration
+- Reduction-ratio and output-shaft customization
+- Mounting, housing and cable-interface customization
+- Communication and control configuration by selected model
+- Customer branding, labeling and packaging
 
-CAD models, detailed drawings, noise-test information and service-life data are provided after application review. Please describe your operating conditions and technical requirements when contacting us.
+Configuration availability depends on the product model, technical requirements, project quantity and engineering review.
 
-[Contact SigGear](contact.md)
+## Technical Documentation
+
+Public pages contain approved product information. The following documents are provided after inquiry and application review:
+
+- STEP models and 2D drawings
+- Detailed mounting and interface documents
+- Complete ratio and configuration tables
+- Driver and communication documentation
+- Noise-test, thermal and service-life information when available for the selected configuration
+
+## Company and Quality
+
+Guangdong SigGear Drive Intelligent Technology Co., Ltd. operates production processes covering precision machining, assembly and testing. SigGear maintains ISO 9001 and IATF 16949 quality-management systems and provides product or supplier verification documentation according to the applicable document scope.
+
+[About SigGear](company/about-siggear.md) · [Certifications and verification](company/certifications.md)
+
+## Start a Product Inquiry
+
+For efficient selection, please provide the application, required continuous and peak torque, output speed, voltage, size and weight limits, duty cycle, communication requirements and estimated quantity.
+
+**Wanrong Wang**  
+International Sales, SigGear  
+[wangwanrong@siggear.com](mailto:wangwanrong@siggear.com)
+
+[Send Product Requirements](contact.md){ .md-button .md-button--primary }
