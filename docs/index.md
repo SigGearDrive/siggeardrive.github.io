@@ -68,9 +68,14 @@ Selection guidance for finger joints, tendon spools, rotary jaws and compact end
 
 [View robot gripper gear motor guide](applications/robot-gripper-gear-motors.md)
 
+### Micro Gear Motors for Medical and Laboratory Equipment
+
+Selection guidance for pumps, valves, sample handling, dosing, positioning and compact automation axes, including load, speed, installation envelope, feedback, acoustic targets, cleaning conditions, service life and completed-device compliance boundaries.
+
+[View medical and laboratory micro gear motor guide](applications/medical-device-micro-gear-motors.md)
+
 Additional supported application areas include:
 
-- Medical and laboratory equipment
 - Precision instruments and optical mechanisms
 - Compact industrial automation
 
