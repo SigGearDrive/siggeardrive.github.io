@@ -4,6 +4,12 @@ SigGear robot joint actuators combine precision transmission, BLDC motors, encod
 
 ## Planetary Joint Actuators
 
+### SG-6010C
+
+80 mm thin-profile integrated planetary robot joint actuator with 6 Nm rated torque, 18 Nm peak torque and 310 rpm rated output speed.
+
+[View SG-6010C](sg6010c.md)
+
 ### SG-6010D
 
 80 mm integrated planetary robot joint actuator with 16 Nm rated torque, 50 Nm peak torque and 100 rpm rated output speed.
@@ -20,14 +26,14 @@ Additional planetary actuator models will be added after their technical data an
 
 ## Cycloidal Joint Actuators
 
-Cycloidal joint actuator pages are listed in the [Cycloidal Joint Modules](../cycloidal-joint-modules/index.md) section. CPM-78-39 is treated separately because it uses Hall sensors rather than the integrated absolute-encoder driver platform.
+Cycloidal joint actuator pages are listed in the Cycloidal Joint Modules section. CPM-78-39 is treated separately because it uses Hall sensors rather than the integrated absolute-encoder driver platform.
 
 ## Available Configurations
 
 Most joint actuator models can be supplied:
 
 - With integrated driver and encoder
-- Without integrated driver, with the sensor and cable configuration confirmed by order
+- Without integrated driver, with sensor and cable configuration confirmed by order
 
 Driver, encoder, communication and control descriptions apply only to the selected configuration confirmed in the quotation.
 
