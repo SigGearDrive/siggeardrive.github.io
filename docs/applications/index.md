@@ -30,11 +30,16 @@ Selection guidance for hip, knee, ankle, shoulder and elbow assistance axes, cov
 
 [Explore exoskeleton joint actuators](./exoskeleton-joint-actuators.md)
 
+### AGV and AMR Wheel Drive Gearboxes and Motors
+
+Selection guidance for mobile-robot wheel drives, covering vehicle mass, payload, wheel diameter, speed, acceleration, slope, traction, braking, duty cycle and controller requirements.
+
+[Explore AGV and AMR wheel drive systems](./agv-amr-wheel-drive-gearboxes.md)
+
 ## Additional Application Areas
 
 SigGear also supports projects involving:
 
-- AGV, AMR and mobile service robots
 - Robot grippers and end effectors
 - Medical and laboratory equipment
 - Precision instruments and optical mechanisms
