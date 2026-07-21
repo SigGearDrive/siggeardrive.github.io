@@ -36,11 +36,16 @@ Selection guidance for mobile-robot wheel drives, covering vehicle mass, payload
 
 [Explore AGV and AMR wheel drive systems](./agv-amr-wheel-drive-gearboxes.md)
 
+### Robot Gripper and Dexterous Hand Gear Motors
+
+Selection guidance for finger joints, tendon spools, rotary jaws and compact end effectors, covering gripping force, mechanism geometry, torque, speed, shaft loads, backdrivability, positioning, noise and control requirements.
+
+[Explore robot gripper gear motors](./robot-gripper-gear-motors.md)
+
 ## Additional Application Areas
 
 SigGear also supports projects involving:
 
-- Robot grippers and end effectors
 - Medical and laboratory equipment
 - Precision instruments and optical mechanisms
 - Compact industrial automation
