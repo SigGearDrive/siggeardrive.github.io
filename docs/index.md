@@ -74,9 +74,14 @@ Selection guidance for pumps, valves, sample handling, dosing, positioning and c
 
 [View medical and laboratory micro gear motor guide](applications/medical-device-micro-gear-motors.md)
 
-Additional supported application areas include:
+### Gear Motors for Precision Instruments and Optical Mechanisms
 
-- Precision instruments and optical mechanisms
+Selection guidance for focus systems, filter wheels, aperture drives, compact rotary stages, pan-and-tilt axes and sensor positioning, including accuracy, repeatability, backlash, external loads, vibration, feedback and environmental requirements.
+
+[View precision instrument and optical motion guide](applications/precision-instruments-optical-mechanisms.md)
+
+Additional supported application area:
+
 - Compact industrial automation
 
 [Browse all applications](applications/index.md)
