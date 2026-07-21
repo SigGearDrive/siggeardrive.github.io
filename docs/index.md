@@ -38,9 +38,14 @@ Selection guidance for shoulder, elbow, wrist, hip, knee and ankle projects, inc
 
 [View humanoid robot joint actuator guide](applications/humanoid-robot-joint-actuators.md)
 
+### Quadruped Robot Joint Gearboxes and Actuators
+
+Selection guidance for hip, knee and ankle projects, including gait cycles, continuous and peak torque, output speed, impact loads, installation limits, thermal conditions, encoder, driver and communication requirements.
+
+[View quadruped robot joint gearbox guide](applications/quadruped-robot-joint-gearboxes.md)
+
 Additional supported application areas include:
 
-- Quadruped robot joints
 - Robotic arms and collaborative automation
 - Exoskeleton and rehabilitation equipment
 - AGV, AMR and mobile service robots
