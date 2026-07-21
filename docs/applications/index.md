@@ -12,11 +12,16 @@ Selection guidance for shoulder, elbow, wrist, hip, knee and ankle actuator proj
 
 [Explore humanoid robot joint actuators](./humanoid-robot-joint-actuators.md)
 
+### Quadruped Robot Joint Gearboxes and Actuators
+
+Selection guidance for hip, knee and ankle projects, covering gait cycles, continuous and peak torque, output speed, impact loads, packaging, thermal conditions and control requirements.
+
+[Explore quadruped robot joint gearboxes](./quadruped-robot-joint-gearboxes.md)
+
 ## Additional Application Areas
 
 SigGear also supports projects involving:
 
-- Quadruped robot joints
 - Robotic arms and collaborative automation
 - Exoskeleton and rehabilitation equipment
 - AGV, AMR and mobile service robots
