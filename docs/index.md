@@ -3,6 +3,7 @@
 SigGear develops and manufactures integrated robot joint actuators, cycloidal joint modules, planetary gearboxes, micro gear motors and hub gear motors for robotics and precision automation.
 
 [Browse Products](products/index.md){ .md-button .md-button--primary }
+[Explore Applications](applications/index.md){ .md-button }
 [Contact SigGear](contact.md){ .md-button }
 
 ## Product Solutions
@@ -29,11 +30,17 @@ SigGear develops and manufactures integrated robot joint actuators, cycloidal jo
 
 Peak-torque duration depends on the selected controller, current limit, duty cycle, cooling and installation conditions. Confirm the required operating cycle during selection.
 
-## Application Areas
+## Application Guides
 
-SigGear transmission products are developed for applications including:
+### Humanoid Robot Joint Actuators
 
-- Humanoid and quadruped robot joints
+Selection guidance for shoulder, elbow, wrist, hip, knee and ankle projects, including continuous torque, peak torque duration, output speed, installation size, external loads, driver, encoder and communication requirements.
+
+[View humanoid robot joint actuator guide](applications/humanoid-robot-joint-actuators.md)
+
+Additional supported application areas include:
+
+- Quadruped robot joints
 - Robotic arms and collaborative automation
 - Exoskeleton and rehabilitation equipment
 - AGV, AMR and mobile service robots
@@ -41,6 +48,8 @@ SigGear transmission products are developed for applications including:
 - Medical and laboratory equipment
 - Precision instruments and optical mechanisms
 - Compact industrial automation
+
+[Browse all applications](applications/index.md)
 
 ## Engineering and Customization
 
