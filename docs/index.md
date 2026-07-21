@@ -44,9 +44,14 @@ Selection guidance for hip, knee and ankle projects, including gait cycles, cont
 
 [View quadruped robot joint gearbox guide](applications/quadruped-robot-joint-gearboxes.md)
 
+### Robotic Arm Joint Actuators and Gearboxes
+
+Selection guidance for base, shoulder, elbow, wrist and rotary-axis projects, including payload, reach, torque, speed, inertia, positioning, external loads, brake, encoder, driver and communication requirements.
+
+[View robotic arm joint actuator guide](applications/robotic-arm-joint-actuators.md)
+
 Additional supported application areas include:
 
-- Robotic arms and collaborative automation
 - Exoskeleton and rehabilitation equipment
 - AGV, AMR and mobile service robots
 - Robot grippers and end effectors
