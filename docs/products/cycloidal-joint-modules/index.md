@@ -8,11 +8,11 @@ SigGear cycloidal joint modules combine compact cycloidal transmission with moto
 | --- | --- | ---: | ---: | --- |
 | [CPM-100-25](cpm100-25.md) | High-torque cycloidal joint module | 25 Nm | 75 Nm | Available with or without an integrated driver |
 | [CPM-80-25](cpm80-25.md) | Compact cycloidal joint module | 10 Nm | 50 Nm | Available with or without an integrated driver |
-| CPM-78-39 / SG78-39 | Compact cycloidal joint module | 20 Nm | 52 Nm | Hall sensors only; no integrated-driver claim |
+| [CPM-78-39](cpm78-39.md) | Compact cycloidal joint module | 20 Nm | 52 Nm | Standard catalog configuration uses Hall sensors; no integrated-driver claim |
 
 ## Configuration Notice
 
-Driver, encoder, communication and closed-loop control descriptions apply only to the selected configuration confirmed in the quotation. The CPM-78-39 / SG78-39 model is treated separately because its catalog configuration uses Hall sensors.
+Driver, encoder, communication and closed-loop control descriptions apply only to the selected configuration confirmed in the quotation. CPM-78-39 is treated separately because its standard catalog configuration uses Hall sensors and does not include an integrated driver or absolute encoder.
 
 ## Selection Support
 
