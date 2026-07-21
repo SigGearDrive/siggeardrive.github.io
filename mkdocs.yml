@@ -43,7 +43,9 @@ nav:
           - CPM-100-25: products/cycloidal-joint-modules/cpm100-25.md
           - CPM-80-25: products/cycloidal-joint-modules/cpm80-25.md
           - CPM-78-39: products/cycloidal-joint-modules/cpm78-39.md
-      - Planetary Gearboxes: products/planetary-gearboxes/index.md
+      - Planetary Gearboxes:
+          - Series Overview: products/planetary-gearboxes/index.md
+          - 6–42 mm Series: products/planetary-gearboxes/6-42mm-planetary-gear-reducer.md
       - Hub Gear Motors: products/hub-gear-motors/index.md
   - Company:
       - About SigGear: company/about-siggear.md
