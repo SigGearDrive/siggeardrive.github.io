@@ -10,7 +10,7 @@ Application pages explain the selection factors behind each use case and connect
 
 Selection guidance for shoulder, elbow, wrist, hip, knee and ankle actuator projects, covering torque, speed, size, duty cycle, driver, encoder and communication requirements.
 
-[Explore humanoid robot joint actuators](humanoid-robot-joint-actuators.md)
+[Explore humanoid robot joint actuators](./humanoid-robot-joint-actuators.md)
 
 ## Additional Application Areas
 
