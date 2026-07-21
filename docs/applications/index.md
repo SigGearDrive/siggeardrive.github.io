@@ -24,11 +24,16 @@ Selection guidance for base, shoulder, elbow, wrist and rotary-axis projects, co
 
 [Explore robotic arm joint actuators](./robotic-arm-joint-actuators.md)
 
+### Exoskeleton Joint Actuators and Gearboxes
+
+Selection guidance for hip, knee, ankle, shoulder and elbow assistance axes, covering torque-speed cycles, wearable packaging, weight, human interaction, power-off behavior, brake, thermal and control requirements.
+
+[Explore exoskeleton joint actuators](./exoskeleton-joint-actuators.md)
+
 ## Additional Application Areas
 
 SigGear also supports projects involving:
 
-- Exoskeleton and rehabilitation equipment
 - AGV, AMR and mobile service robots
 - Robot grippers and end effectors
 - Medical and laboratory equipment
