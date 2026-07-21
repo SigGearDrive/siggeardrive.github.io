@@ -62,9 +62,14 @@ Selection guidance for mobile-robot wheel drives, including vehicle mass, payloa
 
 [View AGV and AMR wheel drive guide](applications/agv-amr-wheel-drive-gearboxes.md)
 
+### Robot Gripper and Dexterous Hand Gear Motors
+
+Selection guidance for finger joints, tendon spools, rotary jaws and compact end effectors, including gripping force, mechanism geometry, torque, speed, shaft loads, installation size, backdrivability, positioning, noise, encoder and driver requirements.
+
+[View robot gripper gear motor guide](applications/robot-gripper-gear-motors.md)
+
 Additional supported application areas include:
 
-- Robot grippers and end effectors
 - Medical and laboratory equipment
 - Precision instruments and optical mechanisms
 - Compact industrial automation
