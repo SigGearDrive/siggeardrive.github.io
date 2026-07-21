@@ -59,6 +59,7 @@ nav:
       - Robotic Arm Joint Actuators: applications/robotic-arm-joint-actuators.md
       - Exoskeleton Joint Actuators: applications/exoskeleton-joint-actuators.md
       - AGV and AMR Wheel Drives: applications/agv-amr-wheel-drive-gearboxes.md
+      - Robot Gripper Gear Motors: applications/robot-gripper-gear-motors.md
   - Company:
       - About SigGear: company/about-siggear.md
       - Certifications: company/certifications.md
