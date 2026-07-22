@@ -1,0 +1,56 @@
+name: Rebuild product image assets
+
+on:
+  push:
+    branches:
+      - hotfix-corrupted-product-images-20260722
+    paths:
+      - '.image-repair/READY'
+
+permissions:
+  contents: write
+
+jobs:
+  rebuild-images:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: hotfix-corrupted-product-images-20260722
+          fetch-depth: 0
+
+      - name: Decode and verify WebP files
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          rebuild() {
+            local source_prefix="$1"
+            local target="$2"
+            local expected_sha="$3"
+            mkdir -p "$(dirname "$target")"
+            cat ${source_prefix}.part* | base64 --decode > "$target"
+            test "$(sha256sum "$target" | awk '{print $1}')" = "$expected_sha"
+            test "$(head -c 4 "$target")" = "RIFF"
+            test "$(dd if="$target" bs=1 skip=8 count=4 status=none)" = "WEBP"
+            file "$target" | grep -q 'Web/P image'
+          }
+
+          rebuild '.image-repair/cpm100-25-with-driver-output-angle.webp.b64' 'docs/assets/images/products/cycloidal-joint-modules/cpm100-25/cpm100-25-with-driver-output-angle.webp' '2c4d537d9095b051130d950a3833a4376aa4f3d2e4a5a391c1bfd8300ba42ce1'
+          rebuild '.image-repair/sg6010d-robot-joint-actuator-front-angle.webp.b64' 'docs/assets/images/products/robot-joint-actuators/sg6010d/sg6010d-robot-joint-actuator-front-angle.webp' 'c2aec8910d08420b114d2c633f62e501e100f3f01a44d280251801833b7e7d19'
+          rebuild '.image-repair/sg6010d-robot-joint-actuator-interface-view.webp.b64' 'docs/assets/images/products/robot-joint-actuators/sg6010d/sg6010d-robot-joint-actuator-interface-view.webp' '86611d19192d5ce84a9acf6f6356636efec0e8ac9eed182afac6ce8c70cd1b77'
+          rebuild '.image-repair/sg8021-robot-joint-actuator-exploded-view.webp.b64' 'docs/assets/images/products/robot-joint-actuators/sg8021/sg8021-robot-joint-actuator-exploded-view.webp' '85435e0540ca6753c51c2656fc26bcd658c0166d632372ae67b0b83d3e5814b7'
+          rebuild '.image-repair/sg8021-robot-joint-actuator-front-angle.webp.b64' 'docs/assets/images/products/robot-joint-actuators/sg8021/sg8021-robot-joint-actuator-front-angle.webp' '71fd24b973d68612693d47fb456d082f077bb5b838cdab2a57c97eafdaff3462'
+
+      - name: Commit repaired image assets
+        shell: bash
+        run: |
+          set -euo pipefail
+          rm -rf .image-repair
+          rm -f .github/workflows/rebuild-product-images.yml
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A
+          git commit -m 'Replace corrupted product image assets'
+          git push origin HEAD:hotfix-corrupted-product-images-20260722
