@@ -37,11 +37,15 @@ jobs:
             file "$target" | grep -q 'Web/P image'
           }
 
-          rebuild '.image-repair/cpm100-25-with-driver-output-angle.webp.b64' 'docs/assets/images/products/cycloidal-joint-modules/cpm100-25/cpm100-25-with-driver-output-angle.webp' '2c4d537d9095b051130d950a3833a4376aa4f3d2e4a5a391c1bfd8300ba42ce1'
-          rebuild '.image-repair/sg6010d-robot-joint-actuator-front-angle.webp.b64' 'docs/assets/images/products/robot-joint-actuators/sg6010d/sg6010d-robot-joint-actuator-front-angle.webp' 'c2aec8910d08420b114d2c633f62e501e100f3f01a44d280251801833b7e7d19'
-          rebuild '.image-repair/sg6010d-robot-joint-actuator-interface-view.webp.b64' 'docs/assets/images/products/robot-joint-actuators/sg6010d/sg6010d-robot-joint-actuator-interface-view.webp' '86611d19192d5ce84a9acf6f6356636efec0e8ac9eed182afac6ce8c70cd1b77'
-          rebuild '.image-repair/sg8021-robot-joint-actuator-exploded-view.webp.b64' 'docs/assets/images/products/robot-joint-actuators/sg8021/sg8021-robot-joint-actuator-exploded-view.webp' '85435e0540ca6753c51c2656fc26bcd658c0166d632372ae67b0b83d3e5814b7'
-          rebuild '.image-repair/sg8021-robot-joint-actuator-front-angle.webp.b64' 'docs/assets/images/products/robot-joint-actuators/sg8021/sg8021-robot-joint-actuator-front-angle.webp' '71fd24b973d68612693d47fb456d082f077bb5b838cdab2a57c97eafdaff3462'
+          rebuild '.image-repair/cpm100-25-with-driver-output-angle.webp.b64' 'docs/assets/images/products/cycloidal-joint-modules/cpm100-25/cpm100-25-with-driver-output-angle.webp' '23e7c5294be6ffa4068a1e75d88b5e7952d4f9717eb26a8a12b2ca5c936991c9'
+          rebuild '.image-repair/sg6010d-robot-joint-actuator-front-angle.webp.b64' 'docs/assets/images/products/robot-joint-actuators/sg6010d/sg6010d-robot-joint-actuator-front-angle.webp' 'b46dbffc82fd01a6722187f3903c6c0fed1c1c8eb5496f4bb144c6239ac2fa74'
+          rebuild '.image-repair/sg6010d-robot-joint-actuator-interface-view.webp.b64' 'docs/assets/images/products/robot-joint-actuators/sg6010d/sg6010d-robot-joint-actuator-interface-view.webp' '279e743d787069fea659c1433e5bf77834853cfe5ff1f65fd41a16c24ea2c9fb'
+          rebuild '.image-repair/sg8021-robot-joint-actuator-exploded-view.webp.b64' 'docs/assets/images/products/robot-joint-actuators/sg8021/sg8021-robot-joint-actuator-exploded-view.webp' 'a98684006decfa5a73262a02e2c05e333c2e7e225cea2ed6a88059f66226adf7'
+          rebuild '.image-repair/sg8021-robot-joint-actuator-front-angle.webp.b64' 'docs/assets/images/products/robot-joint-actuators/sg8021/sg8021-robot-joint-actuator-front-angle.webp' 'c750e9900337e96f8dc3d12e8edbc8aa6fabad7641f01af9ac3e95a59ffe8f3a'
+
+          sed -i 's/){ width="900" loading="lazy" }/)/g' docs/products/cycloidal-joint-modules/cpm100-25.md
+          sed -i 's/){ width="900" loading="lazy" }/)/g' docs/products/robot-joint-actuators/sg6010d.md
+          sed -i 's/){ width="900" loading="lazy" }/)/g' docs/products/robot-joint-actuators/sg8021.md
 
       - name: Commit repaired image assets
         shell: bash
