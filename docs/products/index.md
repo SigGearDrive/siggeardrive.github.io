@@ -18,7 +18,12 @@ Compact high-torque cycloidal joint modules for robot joints and precision motio
 
 Miniature and compact planetary gearboxes for robotics, medical devices, laboratory automation, precision instruments and industrial mechanisms.
 
-[Browse the 8–42 mm planetary gearbox series](planetary-gearboxes/8-42mm-planetary-gear-reducer.md)
+Published model pages currently include:
+
+- [8–42 mm planetary gearbox series](planetary-gearboxes/8-42mm-planetary-gear-reducer.md)
+- 8P, 10P, 12P, 14P, 16P, 20P, 22P and 24P model pages
+
+[Browse planetary gearboxes](planetary-gearboxes/index.md)
 
 ## Micro Gear Motors
 
