@@ -1,0 +1,51 @@
+schema_version: 1
+record_id: 14p-planetary-gearbox
+record_type: model
+model: 14P
+display_name: 14P 14 mm Micro Planetary Gearbox
+product_family: planetary_gearbox
+canonical_page: docs/products/planetary-gearboxes/14p-planetary-gearbox.md
+public_page_status: published
+record_status: published_inventory
+configuration_summary: Published configurations cover one to four stages; ratio, length, torque and efficiency depend on the selected stage and gear set.
+published_specifications:
+  nominal_outer_diameter: "14 mm"
+  gearbox_length_range: "15.2–26.6 mm"
+  reduction_ratio_range: "3.75:1–443.3:1"
+  rated_allowable_torque_range: "3.5–6.0 kgf·cm"
+  maximum_momentary_torque_range: "7.0–12.0 kgf·cm"
+  efficiency_range: "66–90%"
+  backlash_at_no_load: "≤ 1.5°"
+  maximum_continuous_speed: "≤ 8,000 rpm"
+  radial_load_at_10_mm: "≤ 0.8 kgf"
+  axial_load: "≤ 0.25 kgf"
+  radial_shaft_play: "≤ 0.04 mm"
+  thrust_shaft_play: "≤ 0.2 mm"
+  operating_temperature: "−40 to 120 °C"
+  adapted_motor_voltage: "3–36 VDC"
+  adapted_motor_power: "below 5 W"
+sales_usage:
+  permitted:
+    - preliminary_selection
+    - public_product_summary
+  requires_confirmation:
+    - selected_ratio_and_stage_count
+    - continuous_torque_momentary_torque_and_duty_cycle
+    - motor_matching_and_input_interface
+    - adapted_motor_power_boundary
+    - output_shaft_and_mounting_interface
+    - radial_and_axial_loads
+    - noise_service_life_and_operating_environment
+  prohibited:
+    - transfer_14p_specifications_to_another_frame_size
+    - treat_maximum_momentary_torque_as_continuous
+    - present_motor_voltage_as_gearbox_electrical_rating
+technical_review:
+  public_inventory_status: complete
+  controlled_source_reference: not_recorded_in_public_repository
+  technical_approval_status: not_recorded_in_public_repository
+  next_internal_action: reconcile_adapted_motor_power_boundary_with_controlled_source
+source_control:
+  public_claim_source: canonical_page
+  technical_source_status: not_recorded_in_public_repository
+inventory_checked_on: "2026-07-23"
