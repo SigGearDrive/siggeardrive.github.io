@@ -21,8 +21,27 @@ published_specifications:
   rated_output_torque: "20 Nm"
   peak_output_torque: "52 Nm"
   weight: "600 g"
+sales_usage:
+  permitted:
+    - preliminary_selection
+    - public_product_summary
+  requires_confirmation:
+    - peak_torque_duration_and_duty_cycle
+    - external_driver_selection
+    - encoder_and_sensor_configuration
+    - communication_interface_and_control_solution
+    - connector_cable_and_pinout
+    - final_mounting_interface_and_loads
+  prohibited:
+    - treat_peak_torque_as_continuous
+    - claim_an_integrated_driver_or_absolute_encoder_as_standard
+    - promise_unconfirmed_communication_or_closed_loop_control
+technical_review:
+  public_inventory_status: complete
+  controlled_source_reference: not_recorded_in_public_repository
+  technical_approval_status: not_recorded_in_public_repository
+  next_internal_action: reconcile_with_current_controlled_source
 source_control:
   public_claim_source: canonical_page
   technical_source_status: not_recorded_in_public_repository
 inventory_checked_on: "2026-07-23"
-

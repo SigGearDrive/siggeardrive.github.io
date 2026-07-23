@@ -24,8 +24,27 @@ published_specifications:
   backlash: "< 1.5°"
   waterproof_rating: "IP67"
   weight: "1100 ± 20 g"
+sales_usage:
+  permitted:
+    - preliminary_selection
+    - public_product_summary
+  requires_confirmation:
+    - peak_torque_duration_and_duty_cycle
+    - external_controller_selection
+    - sensor_encoder_and_feedback_configuration
+    - communication_interface_if_required
+    - braking_holding_and_slope_behavior
+    - ingress_protection_in_final_assembly
+  prohibited:
+    - treat_peak_torque_as_continuous
+    - present_an_integrated_controller_as_standard
+    - transfer_product_ip_rating_to_the_complete_vehicle
+technical_review:
+  public_inventory_status: complete
+  controlled_source_reference: not_recorded_in_public_repository
+  technical_approval_status: not_recorded_in_public_repository
+  next_internal_action: reconcile_with_current_controlled_source
 source_control:
   public_claim_source: canonical_page
   technical_source_status: not_recorded_in_public_repository
 inventory_checked_on: "2026-07-23"
-

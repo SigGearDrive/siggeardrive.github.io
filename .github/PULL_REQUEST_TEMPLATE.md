@@ -14,6 +14,7 @@ Describe the pages, models and user-visible changes.
 - [ ] The canonical product page was updated first.
 - [ ] Repeated values in indexes, application pages and FAQs were updated in the same change.
 - [ ] Optional or project-specific functions are labeled clearly.
+- [ ] Sales usage, confirmation topics and prohibited shortcuts remain accurate.
 - [ ] Units and terminology follow the SigGear glossary.
 - [ ] No customer data, prices, internal costs, credentials, NDA material or unreleased data are included.
 - [ ] A technical reviewer confirmed changed specifications or claims.

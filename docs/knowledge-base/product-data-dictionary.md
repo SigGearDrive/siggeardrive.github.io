@@ -21,6 +21,8 @@ Product records are stored in `data/products/`. One YAML file represents one pub
 | `record_status` | Status of the structured inventory record |
 | `configuration_summary` | Boundary statement for included or configuration-dependent components |
 | `published_specifications` | Exact public value strings mirrored from the canonical page |
+| `sales_usage` | Permitted preliminary use, confirmation requirements and prohibited shortcuts |
+| `technical_review` | Public inventory status and boundary for non-public source or approval records |
 | `source_control` | Public claim source and handling of non-public technical sources |
 | `inventory_checked_on` | Date the record was compared with the public page |
 
@@ -42,6 +44,14 @@ The automated validator checks that every recorded value still appears on its ca
 
 The product record must not turn an optional function into a standard claim. Driver, encoder, brake, CAN, RS485, EtherCAT and control-mode availability remain configuration-specific unless the canonical model page explicitly states otherwise.
 
+The `sales_usage` block identifies what may be used for preliminary selection and which topics must be confirmed before quotation or final model approval. A prohibited item is a shortcut that must never be taken, such as treating peak torque as continuous torque or promising an optional interface as standard.
+
+## Technical Review Boundary
+
+`technical_review.public_inventory_status: complete` means the current public page has been inventoried into the YAML record. It does not mean that this GitHub review performed engineering approval.
+
+Controlled source references, approval records and reviewer identities remain outside the public repository unless SigGear explicitly approves a non-sensitive reference code for publication. `next_internal_action` describes the reconciliation work that must occur in the approved private system.
+
 ## Source Boundary
 
 These records contain public product data only. Customer files, prices, internal costs, supplier information, unreleased products, private drawings, restricted test reports and NDA material must not be added.
@@ -55,4 +65,3 @@ python scripts/validate_product_data.py
 ```
 
 The check verifies required fields, unique identifiers, canonical-page coverage and exact published-claim synchronization.
-

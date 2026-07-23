@@ -8,6 +8,7 @@ This knowledge base is the controlled public information layer for SigGear produ
 | --- | --- |
 | Find a specific product model | [Product model index](product-model-index.md) |
 | Understand the structured product records | [Product data dictionary](product-data-dictionary.md) |
+| Check what sales may state or must confirm | [Sales usage and review status](sales-usage-and-review-status.md) |
 | Compare published products | [Product overview](../products/index.md) |
 | Choose a product for an application | [Application guides](../applications/index.md) |
 | Prepare engineering requirements | [Selection guides](../selection-guides/index.md) |
