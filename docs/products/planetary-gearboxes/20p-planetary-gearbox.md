@@ -92,4 +92,4 @@ Do not transfer the 20P specifications to another frame size or an unlisted stag
 
 International Sales, SigGear
 
-[wangwanrong@siggear.com](mailto:wangwanrong@siggear.com)
+[wangwanrong984@gmail.com](mailto:wangwanrong984@gmail.com)
