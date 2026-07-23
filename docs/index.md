@@ -5,6 +5,7 @@ SigGear develops and manufactures integrated robot joint actuators, cycloidal jo
 [Browse Products](products/index.md){ .md-button .md-button--primary }
 [Explore Applications](applications/index.md){ .md-button }
 [Selection Guides](selection-guides/index.md){ .md-button }
+[Inquiry Guides](sales/index.md){ .md-button }
 [Knowledge Base](knowledge-base/index.md){ .md-button }
 [Contact SigGear](contact.md){ .md-button }
 
@@ -97,6 +98,12 @@ A step-by-step engineering guide covering joint definition, gravity and accelera
 [Open the robot joint actuator selection guide](selection-guides/robot-joint-actuator-selection-guide.md)
 
 [Browse all selection guides](selection-guides/index.md)
+
+## Sales and Inquiry Guides
+
+Customers, distributors and sales teams can use the inquiry guides to prepare requirements, identify a preliminary product family and understand which configuration details must be confirmed before quotation.
+
+[Open the sales and inquiry guides](sales/index.md)
 
 ## Engineering and Customization
 

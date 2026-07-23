@@ -16,4 +16,6 @@ Official public product documentation and technical marketing site for Guangdong
 - Submit product-data changes with the Product Data Update issue template.
 - Every technical claim must identify an approved source and configuration scope before publication.
 - Run `python scripts/validate_docs.py` and `mkdocs build --strict` before merging documentation changes.
+- Run `python scripts/validate_product_data.py` and `python scripts/validate_sales_policy.py` when product records or sales rules change.
+- Use the [sales and inquiry guides](docs/sales/index.md) for public-safe qualification, matching and response workflows.
 - See [CONTRIBUTING.md](CONTRIBUTING.md) for the review and publishing workflow.
