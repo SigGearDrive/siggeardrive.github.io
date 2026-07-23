@@ -28,6 +28,12 @@ The 10P page includes the complete currently published one- to four-stage ratio 
 
 [View the 10P 10 mm planetary gearbox](10p-planetary-gearbox.md)
 
+### 12P 12 mm Micro Planetary Gearbox
+
+The 12P page includes the complete currently published one- to four-stage ratio table, gearbox lengths, allowable torque, momentary torque, efficiency, backlash, speed, load limits, operating temperature, motor compatibility and dimensional source images.
+
+[View the 12P 12 mm planetary gearbox](12p-planetary-gearbox.md)
+
 ## Integration and Customization
 
 Depending on the selected model, SigGear can evaluate motor matching, custom ratios, shafts, mounting structures, encoders, brakes, cables and connectors.
