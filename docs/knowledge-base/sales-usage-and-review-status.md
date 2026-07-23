@@ -4,7 +4,7 @@ This page defines how the current public product data may be used in customer co
 
 ## Current Review State
 
-All fifteen current product records have a complete inventory of the claims on their canonical public pages. The records are suitable for public product summaries and preliminary selection within the boundaries below.
+All current product records have a complete inventory of the claims on their canonical public pages. The records are suitable for public product summaries and preliminary selection within the boundaries below.
 
 Controlled drawing numbers, test-report identifiers, internal approval records and reviewer identities are not stored in this public repository. Their absence here does not mean that no source exists. Final selection and quotation still require reconciliation with the current controlled source and ordered configuration.
 
@@ -14,6 +14,7 @@ Controlled drawing numbers, test-report identifiers, internal approval records a
 | --- | --- | --- |
 | [16P](../products/planetary-gearboxes/16p-planetary-gearbox.md) | Preliminary selection and public summary | Exact ratio, stage count, adapted-motor power boundary, motor matching, duty cycle, output shaft, mounting, noise, service life and operating environment |
 | [20P](../products/planetary-gearboxes/20p-planetary-gearbox.md) | Preliminary selection and public summary | Exact ratio, stage count, adapted-motor power boundary, motor matching, duty cycle, output shaft, mounting, noise, service life and operating environment |
+| [22P](../products/planetary-gearboxes/22p-planetary-gearbox.md) | Preliminary selection and public summary | Exact ratio, stage count, adapted-motor power boundary, motor matching, duty cycle, output shaft, mounting, noise, service life and operating environment |
 | [8–42 mm planetary series](../products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md) | Product-family introduction and size shortlisting | Diameter, ratio, stage count, gearbox length, torque, speed, motor matching, shaft, backlash, noise, life, external loads and interfaces |
 
 ## Prohibited Sales Shortcuts
