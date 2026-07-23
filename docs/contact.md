@@ -2,11 +2,13 @@
 
 ## Sales Contact
 
-**Wanrong Wang**  
-International Sales, SigGear  
-Email: [wangwanrong@siggear.com](mailto:wangwanrong@siggear.com)
+**Wanrong Wang**
 
-Telephone and WhatsApp details will be added after final confirmation.
+International Sales, SigGear
+
+- Email: [wangwanrong@siggear.com](mailto:wangwanrong@siggear.com)
+
+Telephone and WhatsApp details are available upon request.
 
 ## Product Inquiry
 

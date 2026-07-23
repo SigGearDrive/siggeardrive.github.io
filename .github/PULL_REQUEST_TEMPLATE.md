@@ -20,6 +20,7 @@ Describe the pages, models and user-visible changes.
 - [ ] A technical reviewer confirmed changed specifications or claims.
 - [ ] `python scripts/validate_docs.py` passes.
 - [ ] `python scripts/validate_product_data.py` passes.
+- [ ] `python scripts/validate_sales_policy.py` passes.
 - [ ] `mkdocs build --strict` passes.
 
 ## Deployment check

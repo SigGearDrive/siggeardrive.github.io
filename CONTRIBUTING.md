@@ -24,6 +24,7 @@ Run:
 ```bash
 python scripts/validate_docs.py
 python scripts/validate_product_data.py
+python scripts/validate_sales_policy.py
 mkdocs build --strict
 ```
 

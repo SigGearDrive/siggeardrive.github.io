@@ -9,6 +9,7 @@ on:
       - "requirements.txt"
       - "scripts/validate_docs.py"
       - "scripts/validate_product_data.py"
+      - "scripts/validate_sales_policy.py"
       - ".github/workflows/validate-docs.yml"
   push:
     branches:
@@ -20,6 +21,7 @@ on:
       - "requirements.txt"
       - "scripts/validate_docs.py"
       - "scripts/validate_product_data.py"
+      - "scripts/validate_sales_policy.py"
       - ".github/workflows/validate-docs.yml"
   workflow_dispatch:
 
@@ -50,6 +52,9 @@ jobs:
 
       - name: Validate product master data
         run: python scripts/validate_product_data.py
+
+      - name: Validate public sales policy
+        run: python scripts/validate_sales_policy.py
 
       - name: Build documentation
         run: mkdocs build --strict

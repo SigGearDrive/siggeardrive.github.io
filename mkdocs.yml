@@ -65,6 +65,13 @@ nav:
   - Selection Guides:
       - Guide Overview: selection-guides/index.md
       - Robot Joint Actuator Selection Guide: selection-guides/robot-joint-actuator-selection-guide.md
+  - Sales and Inquiry Guides:
+      - Sales Knowledge Home: sales/index.md
+      - Customer Qualification Checklist: sales/customer-qualification-checklist.md
+      - Product Matching Workflow: sales/product-matching-workflow.md
+      - Inquiry Response Policy: sales/inquiry-response-policy.md
+      - Reply Templates: sales/reply-templates.md
+      - Quotation Readiness Checklist: sales/quotation-readiness-checklist.md
   - Knowledge Base:
       - Knowledge Base Home: knowledge-base/index.md
       - Product Model Index: knowledge-base/product-model-index.md

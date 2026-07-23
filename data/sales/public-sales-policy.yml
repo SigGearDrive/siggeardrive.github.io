@@ -1,0 +1,57 @@
+schema_version: 1
+policy_id: public-sales-policy
+scope: public_and_preliminary_sales_support
+public_contacts:
+  - wangwanrong@siggear.com
+response_sequence:
+  - answer_explicit_question_first
+  - state_confirmed_information
+  - identify_preliminary_candidate
+  - state_configuration_and_evidence_boundaries
+  - ask_essential_missing_questions
+  - request_preferred_contact_when_useful
+  - define_next_action
+essential_qualification:
+  - application_and_axis
+  - continuous_torque
+  - peak_torque_and_duration
+  - output_speed
+  - operating_voltage
+  - size_and_weight_limits
+  - duty_cycle_and_environment
+  - external_loads
+  - driver_encoder_and_communication
+  - prototype_and_annual_quantity
+conditional_qualification:
+  - project_stage_and_selection_date
+  - current_solution_and_pain_point
+  - brake_holding_and_power_off_behavior
+  - backlash_accuracy_noise_and_life_targets
+  - drawings_cad_and_test_evidence
+  - delivery_destination
+  - technical_decision_maker
+prohibited_claims:
+  - invent_or_transfer_product_specification
+  - treat_peak_torque_as_continuous
+  - present_optional_component_as_standard
+  - promise_unconfirmed_interface_protocol_or_control_mode
+  - invent_price_discount_moq_tooling_fee_or_lead_time
+  - invent_certification_test_data_customer_case_or_warranty
+  - describe_video_as_controlled_noise_test
+  - call_preliminary_candidate_a_perfect_match
+  - expose_another_customer_project_or_commercial_terms
+private_only_information:
+  - customer_identity_and_contact_details
+  - customer_messages_requirements_and_drawings
+  - customer_specific_product_configuration
+  - prices_discounts_costs_margins_and_internal_moq_rules
+  - private_quotations_payment_and_shipping_terms
+  - negotiation_strategy_and_supplier_information
+  - controlled_drawings_test_reports_and_nda_material
+  - unreleased_product_data_and_credentials
+approved_outcomes:
+  - standard_candidate_identified
+  - configured_standard_product
+  - custom_engineering_review_required
+  - insufficient_information
+  - no_published_match
