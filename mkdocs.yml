@@ -31,6 +31,9 @@ markdown_extensions:
 
 nav:
   - Home: index.md
+  - Company:
+      - About SigGear: company/about-siggear.md
+      - Certifications: company/certifications.md
   - Products:
       - Product Overview: products/index.md
       - Robot Joint Actuators:
@@ -42,6 +45,11 @@ nav:
           - Overview: products/hub-gear-motors/index.md
           - SG2877: products/hub-gear-motors/sg2877.md
           - SG2878: products/hub-gear-motors/sg2878.md
+      - Cycloidal Joint Modules:
+          - Overview: products/cycloidal-joint-modules/index.md
+          - CPM78-39: products/cycloidal-joint-modules/cpm78-39.md
+          - CPM80-25: products/cycloidal-joint-modules/cpm80-25.md
+          - CPM100-25: products/cycloidal-joint-modules/cpm100-25.md
       - Planetary Gearboxes:
           - Series Overview: products/planetary-gearboxes/index.md
           - 8–42 mm Series: products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md
@@ -77,8 +85,11 @@ nav:
       - Reply Templates: sales/reply-templates.md
   - Knowledge Base:
       - Knowledge Base Overview: knowledge-base/index.md
+      - Documentation Policy: knowledge-base/documentation-policy.md
       - Glossary: knowledge-base/glossary.md
       - Product Data Dictionary: knowledge-base/product-data-dictionary.md
       - Product FAQ: knowledge-base/product-faq.md
       - Product Model Index: knowledge-base/product-model-index.md
       - Sales Usage and Review Status: knowledge-base/sales-usage-and-review-status.md
+      - Update Workflow: knowledge-base/update-workflow.md
+  - Contact: contact.md
