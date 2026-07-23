@@ -1,0 +1,31 @@
+schema_version: 1
+record_id: sg-2878
+record_type: model
+model: SG-2878
+display_name: SG-2878 6 Nm Hub Gear Motor
+product_family: hub_gear_motor
+canonical_page: docs/products/hub-gear-motors/sg2878.md
+public_page_status: published
+record_status: published_inventory
+configuration_summary: The published standard configuration uses Hall sensors and requires an external controller unless otherwise confirmed.
+published_specifications:
+  outer_diameter: "99 mm"
+  product_thickness: "74 mm"
+  overall_length_including_shaft: "125 mm"
+  reduction_ratio: "9.75:1"
+  rated_voltage: "24 VDC"
+  rated_power: "75 W"
+  rated_current: "< 4.5 A"
+  no_load_speed: "130 rpm ±10%"
+  rated_speed: "110 rpm ±10%"
+  rated_torque: "6 Nm"
+  peak_torque: "18 Nm"
+  maximum_efficiency: "> 70%"
+  backlash: "< 1.5°"
+  waterproof_rating: "IP67"
+  weight: "1100 ± 20 g"
+source_control:
+  public_claim_source: canonical_page
+  technical_source_status: not_recorded_in_public_repository
+inventory_checked_on: "2026-07-23"
+

@@ -23,6 +23,7 @@ Run:
 
 ```bash
 python scripts/validate_docs.py
+python scripts/validate_product_data.py
 mkdocs build --strict
 ```
 
@@ -36,4 +37,3 @@ Both commands must pass before merge.
 - Merge only after required review and automated checks pass.
 
 See the full [update and review workflow](docs/knowledge-base/update-workflow.md).
-

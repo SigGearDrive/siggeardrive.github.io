@@ -7,6 +7,7 @@ This knowledge base is the controlled public information layer for SigGear produ
 | Need | Start here |
 | --- | --- |
 | Find a specific product model | [Product model index](product-model-index.md) |
+| Understand the structured product records | [Product data dictionary](product-data-dictionary.md) |
 | Compare published products | [Product overview](../products/index.md) |
 | Choose a product for an application | [Application guides](../applications/index.md) |
 | Prepare engineering requirements | [Selection guides](../selection-guides/index.md) |
@@ -50,4 +51,3 @@ The knowledge base currently covers:
 - Robotics, medical, laboratory, instrument and automation applications
 
 Coverage will expand only after the corresponding technical data and public claims have been reviewed.
-
