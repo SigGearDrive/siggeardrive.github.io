@@ -1,0 +1,1417 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Integrated robot joint actuators, cycloidal reducers, planetary gearboxes and precision gear motors from SigGear.">
+      
+      
+      
+        <link rel="canonical" href="https://siggeardrive.github.io/SigGear-product-docs/selection-guides/robot-joint-actuator-selection-guide/">
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>Robot Joint Actuator Selection Guide - SigGear Product Documentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.ec1eaa64.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#robot-joint-actuator-selection-guide" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="SigGear Product Documentation" class="md-header__button md-logo" aria-label="SigGear Product Documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            SigGear Product Documentation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Robot Joint Actuator Selection Guide
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/SigGearDrive/SigGear-product-docs" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    SigGearDrive/SigGear-product-docs
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="SigGear Product Documentation" class="md-nav__button md-logo" aria-label="SigGear Product Documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    SigGear Product Documentation
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/SigGearDrive/SigGear-product-docs" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    SigGearDrive/SigGear-product-docs
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Products
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Products
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../products/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Product Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Planetary Gearboxes
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Planetary Gearboxes
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../products/planetary-gearboxes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Series Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../products/planetary-gearboxes/8-42mm-planetary-gear-reducer/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    8–42 mm Series
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../products/planetary-gearboxes/8p-planetary-gearbox/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    8P (8 mm)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../products/planetary-gearboxes/10p-planetary-gearbox/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    10P (10 mm)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../products/planetary-gearboxes/12p-planetary-gearbox/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    12P (12 mm)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../products/planetary-gearboxes/14p-planetary-gearbox/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    14P (14 mm)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../products/planetary-gearboxes/16p-planetary-gearbox/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    16P (16 mm)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../products/planetary-gearboxes/20p-planetary-gearbox/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    20P (20 mm)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../products/micro-gear-motors/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Micro Gear Motors
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../products/flat-bldc-motors/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Flat BLDC Motors and Joint Drives
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#purpose-of-this-guide" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Purpose of This Guide
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-1-define-the-joint-and-mechanism" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 1: Define the Joint and Mechanism
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-2-estimate-output-torque" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 2: Estimate Output Torque
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Step 2: Estimate Output Torque">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#gravity-torque" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Gravity Torque
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#acceleration-torque" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Acceleration Torque
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#external-force-torque" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        External-Force Torque
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#preliminary-total" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Preliminary Total
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-3-separate-continuous-and-peak-torque" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 3: Separate Continuous and Peak Torque
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Step 3: Separate Continuous and Peak Torque">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#continuous-torque" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Continuous Torque
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#peak-torque" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Peak Torque
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-4-define-speed-and-the-complete-motion-cycle" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 4: Define Speed and the Complete Motion Cycle
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-5-establish-the-installation-envelope" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 5: Establish the Installation Envelope
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-6-review-radial-axial-and-overturning-loads" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 6: Review Radial, Axial and Overturning Loads
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-7-define-positioning-and-mechanical-behavior" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 7: Define Positioning and Mechanical Behavior
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-8-choose-a-transmission-and-product-architecture" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 8: Choose a Transmission and Product Architecture
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Step 8: Choose a Transmission and Product Architecture">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#planetary-joint-actuators" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Planetary Joint Actuators
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cycloidal-joint-modules" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cycloidal Joint Modules
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#published-starting-points" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Published Starting Points
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-9-define-encoder-driver-and-communication-requirements" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 9: Define Encoder, Driver and Communication Requirements
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-10-review-voltage-current-and-power-architecture" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 10: Review Voltage, Current and Power Architecture
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-11-evaluate-thermal-conditions-and-duty-cycle" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 11: Evaluate Thermal Conditions and Duty Cycle
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-12-define-brake-safety-and-power-off-behavior" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 12: Define Brake, Safety and Power-Off Behavior
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-13-plan-prototype-validation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 13: Plan Prototype Validation
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#requirement-checklist" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Requirement Checklist
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#related-application-guides" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Related Application Guides
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#request-a-joint-actuator-selection-review" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Request a Joint-Actuator Selection Review
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="robot-joint-actuator-selection-guide">Robot Joint Actuator Selection Guide<a class="headerlink" href="#robot-joint-actuator-selection-guide" title="Permanent link">&para;</a></h1>
+<h2 id="purpose-of-this-guide">Purpose of This Guide<a class="headerlink" href="#purpose-of-this-guide" title="Permanent link">&para;</a></h2>
+<p>A robot joint actuator should be selected from the complete axis requirement, not from one torque value or a product-family label. The joint position, payload, link geometry, acceleration, external forces, duty cycle, installation envelope, bearing loads, feedback architecture and controller limits all affect the final choice.</p>
+<p>This guide provides a practical screening workflow for humanoid robots, quadruped robots, robotic arms, exoskeletons and other rotary-axis systems. Final model approval requires engineering review and prototype validation.</p>
+<h2 id="step-1-define-the-joint-and-mechanism">Step 1: Define the Joint and Mechanism<a class="headerlink" href="#step-1-define-the-joint-and-mechanism" title="Permanent link">&para;</a></h2>
+<p>Prepare a separate requirement sheet for each axis. A shoulder, elbow, wrist, hip, knee or ankle normally has a different load case, motion profile and installation limit.</p>
+<p>Record:</p>
+<ul>
+<li>Joint or axis position</li>
+<li>Payload and moving-link mass</li>
+<li>Link lengths</li>
+<li>Center-of-gravity locations</li>
+<li>Joint angle range</li>
+<li>External process forces</li>
+<li>Mechanical stops and collision loads</li>
+<li>Whether the axis is horizontal, vertical or gravity loaded</li>
+<li>Customer-side bearings, belts, pulleys, gears or linkages</li>
+</ul>
+<p>Do not apply one actuator specification to every axis of the robot.</p>
+<h2 id="step-2-estimate-output-torque">Step 2: Estimate Output Torque<a class="headerlink" href="#step-2-estimate-output-torque" title="Permanent link">&para;</a></h2>
+<h3 id="gravity-torque">Gravity Torque<a class="headerlink" href="#gravity-torque" title="Permanent link">&para;</a></h3>
+<p>For an initial one-axis estimate, gravity torque may be approximated by:</p>
+<p><code>T_gravity = m × g × r × sin(theta)</code></p>
+<p>where:</p>
+<ul>
+<li><code>m</code> is the supported mass</li>
+<li><code>g</code> is gravitational acceleration</li>
+<li><code>r</code> is the distance from the joint axis to the center of gravity</li>
+<li><code>theta</code> describes the mechanism orientation relative to gravity</li>
+</ul>
+<p>The worst posture may not be the robot's normal operating posture, so review the full joint-angle range.</p>
+<h3 id="acceleration-torque">Acceleration Torque<a class="headerlink" href="#acceleration-torque" title="Permanent link">&para;</a></h3>
+<p>The torque required to accelerate the reflected inertia may be estimated by:</p>
+<p><code>T_acceleration = J × alpha</code></p>
+<p>where:</p>
+<ul>
+<li><code>J</code> is the total inertia reflected to the joint output</li>
+<li><code>alpha</code> is angular acceleration</li>
+</ul>
+<p>Include the payload, links, tooling and any other moving components.</p>
+<h3 id="external-force-torque">External-Force Torque<a class="headerlink" href="#external-force-torque" title="Permanent link">&para;</a></h3>
+<p>An external force acting at a distance from the joint axis creates torque:</p>
+<p><code>T_external = F × r</code></p>
+<p>where <code>F</code> is the external force and <code>r</code> is the perpendicular lever arm.</p>
+<h3 id="preliminary-total">Preliminary Total<a class="headerlink" href="#preliminary-total" title="Permanent link">&para;</a></h3>
+<p>A preliminary requirement should include gravity, acceleration, external forces, friction and mechanism losses. These equations are screening tools only. Flexible structures, impact, control behavior, load sharing and multi-axis dynamics may require a more complete model.</p>
+<h2 id="step-3-separate-continuous-and-peak-torque">Step 3: Separate Continuous and Peak Torque<a class="headerlink" href="#step-3-separate-continuous-and-peak-torque" title="Permanent link">&para;</a></h2>
+<p>Continuous torque and peak torque are not interchangeable.</p>
+<h3 id="continuous-torque">Continuous Torque<a class="headerlink" href="#continuous-torque" title="Permanent link">&para;</a></h3>
+<p>Continuous torque must cover sustained motion, repeated cycles and holding conditions without exceeding the approved thermal limits of the selected motor, gearbox and driver configuration.</p>
+<h3 id="peak-torque">Peak Torque<a class="headerlink" href="#peak-torque" title="Permanent link">&para;</a></h3>
+<p>Peak torque is used for short events such as acceleration, disturbance recovery, impact response or starting under load. Specify:</p>
+<ul>
+<li>Required peak torque</li>
+<li>Peak duration</li>
+<li>Frequency of peak events</li>
+<li>Time between peaks</li>
+<li>Controller current limit</li>
+<li>Battery or bus voltage</li>
+<li>Cooling and ambient conditions</li>
+</ul>
+<p>Never treat a published peak-torque value as a continuous rating.</p>
+<h2 id="step-4-define-speed-and-the-complete-motion-cycle">Step 4: Define Speed and the Complete Motion Cycle<a class="headerlink" href="#step-4-define-speed-and-the-complete-motion-cycle" title="Permanent link">&para;</a></h2>
+<p>Provide:</p>
+<ul>
+<li>Rated output speed</li>
+<li>Maximum output speed</li>
+<li>Acceleration and deceleration</li>
+<li>Travel angle</li>
+<li>Cycle time</li>
+<li>Holding time</li>
+<li>Rest time</li>
+<li>Direction-reversal frequency</li>
+</ul>
+<p>Mechanical output power at an operating point is related to torque and angular speed:</p>
+<p><code>P = T × omega</code></p>
+<p>Torque and speed must be checked at the same operating point. A product's maximum torque and maximum speed may not be available simultaneously.</p>
+<h2 id="step-5-establish-the-installation-envelope">Step 5: Establish the Installation Envelope<a class="headerlink" href="#step-5-establish-the-installation-envelope" title="Permanent link">&para;</a></h2>
+<p>Define the maximum:</p>
+<ul>
+<li>Outer diameter</li>
+<li>Axial thickness</li>
+<li>Total length</li>
+<li>Weight</li>
+<li>Cable and connector space</li>
+<li>Driver-board space</li>
+<li>Brake space</li>
+<li>Mounting-flange envelope</li>
+</ul>
+<p>Include the complete installed assembly, not only the reducer body. Bearings, output interfaces, covers, connectors and cable bend radius can consume significant space.</p>
+<h2 id="step-6-review-radial-axial-and-overturning-loads">Step 6: Review Radial, Axial and Overturning Loads<a class="headerlink" href="#step-6-review-radial-axial-and-overturning-loads" title="Permanent link">&para;</a></h2>
+<p>Output torque alone does not describe the structural load on a robot joint.</p>
+<p>Provide:</p>
+<ul>
+<li>Radial load</li>
+<li>Axial load</li>
+<li>Overturning moment</li>
+<li>Load direction</li>
+<li>Distance from the load to the output bearing</li>
+<li>Impact or shock conditions</li>
+<li>Customer-side bearing arrangement</li>
+</ul>
+<p>The output bearing and housing must be evaluated together with the robot structure. An external bearing or additional support may be required when the joint has a large cantilevered load or overturning moment.</p>
+<h2 id="step-7-define-positioning-and-mechanical-behavior">Step 7: Define Positioning and Mechanical Behavior<a class="headerlink" href="#step-7-define-positioning-and-mechanical-behavior" title="Permanent link">&para;</a></h2>
+<p>Specify the completed-axis targets for:</p>
+<ul>
+<li>Backlash</li>
+<li>Positioning accuracy</li>
+<li>Repeatability</li>
+<li>Angular resolution</li>
+<li>Stiffness or compliance</li>
+<li>Backdrivability</li>
+<li>Holding behavior</li>
+<li>Direction-reversal response</li>
+</ul>
+<p>Gearbox backlash is only one part of joint behavior. Encoder position, bearing clearance, housing stiffness, link compliance, assembly tolerances and controller tuning also affect the result.</p>
+<h2 id="step-8-choose-a-transmission-and-product-architecture">Step 8: Choose a Transmission and Product Architecture<a class="headerlink" href="#step-8-choose-a-transmission-and-product-architecture" title="Permanent link">&para;</a></h2>
+<p>SigGear publishes both planetary joint actuators and cycloidal joint modules. Neither transmission type should be selected from a general rule alone.</p>
+<h3 id="planetary-joint-actuators">Planetary Joint Actuators<a class="headerlink" href="#planetary-joint-actuators" title="Permanent link">&para;</a></h3>
+<p>Planetary joint actuators may be evaluated when their published torque, speed, dimensions and configuration fit the application. SigGear's published planetary joint-actuator range includes SG-6010C, SG-6010D and SG-8021.</p>
+<p><a href="../../products/robot-joint-actuators/">View planetary robot joint actuators</a></p>
+<h3 id="cycloidal-joint-modules">Cycloidal Joint Modules<a class="headerlink" href="#cycloidal-joint-modules" title="Permanent link">&para;</a></h3>
+<p>Cycloidal joint modules may be evaluated when the selected model's torque, speed, installation and configuration match the axis requirement. SigGear's published range includes CPM-100-25, CPM-80-25 and CPM-78-39.</p>
+<p><a href="../../products/cycloidal-joint-modules/">View cycloidal joint modules</a></p>
+<h3 id="published-starting-points">Published Starting Points<a class="headerlink" href="#published-starting-points" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Model</th>
+<th>Transmission</th>
+<th style="text-align: right;">Rated torque</th>
+<th style="text-align: right;">Peak torque</th>
+<th style="text-align: right;">Rated output speed</th>
+<th>Configuration note</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../../products/robot-joint-actuators/sg6010c/">SG-6010C</a></td>
+<td>Planetary</td>
+<td style="text-align: right;">6 Nm</td>
+<td style="text-align: right;">18 Nm</td>
+<td style="text-align: right;">310 rpm</td>
+<td>Driver and encoder functions depend on selected configuration</td>
+</tr>
+<tr>
+<td><a href="../../products/robot-joint-actuators/sg6010d/">SG-6010D</a></td>
+<td>Planetary</td>
+<td style="text-align: right;">16 Nm</td>
+<td style="text-align: right;">50 Nm</td>
+<td style="text-align: right;">100 rpm</td>
+<td>Available with or without integrated driver</td>
+</tr>
+<tr>
+<td><a href="../../products/robot-joint-actuators/sg8021/">SG-8021</a></td>
+<td>Planetary</td>
+<td style="text-align: right;">10 Nm</td>
+<td style="text-align: right;">30 Nm</td>
+<td style="text-align: right;">160 rpm</td>
+<td>Driver and encoder functions depend on selected configuration</td>
+</tr>
+<tr>
+<td><a href="../../products/cycloidal-joint-modules/cpm100-25/">CPM-100-25</a></td>
+<td>Cycloidal pinwheel</td>
+<td style="text-align: right;">25 Nm</td>
+<td style="text-align: right;">75 Nm</td>
+<td style="text-align: right;">60 rpm</td>
+<td>Available with or without integrated driver</td>
+</tr>
+<tr>
+<td><a href="../../products/cycloidal-joint-modules/cpm80-25/">CPM-80-25</a></td>
+<td>Cycloidal pinwheel</td>
+<td style="text-align: right;">10 Nm</td>
+<td style="text-align: right;">50 Nm</td>
+<td style="text-align: right;">120 rpm</td>
+<td>Available with or without integrated driver</td>
+</tr>
+<tr>
+<td><a href="../../products/cycloidal-joint-modules/cpm78-39/">CPM-78-39</a></td>
+<td>Cycloidal pinwheel</td>
+<td style="text-align: right;">20 Nm</td>
+<td style="text-align: right;">52 Nm</td>
+<td style="text-align: right;">48 rpm</td>
+<td>Standard catalog configuration uses Hall sensors and has no integrated-driver claim</td>
+</tr>
+</tbody>
+</table>
+<p>The table is a preliminary shortlist only. Dimensions, weight, external-load capacity, thermal behavior and control configuration must also be checked.</p>
+<h2 id="step-9-define-encoder-driver-and-communication-requirements">Step 9: Define Encoder, Driver and Communication Requirements<a class="headerlink" href="#step-9-define-encoder-driver-and-communication-requirements" title="Permanent link">&para;</a></h2>
+<p>Confirm whether the project requires:</p>
+<ul>
+<li>Motor commutation feedback</li>
+<li>Output absolute position</li>
+<li>Incremental or absolute encoder</li>
+<li>Position control</li>
+<li>Velocity control</li>
+<li>Torque or current control</li>
+<li>CAN</li>
+<li>RS485</li>
+<li>EtherCAT or another project-specific interface</li>
+<li>External controller or integrated driver</li>
+<li>Required communication rate and protocol details</li>
+</ul>
+<p>Driver, encoder, communication and closed-loop functions are model- and configuration-specific. Do not assume that every actuator includes the same electronics.</p>
+<p>CPM-78-39 must be treated separately: its standard catalog configuration uses Hall sensors and does not support a general claim of an integrated driver or absolute encoder.</p>
+<h2 id="step-10-review-voltage-current-and-power-architecture">Step 10: Review Voltage, Current and Power Architecture<a class="headerlink" href="#step-10-review-voltage-current-and-power-architecture" title="Permanent link">&para;</a></h2>
+<p>Specify:</p>
+<ul>
+<li>Nominal bus voltage</li>
+<li>Minimum and maximum bus voltage</li>
+<li>Continuous current limit</li>
+<li>Peak current limit and duration</li>
+<li>Battery or power-supply capability</li>
+<li>Regenerative-energy handling</li>
+<li>Emergency-stop behavior</li>
+<li>Cable and connector current capacity</li>
+</ul>
+<p>The controller current limit directly affects available torque. Electrical limits must be checked together with the motor, thermal design and duty cycle.</p>
+<h2 id="step-11-evaluate-thermal-conditions-and-duty-cycle">Step 11: Evaluate Thermal Conditions and Duty Cycle<a class="headerlink" href="#step-11-evaluate-thermal-conditions-and-duty-cycle" title="Permanent link">&para;</a></h2>
+<p>Provide:</p>
+<ul>
+<li>Ambient temperature</li>
+<li>Operating time</li>
+<li>Holding time</li>
+<li>Rest time</li>
+<li>Cycle frequency</li>
+<li>Enclosure and mounting material</li>
+<li>Cooling method</li>
+<li>Airflow or conduction path</li>
+<li>Nearby heat sources</li>
+</ul>
+<p>A joint mounted inside a sealed limb or compact housing may behave differently from the same actuator tested in open air. Prototype testing should reproduce the planned installation and motion cycle.</p>
+<h2 id="step-12-define-brake-safety-and-power-off-behavior">Step 12: Define Brake, Safety and Power-Off Behavior<a class="headerlink" href="#step-12-define-brake-safety-and-power-off-behavior" title="Permanent link">&para;</a></h2>
+<p>For gravity-loaded, wearable or safety-related axes, specify:</p>
+<ul>
+<li>Whether the joint may move when power is removed</li>
+<li>Required holding torque</li>
+<li>Mechanical brake requirement</li>
+<li>Emergency-stop behavior</li>
+<li>Manual release requirement</li>
+<li>Safe direction of motion</li>
+<li>Collision or overload strategy</li>
+</ul>
+<p>A brake must not be assumed to be included unless it is explicitly confirmed in the selected configuration and quotation.</p>
+<h2 id="step-13-plan-prototype-validation">Step 13: Plan Prototype Validation<a class="headerlink" href="#step-13-plan-prototype-validation" title="Permanent link">&para;</a></h2>
+<p>Prototype testing should include representative:</p>
+<ul>
+<li>Payload and link geometry</li>
+<li>Continuous motion cycles</li>
+<li>Peak events</li>
+<li>Temperature monitoring</li>
+<li>Holding conditions</li>
+<li>Direction reversals</li>
+<li>Encoder behavior</li>
+<li>Controller current limits</li>
+<li>Communication behavior</li>
+<li>External loads</li>
+<li>Power-off and emergency-stop cases</li>
+</ul>
+<p>Selection is complete only after the actuator is validated in the actual or representative mechanism.</p>
+<h2 id="requirement-checklist">Requirement Checklist<a class="headerlink" href="#requirement-checklist" title="Permanent link">&para;</a></h2>
+<p>Send the following information for engineering review:</p>
+<table>
+<thead>
+<tr>
+<th>Category</th>
+<th>Required information</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Application</td>
+<td>Robot type and joint position</td>
+</tr>
+<tr>
+<td>Mechanics</td>
+<td>Payload, link lengths, center of gravity and joint-angle range</td>
+</tr>
+<tr>
+<td>Torque</td>
+<td>Continuous torque, peak torque and peak duration</td>
+</tr>
+<tr>
+<td>Motion</td>
+<td>Rated speed, maximum speed, acceleration, deceleration and cycle time</td>
+</tr>
+<tr>
+<td>Electrical</td>
+<td>Voltage range, current limits and power source</td>
+</tr>
+<tr>
+<td>Packaging</td>
+<td>Maximum diameter, thickness, length and weight</td>
+</tr>
+<tr>
+<td>External loads</td>
+<td>Radial load, axial load and overturning moment</td>
+</tr>
+<tr>
+<td>Precision</td>
+<td>Backlash, accuracy, repeatability and resolution</td>
+</tr>
+<tr>
+<td>Control</td>
+<td>Encoder, driver, control mode and communication interface</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>Ambient temperature, cooling, contamination and duty cycle</td>
+</tr>
+<tr>
+<td>Safety</td>
+<td>Brake, holding and power-off behavior</td>
+</tr>
+<tr>
+<td>Commercial</td>
+<td>Prototype quantity and annual forecast</td>
+</tr>
+</tbody>
+</table>
+<h2 id="related-application-guides">Related Application Guides<a class="headerlink" href="#related-application-guides" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../../applications/humanoid-robot-joint-actuators/">Humanoid robot joint actuators</a></li>
+<li><a href="../../applications/quadruped-robot-joint-gearboxes/">Quadruped robot joint gearboxes</a></li>
+<li><a href="../../applications/robotic-arm-joint-actuators/">Robotic arm joint actuators</a></li>
+<li><a href="../../applications/exoskeleton-joint-actuators/">Exoskeleton joint actuators</a></li>
+</ul>
+<h2 id="request-a-joint-actuator-selection-review">Request a Joint-Actuator Selection Review<a class="headerlink" href="#request-a-joint-actuator-selection-review" title="Permanent link">&para;</a></h2>
+<p><strong>Wanrong Wang</strong><br />
+International Sales, SigGear<br />
+<a href="mailto:wangwanrong@siggear.com">wangwanrong@siggear.com</a></p>
+<p><a class="md-button md-button--primary" href="../../contact/">Send Robot Joint Requirements</a></p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; Guangdong SigGear Drive Intelligent Technology Co., Ltd.
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.sections", "navigation.top", "search.suggest", "search.highlight", "content.code.copy"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+    
+  </body>
+</html>
