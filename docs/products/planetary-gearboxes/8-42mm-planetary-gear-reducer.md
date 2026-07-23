@@ -16,14 +16,14 @@ The series is intended for projects that require a compact transmission and flex
 | [14P](14p-planetary-gearbox.md) | 14 mm |
 | [16P](16p-planetary-gearbox.md) | 16 mm |
 | [20P](20p-planetary-gearbox.md) | 20 mm |
-| 22P | 22 mm |
+| [22P](22p-planetary-gearbox.md) | 22 mm |
 | 24P | 24 mm |
 | 28P | 28 mm |
 | 32P | 32 mm |
 | 36P | 36 mm |
 | 42P | 42 mm |
 
-The [8P 8 mm](8p-planetary-gearbox.md), [10P 10 mm](10p-planetary-gearbox.md), [12P 12 mm](12p-planetary-gearbox.md), [14P 14 mm](14p-planetary-gearbox.md), [16P 16 mm](16p-planetary-gearbox.md) and [20P 20 mm](20p-planetary-gearbox.md) product pages include their currently published stage, ratio, torque, efficiency, load and dimensional data. Detailed values for the other sizes remain subject to their approved model sheets and are not inferred from these published model pages.
+The [8P 8 mm](8p-planetary-gearbox.md), [10P 10 mm](10p-planetary-gearbox.md), [12P 12 mm](12p-planetary-gearbox.md), [14P 14 mm](14p-planetary-gearbox.md), [16P 16 mm](16p-planetary-gearbox.md), [20P 20 mm](20p-planetary-gearbox.md) and [22P 22 mm](22p-planetary-gearbox.md) product pages include their currently published stage, ratio, torque, efficiency, load and dimensional data. Detailed values for the other sizes remain subject to their approved model sheets and are not inferred from these published model pages.
 
 ## Typical Applications
 
@@ -95,4 +95,4 @@ Published specifications must not be transferred from one diameter or stage conf
 
 **Wanrong Wang**  
 International Sales, SigGear  
-[wangwanrong@siggear.com](mailto:wangwanrong@siggear.com)
+[wangwanrong@sigger.com](mailto:wangwanrong@sigger.com)
