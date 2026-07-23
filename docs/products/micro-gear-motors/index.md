@@ -10,7 +10,7 @@ The product range is based on miniature planetary gear reducers and application-
 
 - Miniature planetary gear motors
 - Compact planetary reduction motors
-- Motor and gearbox integration based on the 6–42 mm planetary reducer range
+- Motor and gearbox integration based on the 8–42 mm planetary reducer range
 - Custom output shafts, flanges and mounting interfaces
 - Optional encoder, brake, cable and connector integration after engineering review
 - Application-specific OEM and ODM development

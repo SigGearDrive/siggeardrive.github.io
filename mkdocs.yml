@@ -45,7 +45,8 @@ nav:
           - CPM-78-39: products/cycloidal-joint-modules/cpm78-39.md
       - Planetary Gearboxes:
           - Series Overview: products/planetary-gearboxes/index.md
-          - 6–42 mm Series: products/planetary-gearboxes/6-42mm-planetary-gear-reducer.md
+          - 8–42 mm Series: products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md
+          - 8P (8 mm): products/planetary-gearboxes/8p-planetary-gearbox.md
       - Micro Gear Motors: products/micro-gear-motors/index.md
       - Flat BLDC Motors and Joint Drives: products/flat-bldc-motors/index.md
       - Hub Gear Motors:

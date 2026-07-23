@@ -48,11 +48,11 @@ SigGear micro gear motor configurations can be evaluated for focus mechanisms, f
 
 [Explore micro gear motors](../products/micro-gear-motors/index.md)
 
-### 6–42 mm Planetary Gearboxes
+### 8–42 mm Planetary Gearboxes
 
-The 6–42 mm planetary gearbox series provides multiple frame sizes for integration with brushed DC, brushless DC, stepper, servo or customer-specified motors. Final ratios, dimensions and performance values depend on the selected size and configuration.
+The 8–42 mm planetary gearbox series provides multiple frame sizes for integration with brushed DC, brushless DC, stepper, servo or customer-specified motors. Final ratios, dimensions and performance values depend on the selected size and configuration.
 
-[Explore 6–42 mm planetary gearboxes](../products/planetary-gearboxes/6-42mm-planetary-gear-reducer.md)
+[Explore 8–42 mm planetary gearboxes](../products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md)
 
 ## Precision-Performance Boundary
 

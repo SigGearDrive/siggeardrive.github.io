@@ -4,15 +4,23 @@ SigGear planetary gearboxes provide compact transmission solutions for robotics,
 
 ## Published Series
 
-### 6–42 mm Planetary Gear Reducer Series
+### 8–42 mm Planetary Gear Reducer Series
 
 The miniature and compact series covers:
 
-- 6P, 8P, 10P and 12P
+- 8P, 10P and 12P
 - 14P, 16P, 20P and 22P
 - 24P, 28P, 32P, 36P and 42P
 
-[View the 6–42 mm planetary gear reducer series](6-42mm-planetary-gear-reducer.md)
+[View the 8–42 mm planetary gear reducer series](8-42mm-planetary-gear-reducer.md)
+
+## Published Model Data
+
+### 8P 8 mm Micro Planetary Gearbox
+
+The 8P page includes the complete currently published one- to four-stage ratio table, gearbox lengths, allowable torque, momentary torque, efficiency, backlash, speed, load limits, operating temperature, motor compatibility and dimensional source images.
+
+[View the 8P 8 mm planetary gearbox](8p-planetary-gearbox.md)
 
 ## Integration and Customization
 

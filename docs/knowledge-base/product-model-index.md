@@ -18,11 +18,12 @@ Use this page to locate the canonical public page for a SigGear product model or
 | CPM-80-25 | Cycloidal pinwheel | [CPM-80-25](../products/cycloidal-joint-modules/cpm80-25.md) | Available with or without integrated driver |
 | CPM-78-39 | Cycloidal pinwheel | [CPM-78-39](../products/cycloidal-joint-modules/cpm78-39.md) | Standard catalog configuration uses Hall sensors and does not include an integrated driver |
 
-## Planetary Gearbox Series
+## Planetary Gearboxes
 
-| Series | Diameter range | Public page | Configuration note |
+| Model or series | Diameter | Public page | Configuration note |
 | --- | ---: | --- | --- |
-| 6–42 mm planetary gear reducer series | 6–42 mm | [6–42 mm series](../products/planetary-gearboxes/6-42mm-planetary-gear-reducer.md) | Ratio, stage count, interface and performance depend on selected size and configuration |
+| 8P | 8 mm | [8P model data](../products/planetary-gearboxes/8p-planetary-gearbox.md) | One to four stages; use the listed ratio-specific data and confirm the final motor and interfaces |
+| 8–42 mm planetary gear reducer series | 8–42 mm | [8–42 mm series](../products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md) | Ratio, stage count, interface and performance depend on selected size and configuration |
 
 ## Hub Gear Motors
 
@@ -48,4 +49,3 @@ The following solution families are documented at family level. A model-specific
 ## Missing or Conflicting Model Data
 
 If a model is missing, a link is incorrect or two sources disagree, use the repository's Product Data Update issue template. Include the source document, revision or date, affected model and exact field requiring review.
-
