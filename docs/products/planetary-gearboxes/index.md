@@ -46,6 +46,12 @@ The 16P page includes the complete currently published one- to four-stage ratio 
 
 [View the 16P 16 mm planetary gearbox](16p-planetary-gearbox.md)
 
+### 20P 20 mm Micro Planetary Gearbox
+
+The 20P page includes the complete currently published one- to four-stage ratio table, gearbox lengths, allowable torque, momentary torque, efficiency, backlash, speed, load limits, operating temperature, motor compatibility and dimensional source images.
+
+[View the 20P 20 mm planetary gearbox](20p-planetary-gearbox.md)
+
 ## Integration and Customization
 
 Depending on the selected model, SigGear can evaluate motor matching, custom ratios, shafts, mounting structures, encoders, brakes, cables and connectors.
