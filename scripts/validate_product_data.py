@@ -26,6 +26,8 @@ REQUIRED_FIELDS = {
     "record_status",
     "configuration_summary",
     "published_specifications",
+    "sales_usage",
+    "technical_review",
     "source_control",
     "inventory_checked_on",
 }
@@ -41,6 +43,7 @@ ALLOWED_PRODUCT_FAMILIES = {
 }
 RECORD_ID_RE = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
 CLAIM_KEY_RE = re.compile(r"^[a-z0-9]+(?:_[a-z0-9]+)*$")
+USAGE_KEY_RE = re.compile(r"^[a-z0-9]+(?:_[a-z0-9]+)*$")
 
 
 def product_pages() -> set[Path]:
@@ -141,6 +144,35 @@ def validate_record(path: Path, data: dict, errors: list[str]) -> Path | None:
         for variant, value in variants.items():
             if str(variant) not in page_text or str(value) not in page_text:
                 errors.append(f"{label}: published variant is not present on canonical page: {variant}: {value}")
+
+    sales_usage = data.get("sales_usage")
+    if not isinstance(sales_usage, dict):
+        errors.append(f"{label}: sales_usage must be a mapping")
+    else:
+        for section in ("permitted", "requires_confirmation", "prohibited"):
+            values = sales_usage.get(section)
+            if not isinstance(values, list) or not values:
+                errors.append(f"{label}: sales_usage.{section} must be a non-empty list")
+                continue
+            for value in values:
+                if not isinstance(value, str) or not USAGE_KEY_RE.fullmatch(value):
+                    errors.append(f"{label}: invalid sales_usage.{section} value: {value}")
+
+    technical_review = data.get("technical_review")
+    expected_review = {
+        "public_inventory_status": "complete",
+        "controlled_source_reference": "not_recorded_in_public_repository",
+        "technical_approval_status": "not_recorded_in_public_repository",
+    }
+    if not isinstance(technical_review, dict):
+        errors.append(f"{label}: technical_review must be a mapping")
+    else:
+        for key, expected in expected_review.items():
+            if technical_review.get(key) != expected:
+                errors.append(f"{label}: technical_review.{key} must be {expected}")
+        next_action = technical_review.get("next_internal_action")
+        if not isinstance(next_action, str) or not USAGE_KEY_RE.fullmatch(next_action):
+            errors.append(f"{label}: technical_review.next_internal_action must use snake_case")
 
     source_control = data.get("source_control")
     if not isinstance(source_control, dict):

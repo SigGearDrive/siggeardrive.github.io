@@ -23,8 +23,27 @@ published_specifications:
   weight: "430 g"
   allowable_radial_force: "500 N"
   allowable_axial_force: "500 N"
+sales_usage:
+  permitted:
+    - preliminary_selection
+    - public_product_summary
+  requires_confirmation:
+    - peak_torque_duration_and_duty_cycle
+    - driver_encoder_and_sensor_configuration
+    - can_or_rs485_configuration_and_protocol
+    - control_modes_current_limits_and_firmware
+    - connector_cable_and_pinout
+    - final_mounting_interface_and_loads
+  prohibited:
+    - treat_peak_torque_as_continuous
+    - present_driver_encoder_or_communication_as_standard
+    - promise_unconfirmed_interface_or_control_function
+technical_review:
+  public_inventory_status: complete
+  controlled_source_reference: not_recorded_in_public_repository
+  technical_approval_status: not_recorded_in_public_repository
+  next_internal_action: reconcile_with_current_controlled_source
 source_control:
   public_claim_source: canonical_page
   technical_source_status: not_recorded_in_public_repository
 inventory_checked_on: "2026-07-23"
-
