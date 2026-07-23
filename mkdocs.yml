@@ -31,8 +31,25 @@ markdown_extensions:
 
 nav:
   - Home: index.md
+  - Company:
+      - About SigGear: company/about-siggear.md
+      - Certifications: company/certifications.md
   - Products:
       - Product Overview: products/index.md
+      - Robot Joint Actuators:
+          - Overview: products/robot-joint-actuators/index.md
+          - SG6010C: products/robot-joint-actuators/sg6010c.md
+          - SG6010D: products/robot-joint-actuators/sg6010d.md
+          - SG8021: products/robot-joint-actuators/sg8021.md
+      - Hub Gear Motors:
+          - Overview: products/hub-gear-motors/index.md
+          - SG2877: products/hub-gear-motors/sg2877.md
+          - SG2878: products/hub-gear-motors/sg2878.md
+      - Cycloidal Joint Modules:
+          - Overview: products/cycloidal-joint-modules/index.md
+          - CPM78-39: products/cycloidal-joint-modules/cpm78-39.md
+          - CPM80-25: products/cycloidal-joint-modules/cpm80-25.md
+          - CPM100-25: products/cycloidal-joint-modules/cpm100-25.md
       - Planetary Gearboxes:
           - Series Overview: products/planetary-gearboxes/index.md
           - 8–42 mm Series: products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md
@@ -42,5 +59,37 @@ nav:
           - 14P (14 mm): products/planetary-gearboxes/14p-planetary-gearbox.md
           - 16P (16 mm): products/planetary-gearboxes/16p-planetary-gearbox.md
           - 20P (20 mm): products/planetary-gearboxes/20p-planetary-gearbox.md
-      - Micro Gear Motors: products/micro-gear-motors/index.md
-      - Flat BLDC Motors and Joint Drives: products/flat-bldc-motors/index.md
+      - Micro Gear Motors:
+          - Overview: products/micro-gear-motors/index.md
+      - Flat BLDC Motors and Joint Drives:
+          - Overview: products/flat-bldc-motors/index.md
+  - Applications:
+      - Applications Overview: applications/index.md
+      - AGV and AMR Wheel Drive Gearboxes: applications/agv-amr-wheel-drive-gearboxes.md
+      - Exoskeleton Joint Actuators: applications/exoskeleton-joint-actuators.md
+      - Humanoid Robot Joint Actuators: applications/humanoid-robot-joint-actuators.md
+      - Medical Device Micro Gear Motors: applications/medical-device-micro-gear-motors.md
+      - Precision Instruments and Optical Mechanisms: applications/precision-instruments-optical-mechanisms.md
+      - Quadruped Robot Joint Gearboxes: applications/quadruped-robot-joint-gearboxes.md
+      - Robotic Arm Joint Actuators: applications/robotic-arm-joint-actuators.md
+      - Robot Gripper Gear Motors: applications/robot-gripper-gear-motors.md
+  - Selection Guides:
+      - Selection Guides Overview: selection-guides/index.md
+      - Robot Joint Actuator Selection Guide: selection-guides/robot-joint-actuator-selection-guide.md
+  - Sales:
+      - Sales Overview: sales/index.md
+      - Customer Qualification Checklist: sales/customer-qualification-checklist.md
+      - Inquiry Response Policy: sales/inquiry-response-policy.md
+      - Product Matching Workflow: sales/product-matching-workflow.md
+      - Quotation Readiness Checklist: sales/quotation-readiness-checklist.md
+      - Reply Templates: sales/reply-templates.md
+  - Knowledge Base:
+      - Knowledge Base Overview: knowledge-base/index.md
+      - Documentation Policy: knowledge-base/documentation-policy.md
+      - Glossary: knowledge-base/glossary.md
+      - Product Data Dictionary: knowledge-base/product-data-dictionary.md
+      - Product FAQ: knowledge-base/product-faq.md
+      - Product Model Index: knowledge-base/product-model-index.md
+      - Sales Usage and Review Status: knowledge-base/sales-usage-and-review-status.md
+      - Update Workflow: knowledge-base/update-workflow.md
+  - Contact: contact.md
