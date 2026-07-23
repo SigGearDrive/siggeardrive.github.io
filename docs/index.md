@@ -5,6 +5,7 @@ SigGear develops and manufactures integrated robot joint actuators, cycloidal jo
 [Browse Products](products/index.md){ .md-button .md-button--primary }
 [Explore Applications](applications/index.md){ .md-button }
 [Selection Guides](selection-guides/index.md){ .md-button }
+[Knowledge Base](knowledge-base/index.md){ .md-button }
 [Contact SigGear](contact.md){ .md-button }
 
 ## Product Solutions
@@ -118,6 +119,12 @@ Public pages contain approved product information. The following documents are p
 - Complete ratio and configuration tables
 - Driver and communication documentation
 - Noise-test, thermal and service-life information when available for the selected configuration
+
+## Knowledge Base
+
+Use the controlled knowledge base to find a model, check terminology, answer common product questions or propose a documented product-data update.
+
+[Open the SigGear knowledge base](knowledge-base/index.md)
 
 ## Company and Quality
 

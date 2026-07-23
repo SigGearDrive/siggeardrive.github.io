@@ -65,6 +65,13 @@ nav:
   - Selection Guides:
       - Guide Overview: selection-guides/index.md
       - Robot Joint Actuator Selection Guide: selection-guides/robot-joint-actuator-selection-guide.md
+  - Knowledge Base:
+      - Knowledge Base Home: knowledge-base/index.md
+      - Product Model Index: knowledge-base/product-model-index.md
+      - Product and Engineering FAQ: knowledge-base/product-faq.md
+      - Terminology and Units: knowledge-base/glossary.md
+      - Documentation Policy: knowledge-base/documentation-policy.md
+      - Update and Review Workflow: knowledge-base/update-workflow.md
   - Company:
       - About SigGear: company/about-siggear.md
       - Certifications: company/certifications.md

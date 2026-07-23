@@ -1,0 +1,75 @@
+name: Product data update
+description: Propose a new product page or a change to a technical or configuration claim
+title: "[Product data] "
+labels:
+  - product-data
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Do not attach customer-confidential, NDA-controlled or unreleased files to this public repository.
+  - type: input
+    id: model
+    attributes:
+      label: Model or product family
+      placeholder: SG-6010D
+    validations:
+      required: true
+  - type: dropdown
+    id: change_type
+    attributes:
+      label: Change type
+      options:
+        - New model or series
+        - Specification correction
+        - Configuration or interface change
+        - Image or drawing update
+        - Application or selection guidance
+        - Certification or company information
+        - Broken link or documentation maintenance
+    validations:
+      required: true
+  - type: textarea
+    id: requested_change
+    attributes:
+      label: Requested change
+      description: State the current text or value and the proposed replacement.
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: Controlled source
+      description: Provide the document name, revision, date and owner. Use a private reference rather than uploading restricted material.
+    validations:
+      required: true
+  - type: textarea
+    id: configuration
+    attributes:
+      label: Configuration and conditions
+      description: Identify ratio, driver, encoder, voltage, test conditions or other scope needed to interpret the claim.
+    validations:
+      required: true
+  - type: textarea
+    id: affected_pages
+    attributes:
+      label: Affected pages
+      description: List the canonical page and every index, table, application page or FAQ that repeats the information.
+    validations:
+      required: true
+  - type: input
+    id: technical_reviewer
+    attributes:
+      label: Technical reviewer role or GitHub username
+    validations:
+      required: true
+  - type: checkboxes
+    id: release_check
+    attributes:
+      label: Public-release check
+      options:
+        - label: The proposed information is approved for public release.
+          required: true
+        - label: This issue does not expose customer data, prices, internal costs, credentials, NDA material or unreleased files.
+          required: true
+
