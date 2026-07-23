@@ -4,18 +4,22 @@ on:
   pull_request:
     paths:
       - "docs/**"
+      - "data/**"
       - "mkdocs.yml"
       - "requirements.txt"
       - "scripts/validate_docs.py"
+      - "scripts/validate_product_data.py"
       - ".github/workflows/validate-docs.yml"
   push:
     branches:
       - main
     paths:
       - "docs/**"
+      - "data/**"
       - "mkdocs.yml"
       - "requirements.txt"
       - "scripts/validate_docs.py"
+      - "scripts/validate_product_data.py"
       - ".github/workflows/validate-docs.yml"
   workflow_dispatch:
 
@@ -43,6 +47,9 @@ jobs:
 
       - name: Validate documentation structure
         run: python scripts/validate_docs.py
+
+      - name: Validate product master data
+        run: python scripts/validate_product_data.py
 
       - name: Build documentation
         run: mkdocs build --strict

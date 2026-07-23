@@ -1,0 +1,31 @@
+schema_version: 1
+record_id: sg-2877
+record_type: model
+model: SG-2877
+display_name: SG-2877 3 Nm Hub Gear Motor
+product_family: hub_gear_motor
+canonical_page: docs/products/hub-gear-motors/sg2877.md
+public_page_status: published
+record_status: published_inventory
+configuration_summary: The published standard configuration uses Hall sensors and requires an external controller unless otherwise confirmed.
+published_specifications:
+  outer_diameter: "99 mm"
+  product_thickness: "64 mm"
+  overall_length_including_shaft: "117 mm"
+  reduction_ratio: "9.75:1"
+  rated_voltage: "24 VDC"
+  rated_power: "45 W"
+  rated_current: "< 3 A"
+  no_load_speed: "140 rpm ±10%"
+  rated_speed: "130 rpm ±10%"
+  rated_torque: "3 Nm"
+  peak_torque: "10 Nm"
+  maximum_efficiency: "> 70%"
+  backlash: "< 1.5°"
+  waterproof_rating: "IP67"
+  weight: "780 ± 20 g"
+source_control:
+  public_claim_source: canonical_page
+  technical_source_status: not_recorded_in_public_repository
+inventory_checked_on: "2026-07-23"
+

@@ -1,0 +1,28 @@
+schema_version: 1
+record_id: cpm-78-39
+record_type: model
+model: CPM-78-39
+display_name: CPM-78-39 Integrated Cycloidal Joint Module
+product_family: cycloidal_joint_module
+canonical_page: docs/products/cycloidal-joint-modules/cpm78-39.md
+public_page_status: published
+record_status: published_inventory
+configuration_summary: The standard catalog configuration uses Hall sensors and does not include an integrated driver or absolute encoder.
+published_specifications:
+  transmission_structure: "Cycloidal pinwheel"
+  outer_diameter: "78.7 mm"
+  product_thickness: "35.8 mm"
+  reduction_ratio: "39:1"
+  backlash: "5–10 arcmin"
+  operating_voltage: "36 VDC"
+  rated_motor_power: "200 W"
+  rated_output_speed: "48 rpm"
+  no_load_output_speed: "54 rpm"
+  rated_output_torque: "20 Nm"
+  peak_output_torque: "52 Nm"
+  weight: "600 g"
+source_control:
+  public_claim_source: canonical_page
+  technical_source_status: not_recorded_in_public_repository
+inventory_checked_on: "2026-07-23"
+

@@ -68,6 +68,7 @@ nav:
   - Knowledge Base:
       - Knowledge Base Home: knowledge-base/index.md
       - Product Model Index: knowledge-base/product-model-index.md
+      - Product Data Dictionary: knowledge-base/product-data-dictionary.md
       - Product and Engineering FAQ: knowledge-base/product-faq.md
       - Terminology and Units: knowledge-base/glossary.md
       - Documentation Policy: knowledge-base/documentation-policy.md

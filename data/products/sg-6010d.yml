@@ -1,0 +1,30 @@
+schema_version: 1
+record_id: sg-6010d
+record_type: model
+model: SG-6010D
+display_name: SG-6010D Integrated Planetary Robot Joint Actuator
+product_family: robot_joint_actuator
+canonical_page: docs/products/robot-joint-actuators/sg6010d.md
+public_page_status: published
+record_status: published_inventory
+configuration_summary: Available with or without an integrated driver; control and communication functions depend on the selected configuration.
+published_specifications:
+  transmission_structure: "Planetary gearbox"
+  outer_diameter: "80.0 mm"
+  product_thickness: "58.77 mm"
+  reduction_ratio: "28.13:1"
+  backlash: "15-30 arcmin"
+  operating_voltage: "24-48 VDC"
+  motor_power: "328 W"
+  rated_output_speed: "100 rpm"
+  no_load_output_speed: "170 rpm"
+  rated_output_torque: "16 Nm"
+  peak_output_torque: "50 Nm"
+  weight: "791 g"
+  allowable_radial_force: "1000 N"
+  allowable_axial_force: "400 N"
+source_control:
+  public_claim_source: canonical_page
+  technical_source_status: not_recorded_in_public_repository
+inventory_checked_on: "2026-07-23"
+

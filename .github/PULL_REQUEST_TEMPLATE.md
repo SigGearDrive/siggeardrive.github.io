@@ -18,10 +18,10 @@ Describe the pages, models and user-visible changes.
 - [ ] No customer data, prices, internal costs, credentials, NDA material or unreleased data are included.
 - [ ] A technical reviewer confirmed changed specifications or claims.
 - [ ] `python scripts/validate_docs.py` passes.
+- [ ] `python scripts/validate_product_data.py` passes.
 - [ ] `mkdocs build --strict` passes.
 
 ## Deployment check
 
 - [ ] Navigation and internal links work in the preview or deployed site.
 - [ ] The page can be found by model number and relevant product-family terms.
-

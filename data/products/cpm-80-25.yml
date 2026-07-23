@@ -1,0 +1,30 @@
+schema_version: 1
+record_id: cpm-80-25
+record_type: model
+model: CPM-80-25
+display_name: CPM-80-25 Integrated Cycloidal Joint Module
+product_family: cycloidal_joint_module
+canonical_page: docs/products/cycloidal-joint-modules/cpm80-25.md
+public_page_status: published
+record_status: published_inventory
+configuration_summary: Available with or without an integrated driver; control functions apply only to the confirmed configuration.
+published_specifications:
+  transmission_structure: "Cycloidal pinwheel"
+  outer_diameter: "80 mm"
+  product_thickness: "29.7 mm"
+  reduction_ratio: "25:1"
+  backlash: "5-10 arcmin"
+  operating_voltage: "24-48 VDC"
+  rated_motor_power: "500 W"
+  rated_output_speed: "120 rpm"
+  no_load_output_speed: "168 rpm"
+  rated_output_torque: "10 Nm"
+  peak_output_torque: "50 Nm"
+  weight: "430 g"
+  allowable_radial_force: "500 N"
+  allowable_axial_force: "500 N"
+source_control:
+  public_claim_source: canonical_page
+  technical_source_status: not_recorded_in_public_repository
+inventory_checked_on: "2026-07-23"
+

@@ -1,0 +1,30 @@
+schema_version: 1
+record_id: 6-42mm-planetary-gear-reducer-series
+record_type: series
+display_name: 6–42 mm Planetary Gear Reducer Series
+product_family: planetary_gearbox
+canonical_page: docs/products/planetary-gearboxes/6-42mm-planetary-gear-reducer.md
+public_page_status: published
+record_status: published_inventory
+configuration_summary: Ratio, stage count, torque, shaft, dimensions and motor matching depend on the selected diameter and project configuration.
+published_specifications:
+  nominal_outer_diameter_range: "6 mm to 42 mm"
+published_variants:
+  6P: "6 mm"
+  8P: "8 mm"
+  10P: "10 mm"
+  12P: "12 mm"
+  14P: "14 mm"
+  16P: "16 mm"
+  20P: "20 mm"
+  22P: "22 mm"
+  24P: "24 mm"
+  28P: "28 mm"
+  32P: "32 mm"
+  36P: "36 mm"
+  42P: "42 mm"
+source_control:
+  public_claim_source: canonical_page
+  technical_source_status: not_recorded_in_public_repository
+inventory_checked_on: "2026-07-23"
+

@@ -1,0 +1,30 @@
+schema_version: 1
+record_id: sg-8021
+record_type: model
+model: SG-8021
+display_name: SG-8021 Integrated Planetary Robot Joint Actuator
+product_family: robot_joint_actuator
+canonical_page: docs/products/robot-joint-actuators/sg8021.md
+public_page_status: published
+record_status: published_inventory
+configuration_summary: Driver, encoder, communication and closed-loop functions depend on the selected configuration.
+published_specifications:
+  transmission_structure: "Planetary gearbox"
+  outer_diameter: "100 mm"
+  product_thickness: "42.6 mm"
+  reduction_ratio: "9.25:1"
+  backlash: "15-20 arcmin"
+  operating_voltage: "24-48 VDC"
+  motor_power: "213 W"
+  rated_output_speed: "160 rpm"
+  no_load_output_speed: "240 rpm"
+  rated_output_torque: "10 Nm"
+  peak_output_torque: "30 Nm"
+  weight: "671 g"
+  allowable_radial_force: "1300 N"
+  allowable_axial_force: "550 N"
+source_control:
+  public_claim_source: canonical_page
+  technical_source_status: not_recorded_in_public_repository
+inventory_checked_on: "2026-07-23"
+

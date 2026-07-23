@@ -1,0 +1,30 @@
+schema_version: 1
+record_id: sg-6010c
+record_type: model
+model: SG-6010C
+display_name: SG-6010C Integrated Planetary Robot Joint Actuator
+product_family: robot_joint_actuator
+canonical_page: docs/products/robot-joint-actuators/sg6010c.md
+public_page_status: published
+record_status: published_inventory
+configuration_summary: Driver, encoder, communication and closed-loop functions depend on the selected configuration.
+published_specifications:
+  transmission_structure: "Planetary structure"
+  outer_diameter: "80.0 mm"
+  product_thickness: "34.07 mm"
+  reduction_ratio: "9.67:1"
+  backlash: "15–20 arcmin"
+  motor_power: "328 W"
+  operating_voltage: "24–48 VDC"
+  rated_output_speed: "310 rpm"
+  no_load_output_speed: "400 rpm"
+  rated_output_torque: "6 Nm"
+  peak_output_torque: "18 Nm"
+  weight: "377 ± 10 g"
+  allowable_radial_force: "250 N"
+  allowable_axial_force: "100 N"
+source_control:
+  public_claim_source: canonical_page
+  technical_source_status: not_recorded_in_public_repository
+inventory_checked_on: "2026-07-23"
+
