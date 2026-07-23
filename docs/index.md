@@ -15,7 +15,7 @@ SigGear develops and manufactures integrated robot joint actuators, cycloidal jo
 | --- | --- | --- |
 | Robot joint actuators | Humanoid robots, quadruped robots, robotic arms and exoskeletons | [View actuator series](products/robot-joint-actuators/index.md) |
 | Cycloidal joint modules | Compact robot joints requiring high torque and low backlash | [View cycloidal modules](products/cycloidal-joint-modules/index.md) |
-| Planetary gearboxes | Robotics, medical devices, instruments and automation mechanisms | [View 6–42 mm series](products/planetary-gearboxes/6-42mm-planetary-gear-reducer.md) |
+| Planetary gearboxes | Robotics, medical devices, instruments and automation mechanisms | [View 8–42 mm series](products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md) |
 | Micro gear motors | Grippers, laboratory automation, medical devices and compact mechanisms | [View micro gear motors](products/micro-gear-motors/index.md) |
 | Flat BLDC motors and joint drives | Short-axial robot joints and integrated rotary axes | [View flat joint drives](products/flat-bldc-motors/index.md) |
 | Hub gear motors | AGV, AMR, mobile robots and compact wheel-drive systems | [View hub gear motors](products/hub-gear-motors/index.md) |

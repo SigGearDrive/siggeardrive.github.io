@@ -1,8 +1,8 @@
-# 6–42 mm Planetary Gear Reducer Series
+# 8–42 mm Planetary Gear Reducer Series
 
 ## Product Overview
 
-SigGear supplies miniature and compact planetary gear reducers with outer diameters from 6 mm to 42 mm for robotics, medical devices, laboratory automation, precision instruments and compact industrial mechanisms.
+SigGear supplies miniature and compact planetary gear reducers with nominal outer diameters from 8 mm to 42 mm for robotics, medical devices, laboratory automation, precision instruments and compact industrial mechanisms.
 
 The series is intended for projects that require a compact transmission and flexible integration with a motor, output shaft, mounting interface or sensor system. Final ratio, torque, speed, dimensions and motor matching depend on the selected diameter and project configuration.
 
@@ -10,8 +10,7 @@ The series is intended for projects that require a compact transmission and flex
 
 | Series | Nominal outer diameter |
 | --- | ---: |
-| 6P | 6 mm |
-| 8P | 8 mm |
+| [8P](8p-planetary-gearbox.md) | 8 mm |
 | 10P | 10 mm |
 | 12P | 12 mm |
 | 14P | 14 mm |
@@ -24,7 +23,7 @@ The series is intended for projects that require a compact transmission and flex
 | 36P | 36 mm |
 | 42P | 42 mm |
 
-Detailed ratio, stage, torque, shaft and dimensional data are confirmed from the approved model sheet for the selected size.
+The [8P 8 mm product page](8p-planetary-gearbox.md) includes the currently published stage, ratio, torque, efficiency, load and dimensional data. Detailed values for the other sizes remain subject to their approved model sheets and are not inferred from 8P.
 
 ## Typical Applications
 
