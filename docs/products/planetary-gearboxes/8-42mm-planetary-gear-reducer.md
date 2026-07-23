@@ -11,7 +11,7 @@ The series is intended for projects that require a compact transmission and flex
 | Series | Nominal outer diameter |
 | --- | ---: |
 | [8P](8p-planetary-gearbox.md) | 8 mm |
-| 10P | 10 mm |
+| [10P](10p-planetary-gearbox.md) | 10 mm |
 | 12P | 12 mm |
 | 14P | 14 mm |
 | 16P | 16 mm |
@@ -23,7 +23,7 @@ The series is intended for projects that require a compact transmission and flex
 | 36P | 36 mm |
 | 42P | 42 mm |
 
-The [8P 8 mm product page](8p-planetary-gearbox.md) includes the currently published stage, ratio, torque, efficiency, load and dimensional data. Detailed values for the other sizes remain subject to their approved model sheets and are not inferred from 8P.
+The [8P 8 mm](8p-planetary-gearbox.md) and [10P 10 mm](10p-planetary-gearbox.md) product pages include their currently published stage, ratio, torque, efficiency, load and dimensional data. Detailed values for the other sizes remain subject to their approved model sheets and are not inferred from 8P or 10P.
 
 ## Typical Applications
 

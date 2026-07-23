@@ -23,6 +23,7 @@ Use this page to locate the canonical public page for a SigGear product model or
 | Model or series | Diameter | Public page | Configuration note |
 | --- | ---: | --- | --- |
 | 8P | 8 mm | [8P model data](../products/planetary-gearboxes/8p-planetary-gearbox.md) | One to four stages; use the listed ratio-specific data and confirm the final motor and interfaces |
+| 10P | 10 mm | [10P model data](../products/planetary-gearboxes/10p-planetary-gearbox.md) | One to four stages; use the listed ratio-specific data and confirm the final motor and interfaces |
 | 8–42 mm planetary gear reducer series | 8–42 mm | [8–42 mm series](../products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md) | Ratio, stage count, interface and performance depend on selected size and configuration |
 
 ## Hub Gear Motors
