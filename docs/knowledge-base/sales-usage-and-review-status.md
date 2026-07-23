@@ -15,6 +15,7 @@ Controlled drawing numbers, test-report identifiers, internal approval records a
 | [16P](../products/planetary-gearboxes/16p-planetary-gearbox.md) | Preliminary selection and public summary | Exact ratio, stage count, adapted-motor power boundary, motor matching, duty cycle, output shaft, mounting, noise, service life and operating environment |
 | [20P](../products/planetary-gearboxes/20p-planetary-gearbox.md) | Preliminary selection and public summary | Exact ratio, stage count, adapted-motor power boundary, motor matching, duty cycle, output shaft, mounting, noise, service life and operating environment |
 | [22P](../products/planetary-gearboxes/22p-planetary-gearbox.md) | Preliminary selection and public summary | Exact ratio, stage count, adapted-motor power boundary, motor matching, duty cycle, output shaft, mounting, noise, service life and operating environment |
+| [24P](../products/planetary-gearboxes/24p-planetary-gearbox.md) | Preliminary selection and public summary | Exact ratio, stage count, adapted-motor power boundary, motor matching, duty cycle, output shaft, mounting, noise, service life and operating environment |
 | [8–42 mm planetary series](../products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md) | Product-family introduction and size shortlisting | Diameter, ratio, stage count, gearbox length, torque, speed, motor matching, shaft, backlash, noise, life, external loads and interfaces |
 
 ## Prohibited Sales Shortcuts
