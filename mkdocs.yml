@@ -44,3 +44,5 @@ nav:
           - 20P (20 mm): products/planetary-gearboxes/20p-planetary-gearbox.md
       - Micro Gear Motors: products/micro-gear-motors/index.md
       - Flat BLDC Motors and Joint Drives: products/flat-bldc-motors/index.md
+  - Selection Guides:
+      - Robot Joint Actuator Selection Guide: selection-guides/robot-joint-actuator-selection-guide.md
