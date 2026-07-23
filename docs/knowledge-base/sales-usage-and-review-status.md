@@ -4,7 +4,7 @@ This page defines how the current public product data may be used in customer co
 
 ## Current Review State
 
-All ten current product records have a complete inventory of the claims on their canonical public pages. The records are suitable for public product summaries and preliminary selection within the boundaries below.
+All eleven current product records have a complete inventory of the claims on their canonical public pages. The records are suitable for public product summaries and preliminary selection within the boundaries below.
 
 Controlled drawing numbers, test-report identifiers, internal approval records and reviewer identities are not stored in this public repository. Their absence here does not mean that no source exists. Final selection and quotation still require reconciliation with the current controlled source and ordered configuration.
 
@@ -21,6 +21,7 @@ Controlled drawing numbers, test-report identifiers, internal approval records a
 | [SG-2877](../products/hub-gear-motors/sg2877.md) | Preliminary selection and public summary | Peak duration, external controller, feedback, communication, braking, holding, slope behavior and final-assembly ingress protection |
 | [SG-2878](../products/hub-gear-motors/sg2878.md) | Preliminary selection and public summary | Peak duration, external controller, feedback, communication, braking, holding, slope behavior and final-assembly ingress protection |
 | [8P](../products/planetary-gearboxes/8p-planetary-gearbox.md) | Preliminary selection and public summary | Exact ratio, stage count, motor matching, duty cycle, output shaft, mounting, noise, service life and operating environment |
+| [10P](../products/planetary-gearboxes/10p-planetary-gearbox.md) | Preliminary selection and public summary | Exact ratio, stage count, adapted-motor power boundary, motor matching, duty cycle, output shaft, mounting, noise, service life and operating environment |
 | [8–42 mm planetary series](../products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md) | Product-family introduction and size shortlisting | Diameter, ratio, stage count, gearbox length, torque, speed, motor matching, shaft, backlash, noise, life, external loads and interfaces |
 
 ## Prohibited Sales Shortcuts
