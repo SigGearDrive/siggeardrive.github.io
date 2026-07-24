@@ -2,66 +2,140 @@
 
 ## Application Overview
 
-Quadruped robots require compact joint-drive systems for leg axes such as hip, knee and ankle joints. Walking, trotting, turning, standing and impact recovery create different torque-speed cycles, so actuator selection must be based on the complete gait profile rather than a single peak-torque value.
+Quadruped robots require compact and durable joint-drive systems for hip, knee, ankle and auxiliary leg axes. Walking, trotting, turning, stair climbing, slope operation, jumping, landing and recovery motions create different torque-speed and impact-load conditions. A quadruped robot actuator or leg joint gearbox should therefore be selected from the complete gait profile, not from a single peak-torque value.
 
-SigGear supplies planetary and cycloidal joint-drive products that can be evaluated for quadruped robot development. Depending on the selected model, a configuration may combine a BLDC motor, precision reducer, encoder and driver.
+SigGear supports quadruped robot development with integrated robot joint actuators, planetary joint actuators, cycloidal joint modules and compact planetary gearbox solutions. Depending on the selected configuration, the solution may combine a motor, reducer, encoder and driver, or it may be supplied as a reducer or gearbox for customer-side motor and controller integration.
 
-## Main Selection Factors
+This page is intended for early-stage supplier comparison, model shortlisting and engineering communication. Final actuator selection, quotation and technical agreement require confirmation against the controlled drawing, selected ratio, duty cycle, mounting interface, impact condition, motor configuration and ordered version.
 
-### Continuous and Peak Torque
+## Key Selection Factors for Quadruped Robot Joints
 
-Continuous torque must cover the sustained load during standing and repeated gait cycles. Peak torque must be reviewed together with peak duration, controller current limit, duty cycle, cooling and ambient conditions.
+| Requirement | Why it matters |
+| --- | --- |
+| Robot mass and payload | Determines standing load, walking load and impact energy during landing or recovery. |
+| Joint position | Hip, knee and ankle joints have different torque, speed, impact and packaging requirements. |
+| Continuous torque | Must cover standing, walking and repeated gait cycles without excessive temperature rise. |
+| Peak torque and peak duration | Important for acceleration, jumping, impact recovery and short overload events. |
+| Output speed and acceleration | Must match gait frequency, stride length, foot trajectory and recovery motion. |
+| Backlash and mechanical response | Affect foot placement, balance, compliance, motion smoothness and control stability. |
+| Radial, axial and overturning loads | Influence output bearing, housing stiffness and leg-link structure. |
+| Shock and impact loads | Critical for landing, obstacle crossing, sudden stops and repeated gait impact. |
+| Encoder, driver and communication | Affect closed-loop control, wiring, software integration and diagnostic functions. |
+| Thermal condition and duty cycle | Determine whether torque values are usable repeatedly or only for short periods. |
 
-### Output Speed and Gait Profile
+## Joint-by-Joint Review
 
-Provide the required joint speed for walking, trotting, jumping or recovery motions. The complete speed and acceleration profile is more useful than a single maximum-speed target.
+### Hip Joint
 
-### Size and Weight
+The hip joint usually experiences high structural load because it connects the leg to the robot body and supports body mass, payload and dynamic gait forces. Important review items include continuous torque during standing, peak torque during acceleration, overturning moment, radial load, axial load, mounting stiffness and cable routing.
 
-For each leg joint, specify the maximum outer diameter, axial thickness and mass. Bearings, output structures, cable routing, covers and fasteners must be included in the available installation envelope.
+### Knee Joint
 
-### Radial, Axial and Impact Loads
+The knee joint is strongly affected by walking, trotting, squatting, jumping and recovery cycles. It may require high peak torque and repeated acceleration while remaining compact and lightweight. Thermal behavior, duty cycle, backlash and impact resistance should be reviewed carefully.
 
-Leg joints can experience radial load, axial load, overturning moment, shock and repeated landing impact. These structural loads must be reviewed separately from output torque.
+### Ankle Joint
 
-### Backlash, Positioning and Mechanical Response
+The ankle joint is often sensitive to impact load, backlash, mechanical compliance and packaging. Foot contact, slope operation, landing and uneven-ground walking can create repeated shock loads. The output bearing structure, sealing, cable route and mechanical stops should be discussed during prototype review.
 
-State the allowable backlash, positioning requirement and mechanical-response target. The selected transmission, bearing structure, encoder and controller must be evaluated together.
+### Auxiliary Leg or Steering Axis
 
-### Encoder, Driver and Communication
+Some quadruped platforms include auxiliary rotary axes, steering structures, sensor-adjustment mechanisms or compact leg-link mechanisms. Smaller integrated actuators or planetary gearboxes may be suitable when torque and impact loads are lower than the main hip or knee joints.
 
-Encoder, driver and communication functions vary by model and configuration. Confirm the required position, velocity and torque-control functions, as well as CAN, RS485 or other project-specific interfaces.
+## Gait Profile and Torque-Speed Cycle
 
-### Thermal Conditions and Duty Cycle
+For quadruped actuator selection, the complete gait profile is more useful than a single torque number. Provide operating cases such as:
 
-Provide the gait cycle, operating time, rest time, ambient temperature, cooling method and installation structure. Peak torque and peak current must not be treated as continuous ratings.
+- Standing and holding posture
+- Walking on flat ground
+- Trotting or fast walking
+- Turning and lateral motion
+- Starting and stopping
+- Slope climbing and descending
+- Obstacle crossing
+- Jumping, landing or recovery motion
+- Maximum payload condition
+
+For each case, define continuous torque, peak torque, peak duration, output speed, acceleration, duty cycle and expected test time. Peak torque should not be treated as a continuous working rating.
+
+## Impact Load and Structural Review
+
+Quadruped robot joints can experience repeated impact and shock. These loads are different from output torque and should be evaluated separately.
+
+Important information includes:
+
+- Robot mass and payload
+- Leg length and joint layout
+- Foot contact condition
+- Maximum landing or recovery event
+- Ground surface and obstacle condition
+- Radial load, axial load and overturning moment at the joint
+- Mechanical stop or compliance design
+- Whether external bearings support the joint load
+
+A gearbox or actuator that meets torque and speed requirements may still be unsuitable if the bearing, housing or output interface cannot support the real impact condition.
 
 ## Candidate SigGear Products
 
-The following published models can be used as starting points for engineering review. Final selection depends on the joint position and complete operating conditions.
+The following published SigGear models can be used as starting points for quadruped robot actuator and leg joint gearbox evaluation. Final selection depends on the joint position, robot mass, gait cycle, impact condition, size limit and control architecture.
 
 | Model | Transmission | Rated torque | Peak torque | Rated output speed | Configuration note |
 | --- | --- | ---: | ---: | ---: | --- |
-| [SG-6010C](../products/robot-joint-actuators/sg6010c.md) | Planetary | 6 Nm | 18 Nm | 310 rpm | Driver options depend on selected configuration |
-| [SG-6010D](../products/robot-joint-actuators/sg6010d.md) | Planetary | 16 Nm | 50 Nm | 100 rpm | Available with or without integrated driver |
-| [SG-8021](../products/robot-joint-actuators/sg8021.md) | Planetary | 10 Nm | 30 Nm | 160 rpm | Driver options depend on selected configuration |
-| [CPM-100-25](../products/cycloidal-joint-modules/cpm100-25.md) | Cycloidal pinwheel | 25 Nm | 75 Nm | 60 rpm | Available with or without integrated driver |
-| [CPM-80-25](../products/cycloidal-joint-modules/cpm80-25.md) | Cycloidal pinwheel | 10 Nm | 50 Nm | 120 rpm | Available with or without integrated driver |
-| [CPM-78-39](../products/cycloidal-joint-modules/cpm78-39.md) | Cycloidal pinwheel | 20 Nm | 52 Nm | 48 rpm | Standard catalog configuration uses Hall sensors and no integrated driver |
+| [SG-6010C](../products/robot-joint-actuators/sg6010c.md) | Planetary | 6 Nm | 18 Nm | 310 rpm | Driver options depend on selected configuration. |
+| [SG-6010D](../products/robot-joint-actuators/sg6010d.md) | Planetary | 16 Nm | 50 Nm | 100 rpm | Available with or without integrated driver. |
+| [SG-8021](../products/robot-joint-actuators/sg8021.md) | Planetary | 10 Nm | 30 Nm | 160 rpm | Driver options depend on selected configuration. |
+| [CPM-100-25](../products/cycloidal-joint-modules/cpm100-25.md) | Cycloidal pinwheel | 25 Nm | 75 Nm | 60 rpm | Available with or without integrated driver. |
+| [CPM-80-25](../products/cycloidal-joint-modules/cpm80-25.md) | Cycloidal pinwheel | 10 Nm | 50 Nm | 120 rpm | Available with or without integrated driver. |
+| [CPM-78-39](../products/cycloidal-joint-modules/cpm78-39.md) | Cycloidal pinwheel | 20 Nm | 52 Nm | 48 rpm | Standard catalog configuration uses Hall sensors and no integrated driver. |
 
-## Planetary or Cycloidal Joint Drive
+For small auxiliary mechanisms, sensor modules, compact ankle mechanisms or customer-designed motor assemblies, SigGear can also evaluate [8–42 mm planetary gearbox](../products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md) options when the application requires a separate reducer or compact gearbox.
 
-A planetary joint actuator may be considered when compact integration, output speed and flexible motor-and-driver configuration are important.
+## Integrated Actuator or Separate Gearbox and Motor
 
-A cycloidal joint module may be considered when the selected model's torque, speed, backlash and installation characteristics match the leg-joint requirement.
+A quadruped robot project can use an integrated actuator or a separate gearbox-and-motor architecture.
 
-Neither transmission type should be selected from a general rule alone. Compare the full torque-speed cycle, impact loads, positioning requirement, thermal conditions, size, weight and control architecture.
+An integrated robot joint actuator may be suitable when the team wants a compact module with matched motor, reducer, encoder and driver options. This can reduce prototype assembly work and speed up early gait testing.
 
-## Joint-by-Joint Evaluation
+A separate leg joint gearbox may be suitable when the robot team already has its own motor, controller, encoder, brake, housing, external bearing or leg-link structure. In that case, the input shaft, mounting interface, output shaft, ratio, speed limit, bearing arrangement and heat-dissipation path must be confirmed carefully.
 
-Hip, knee and ankle axes normally have different torque, speed, structural-load and packaging requirements. Prepare a separate requirement sheet for every joint position instead of applying one actuator specification to the complete robot.
+The best architecture depends on robot mass, leg layout, required torque-speed cycle, impact condition, serviceability, prototype schedule and production quantity.
 
-Prototype testing should include repeated gait cycles, temperature monitoring, impact conditions, encoder behavior and controller-current limits.
+## Planetary or Cycloidal Drive for Quadruped Robots
+
+A planetary joint actuator may be considered when the project prioritizes compact integration, output speed, motor matching flexibility and broad configuration options.
+
+A cycloidal joint module may be considered when the selected model's torque, speed, backlash, installation structure and duty-cycle capability match the leg-joint requirement.
+
+Neither transmission type should be selected from a general rule alone. Compare the full torque-speed cycle, impact load, backlash target, stiffness, thermal condition, size, weight, control architecture and prototype validation plan.
+
+## Control, Encoder and Communication Review
+
+Quadruped robots often require responsive closed-loop control. Before selecting a joint actuator, confirm:
+
+- Is the joint controlled by position, speed, torque or mixed control mode?
+- Is the driver integrated into the actuator or placed on a robot controller board?
+- Is CAN, RS485, PWM, EtherCAT or another interface required?
+- What encoder resolution and absolute-position behavior are needed?
+- Is current limiting, temperature feedback or fault reporting required?
+- Does the robot need power-off holding, brake control or controlled backdrivability?
+
+Communication and control functions vary by selected product and electronics configuration. Do not assume CAN, RS485, EtherCAT, PID, torque control or a specific protocol until the driver and firmware version are confirmed.
+
+## Thermal and Duty-Cycle Validation
+
+Quadruped joints can produce repeated heat because gait cycles often involve frequent acceleration, deceleration, impact recovery and holding. Provide the real operating cycle instead of only maximum torque and speed.
+
+Useful information includes:
+
+- Continuous torque during standing or walking
+- Peak torque and peak duration
+- Output speed and acceleration
+- Gait cycle and duty cycle
+- Operating time and rest time
+- Ambient temperature and cooling method
+- Mounting structure and heat-dissipation path
+- Expected daily operating hours and service-life target
+
+Peak torque is not a continuous working rating. A joint that can provide short overload torque may still be unsuitable if repeated gait cycles cause excessive temperature rise.
 
 ## Prototype and Customization Support
 
@@ -72,13 +146,39 @@ Depending on the selected model and project scope, SigGear can evaluate:
 - Mounting and housing customization
 - Cable and connector customization
 - Communication and control configuration
+- Brake or holding requirements after engineering review
 - Customer branding and labeling
+- Prototype support before production planning
 
-Customization availability depends on technical feasibility, prototype quantity and expected production volume.
+Customization availability depends on technical feasibility, prototype quantity, expected annual volume and the level of engineering change required.
+
+## Information Needed for a Quadruped Joint Selection Review
+
+Please send one requirement set for each joint position. Hip, knee, ankle and auxiliary axes should be reviewed separately.
+
+Provide:
+
+- Robot type and target application
+- Robot mass and maximum payload
+- Joint position and axis definition
+- Leg length and mechanical layout
+- Continuous torque
+- Peak torque and peak duration
+- Required output speed and acceleration
+- Gait profile and duty cycle
+- Operating voltage and current limit
+- Maximum outer diameter, thickness and weight
+- Radial load, axial load and overturning moment
+- Shock, landing or obstacle-crossing condition
+- Backlash and positioning requirement
+- Encoder, driver and communication requirements
+- Ambient temperature and cooling method
+- Prototype quantity and estimated annual quantity
+- Preferred architecture: integrated actuator or separate gearbox and motor
 
 ## Request a Quadruped Joint Selection Review
 
-Please send the robot mass, joint position, continuous torque, peak torque and duration, output speed, gait profile, voltage, size and weight limits, radial and axial loads, impact conditions, duty cycle, driver and communication requirements, prototype quantity and annual forecast.
+Send your quadruped robot joint requirements to SigGear for a preliminary model review. Early requirements can be approximate, but robot mass, joint position, torque, speed, gait cycle, impact condition, voltage and quantity are needed before a meaningful recommendation can be made.
 
 **Wanrong Wang**  
 International Sales, SigGear  
