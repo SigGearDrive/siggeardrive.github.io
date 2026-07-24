@@ -34,6 +34,15 @@ jobs:
           python -m pip install --upgrade pip
           python -m pip install -r requirements.txt
 
+      - name: Validate documentation structure
+        run: python scripts/validate_docs.py
+
+      - name: Validate product master data
+        run: python scripts/validate_product_data.py
+
+      - name: Validate public sales policy
+        run: python scripts/validate_sales_policy.py
+
       - name: Build documentation
         run: mkdocs build --strict
 
