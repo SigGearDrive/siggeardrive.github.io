@@ -62,6 +62,7 @@ nav:
           - 22P (22 mm): products/planetary-gearboxes/22p-planetary-gearbox.md
           - 24P (24 mm): products/planetary-gearboxes/24p-planetary-gearbox.md
           - 28P (28 mm): products/planetary-gearboxes/28p-planetary-gearbox.md
+          - 32P (32 mm): products/planetary-gearboxes/32p-planetary-gearbox.md
       - Micro Gear Motors:
           - Overview: products/micro-gear-motors/index.md
       - Flat BLDC Motors and Joint Drives:
@@ -94,5 +95,6 @@ nav:
       - Product FAQ: knowledge-base/product-faq.md
       - Product Model Index: knowledge-base/product-model-index.md
       - Sales Usage and Review Status: knowledge-base/sales-usage-and-review-status.md
+      - Sales Usage and Technical Review Status: knowledge-base/sales-usage-and-technical-review-status.md
       - Update Workflow: knowledge-base/update-workflow.md
   - Contact: contact.md
