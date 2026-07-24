@@ -2,80 +2,117 @@
 
 ## Application Overview
 
-Robot grippers, dexterous hands and end effectors require compact drive systems for finger joints, tendon spools, lead screws, rotary jaws and other small mechanisms. Motor and gearbox selection must be based on the complete force, speed, geometry, bearing-load and duty-cycle requirement rather than motor torque alone.
+Robot grippers, dexterous robotic hands and end effectors require compact drive systems for finger joints, tendon spools, rotary jaws, lead screws and other precision mechanisms. A suitable gripper motor or gearbox should be selected from the complete mechanism requirement, including force, speed, geometry, shaft load, backlash, noise and duty cycle.
 
-SigGear supplies micro gear motor and planetary gearbox solutions that can be evaluated for compact gripping mechanisms. Final motor, ratio, shaft, feedback and mounting configurations are confirmed after engineering review.
+SigGear provides micro gear motor and planetary gearbox solutions for compact gripping mechanisms. The final motor, reduction ratio, shaft, feedback and mounting configuration require engineering confirmation.
 
 ## Main Selection Factors
 
 ### Gripping Force and Mechanism Geometry
 
-Provide the required fingertip or jaw force together with the lever arm, pulley radius, tendon-spool radius, screw lead or linkage geometry. The required gearbox output torque depends on the complete transmission mechanism and its losses.
+Provide fingertip force, jaw force, lever arm, pulley radius, tendon spool radius, screw lead or linkage geometry. The required gearbox output torque depends on the complete mechanical transmission path.
 
 ### Output Torque and Speed
 
-State the required continuous torque, peak torque and peak duration at the gearbox output. Also provide closing speed, opening speed and the complete motion cycle. A higher reduction ratio may increase available torque but normally reduces output speed.
+Define continuous torque, peak torque, peak duration, closing speed, opening speed and complete motion cycle. A higher reduction ratio can increase torque capability but usually reduces output speed.
 
-### Tendon, Spool and Shaft Loads
+### Tendon Spool and Shaft Loads
 
-Tendon-driven mechanisms can apply radial load to the gearbox output shaft and bearings. Provide tendon force, spool diameter, load direction and distance from the bearing support. Radial and axial loads must be reviewed separately from output torque.
+Tendon-driven hands can generate radial load on the output shaft and bearing system. Provide tendon force, spool diameter, load direction and distance from bearing support. Radial and axial loads must be reviewed separately from output torque.
 
-### Installation Envelope
+### Compact Size and Weight
 
-Provide the maximum motor and gearbox diameter, total length, shaft extension and available mounting space. Cable routing, connectors, encoders and customer-side bearings must be included in the installation envelope.
+Dexterous hands and small grippers often have strict packaging requirements. Confirm:
+
+- Maximum diameter
+- Total length
+- Shaft extension
+- Mounting interface
+- Cable routing
+- Encoder and connector space
+- Weight limit
 
 ### Backdrivability and Manual Motion
 
-State whether the finger or gripper must be manually movable when power is off. Backdrivability depends on the complete motor, gearbox ratio, friction, mechanism and controller configuration and must not be assumed from the product family alone.
+If the finger or gripper must move when power is removed, specify the required backdrivability behavior. Backdrivability depends on motor selection, gearbox ratio, friction, mechanism and controller configuration.
 
 ### Backlash and Positioning
 
-Specify allowable backlash, positioning resolution, repeatability and force-control requirements. Gearbox backlash, structural compliance, tendon stretch, encoder location and controller tuning all affect completed-system behavior.
-
-### Encoder, Driver and Control
-
-Confirm whether the application requires motor commutation feedback, output-position feedback, current or force estimation, position control, velocity control or torque control. Encoder and driver functions depend on the selected configuration and quotation.
-
-### Noise, Service Life and Duty Cycle
-
-Provide the expected operating environment, cycle frequency, daily operating time, load spectrum and acoustic target. Noise and service-life values are configuration-specific and are supplied only when test data is available for the selected motor and gearbox combination.
+Specify backlash, repeatability, positioning accuracy and force-control requirements. Complete-system performance depends on gearbox backlash, structure stiffness, tendon elasticity, encoder position and controller tuning.
 
 ## Candidate SigGear Product Families
 
 ### Micro Gear Motors
 
-SigGear micro gear motor configurations can be evaluated for compact finger joints, tendon drives, rotary jaws, laboratory grippers and small end effectors.
+Micro gear motor solutions can be evaluated for:
+
+- Finger joints
+- Tendon-driven robotic hands
+- Compact jaws
+- Laboratory grippers
+- Small end effectors
 
 [Explore micro gear motors](../products/micro-gear-motors/index.md)
 
 ### 8–42 mm Planetary Gearboxes
 
-The 8–42 mm planetary gearbox series provides multiple frame sizes for integration with brushed DC, brushless DC, stepper or servo motors. Final ratios and performance values depend on the selected configuration.
+Planetary gearbox solutions can be evaluated when customers already have a motor or require a customized motor-gearbox combination.
 
 [Explore 8–42 mm planetary gearboxes](../products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md)
 
-## Mechanical Integration Review
+## Dexterous Hand and Gripper Integration Review
 
-For tendon-spool and cantilevered-load applications, the output shaft and bearing arrangement must be reviewed carefully. Where required, the customer mechanism may need an external bearing or integrated support structure so that radial load is not carried only by the gearbox output bearing.
+For tendon-spool and cantilever-load applications, the output shaft and bearing arrangement must be reviewed carefully. External bearings or additional support structures may be required when radial load is significant.
 
-Do not apply specifications from one motor-and-gearbox combination to another. Final torque, speed, current, dimensions, backlash and thermal limits must be confirmed against the approved model specification.
+Important engineering questions:
+
+- Is the mechanism tendon-driven or direct-drive?
+- What is the required gripping force?
+- What is the tendon or spool diameter?
+- Is manual movement required when power is off?
+- Is force control required?
+- What encoder and driver functions are needed?
+- What noise and service-life targets apply?
+
+## Noise and Service Life
+
+Noise performance and service life depend on the selected motor, gearbox ratio, load spectrum, lubrication, assembly condition and operating environment. Use measured data from the selected configuration rather than assuming a product-family value.
 
 ## Prototype and Customization Support
 
-Depending on project requirements and engineering feasibility, SigGear can evaluate:
+SigGear can evaluate:
 
 - Motor and planetary gearbox matching
 - Reduction-ratio selection
-- Output-shaft and spool-interface customization
-- Mounting-flange and housing customization
+- Output shaft and spool interface customization
+- Mounting structure customization
 - Encoder, cable and connector options
 - Customer branding and labeling
 
-Customization availability depends on technical feasibility, prototype quantity and expected production volume.
+Customization availability depends on technical feasibility, prototype quantity and production requirements.
+
+## Information Required for Selection Review
+
+Please provide:
+
+- Gripper or hand type
+- Required fingertip or jaw force
+- Mechanism geometry
+- Tendon or spool dimensions
+- Continuous and peak output torque
+- Output speed
+- Operating voltage
+- Diameter and length limits
+- Radial and axial loads
+- Backlash and positioning requirements
+- Backdrivability requirement
+- Encoder and driver requirements
+- Duty cycle
+- Prototype quantity and annual forecast
 
 ## Request a Gripper Drive Selection Review
 
-Please send the gripper type, required fingertip or jaw force, mechanism geometry, tendon or spool dimensions, continuous and peak output torque, output speed, operating voltage, diameter and length limits, radial and axial loads, backlash and positioning requirements, backdrivability requirement, encoder and driver requirements, duty cycle, prototype quantity and annual forecast.
+Send your gripper requirements to SigGear for a preliminary model review.
 
 **Wanrong Wang**  
 International Sales, SigGear  
