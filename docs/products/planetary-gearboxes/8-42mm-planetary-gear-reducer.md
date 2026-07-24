@@ -21,9 +21,9 @@ The series is intended for projects that require a compact transmission and flex
 | [28P](28p-planetary-gearbox.md) | 28 mm |
 | [32P](32p-planetary-gearbox.md) | 32 mm |
 | [36P](36p-planetary-gearbox.md) | 36 mm |
-| 42P | 42 mm |
+| [42P](42p-planetary-gearbox.md) | 42 mm |
 
-The [8P 8 mm](8p-planetary-gearbox.md), [10P 10 mm](10p-planetary-gearbox.md), [12P 12 mm](12p-planetary-gearbox.md), [14P 14 mm](14p-planetary-gearbox.md), [16P 16 mm](16p-planetary-gearbox.md), [20P 20 mm](20p-planetary-gearbox.md), [22P 22 mm](22p-planetary-gearbox.md), [24P 24 mm](24p-planetary-gearbox.md), [28P 28 mm](28p-planetary-gearbox.md), [32P 32 mm](32p-planetary-gearbox.md) and [36P 36 mm](36p-planetary-gearbox.md) product pages include their currently published stage, ratio, torque, efficiency, load and dimensional data. Detailed values for the other sizes remain subject to their approved model sheets and are not inferred from these published model pages.
+The [8P 8 mm](8p-planetary-gearbox.md), [10P 10 mm](10p-planetary-gearbox.md), [12P 12 mm](12p-planetary-gearbox.md), [14P 14 mm](14p-planetary-gearbox.md), [16P 16 mm](16p-planetary-gearbox.md), [20P 20 mm](20p-planetary-gearbox.md), [22P 22 mm](22p-planetary-gearbox.md), [24P 24 mm](24p-planetary-gearbox.md), [28P 28 mm](28p-planetary-gearbox.md), [32P 32 mm](32p-planetary-gearbox.md), [36P 36 mm](36p-planetary-gearbox.md) and [42P 42 mm](42p-planetary-gearbox.md) product pages include their currently published stage, ratio, torque, efficiency, load and dimensional data.
 
 ## Typical Applications
 
