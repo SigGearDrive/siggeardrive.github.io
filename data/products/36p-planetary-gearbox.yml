@@ -1,0 +1,67 @@
+product_id: SG-36P
+model_name: 36P 36 mm Micro Planetary Gearbox
+product_family: planetary-gearbox
+canonical_url: products/planetary-gearboxes/36p-planetary-gearbox.md
+record_status: published_inventory
+public_page_status: published
+
+inventory_class:
+  type: catalog_product
+  release_state: public
+
+published_specifications:
+  nominal_outer_diameter: 36 mm
+  gearbox_length_range: 30.6-61.5 mm
+  reduction_ratio_range: 3.66:1-625:1
+  rated_allowable_torque_range: 40.0-100.0 kgf-cm
+  maximum_momentary_torque_range: 80.0-200.0 kgf-cm
+  efficiency_range: 66-90%
+  backlash_at_no_load: <= 1.2 degree
+  adapted_motor_voltage: 3-48 VDC
+  adapted_motor_power: below 150 W
+  manufacturing_process: Machining
+
+stage_configurations:
+  - stage: 1
+    length_mm: 30.6
+    ratios: [3.66, 4.2, 5.0]
+    rated_torque_kgf_cm: 40.0
+    momentary_torque_kgf_cm: 80.0
+    efficiency: 90%
+  - stage: 2
+    length_mm: 40.9
+    ratios: [13.4, 15.4, 17.6, 18.3, 21, 25]
+    rated_torque_kgf_cm: 60.0
+    momentary_torque_kgf_cm: 120.0
+    efficiency: 80%
+  - stage: 3
+    length_mm: 51.2
+    ratios: [49, 56.3, 64.6, 67, 74.1, 76.9, 88.2, 91.5, 105, 125]
+    rated_torque_kgf_cm: 80.0
+    momentary_torque_kgf_cm: 160.0
+    efficiency: 73%
+  - stage: 4
+    length_mm: 61.5
+    ratios: [179.4, 205.9, 236.3, 245.1, 271.2, 281.3, 311.2, 322.8, 334.9, 370.5, 384.3, 441, 457.5, 525, 625]
+    rated_torque_kgf_cm: 100.0
+    momentary_torque_kgf_cm: 200.0
+    efficiency: 66%
+
+technical_review:
+  status: complete
+  notes:
+    - Confirm final ratio, motor matching, duty cycle and controlled drawing before quotation.
+    - Do not transfer specifications between different planetary gearbox sizes.
+
+sales_boundary:
+  can_summarize_publicly:
+    - published_dimensions
+    - published_ratios
+    - published_torque_ranges
+    - published_motor_compatibility
+  must_confirm_before_final_quote:
+    - exact_stage_configuration
+    - motor_interface
+    - duty_cycle
+    - service_life
+    - controlled_drawing
