@@ -17,6 +17,15 @@ published_specifications:
   maximum_momentary_torque_range: 80.0-200.0 kgf-cm
   efficiency_range: 66-90%
   backlash_at_no_load: <= 1.2 degree
+  maximum_permissible_speed_continuous: <= 8000 rpm
+  operating_temperature: -40 to 120 C
+  housing_material: steel
+  gear_material: steel
+  output_bearing: ball bearings
+  radial_load_at_10_mm_from_flange: <= 10.0 kgf
+  shaft_axial_load: <= 6.0 kgf
+  radial_shaft_play: <= 0.04 mm
+  thrust_shaft_play: <= 0.3 mm
   adapted_motor_voltage: 3-48 VDC
   adapted_motor_power: below 150 W
   manufacturing_process: Machining
@@ -52,6 +61,7 @@ technical_review:
   notes:
     - Confirm final ratio, motor matching, duty cycle and controlled drawing before quotation.
     - Do not transfer specifications between different planetary gearbox sizes.
+    - Maximum momentary torque is not a continuous working rating.
 
 sales_boundary:
   can_summarize_publicly:
@@ -59,6 +69,7 @@ sales_boundary:
     - published_ratios
     - published_torque_ranges
     - published_motor_compatibility
+    - published_load_limits
   must_confirm_before_final_quote:
     - exact_stage_configuration
     - motor_interface
