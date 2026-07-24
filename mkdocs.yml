@@ -3,6 +3,7 @@ site_description: Integrated robot joint actuators, cycloidal reducers, planetar
 site_url: https://siggeardrive.github.io/SigGear-product-docs/
 repo_url: https://github.com/SigGearDrive/SigGear-product-docs
 repo_name: SigGearDrive/SigGear-product-docs
+use_directory_urls: true
 
 docs_dir: docs
 
