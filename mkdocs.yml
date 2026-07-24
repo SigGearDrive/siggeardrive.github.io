@@ -31,9 +31,6 @@ markdown_extensions:
 
 nav:
   - Home: index.md
-  - Company:
-      - About SigGear: company/about-siggear.md
-      - Certifications: company/certifications.md
   - Products:
       - Product Overview: products/index.md
       - Robot Joint Actuators:
@@ -62,37 +59,20 @@ nav:
           - 22P (22 mm): products/planetary-gearboxes/22p-planetary-gearbox.md
           - 24P (24 mm): products/planetary-gearboxes/24p-planetary-gearbox.md
           - 28P (28 mm): products/planetary-gearboxes/28p-planetary-gearbox.md
+          - 32P (32 mm): products/planetary-gearboxes/32p-planetary-gearbox.md
       - Micro Gear Motors:
           - Overview: products/micro-gear-motors/index.md
       - Flat BLDC Motors and Joint Drives:
           - Overview: products/flat-bldc-motors/index.md
   - Applications:
       - Applications Overview: applications/index.md
-      - AGV and AMR Wheel Drive Gearboxes: applications/agv-amr-wheel-drive-gearboxes.md
-      - Exoskeleton Joint Actuators: applications/exoskeleton-joint-actuators.md
-      - Humanoid Robot Joint Actuators: applications/humanoid-robot-joint-actuators.md
-      - Medical Device Micro Gear Motors: applications/medical-device-micro-gear-motors.md
-      - Precision Instruments and Optical Mechanisms: applications/precision-instruments-optical-mechanisms.md
-      - Quadruped Robot Joint Gearboxes: applications/quadruped-robot-joint-gearboxes.md
-      - Robotic Arm Joint Actuators: applications/robotic-arm-joint-actuators.md
-      - Robot Gripper Gear Motors: applications/robot-gripper-gear-motors.md
   - Selection Guides:
       - Selection Guides Overview: selection-guides/index.md
       - Robot Joint Actuator Selection Guide: selection-guides/robot-joint-actuator-selection-guide.md
   - Sales:
       - Sales Overview: sales/index.md
-      - Customer Qualification Checklist: sales/customer-qualification-checklist.md
-      - Inquiry Response Policy: sales/inquiry-response-policy.md
-      - Product Matching Workflow: sales/product-matching-workflow.md
-      - Quotation Readiness Checklist: sales/quotation-readiness-checklist.md
-      - Reply Templates: sales/reply-templates.md
   - Knowledge Base:
       - Knowledge Base Overview: knowledge-base/index.md
-      - Documentation Policy: knowledge-base/documentation-policy.md
-      - Glossary: knowledge-base/glossary.md
-      - Product Data Dictionary: knowledge-base/product-data-dictionary.md
-      - Product FAQ: knowledge-base/product-faq.md
       - Product Model Index: knowledge-base/product-model-index.md
       - Sales Usage and Review Status: knowledge-base/sales-usage-and-review-status.md
-      - Update Workflow: knowledge-base/update-workflow.md
   - Contact: contact.md
