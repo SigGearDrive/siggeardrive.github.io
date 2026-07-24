@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate the built MkDocs site uses only the project GitHub Pages URL."""
+"""Validate generated MkDocs output before GitHub Pages deployment."""
 
 from __future__ import annotations
 
@@ -13,6 +13,15 @@ EXPECTED_BASE = "https://siggeardrive.github.io/SigGear-product-docs/"
 HOST_BASE = "https://siggeardrive.github.io/"
 URL_PATTERN = re.compile(r"https://siggeardrive\.github\.io/[^\s\"'<>)]*")
 
+EXPECTED_REDIRECTS = [
+    "Applications/6-42mm-planetary-gear-reducer/index.html",
+    "Applications/micro-robotics-gear-motor/index.html",
+    "Applications/humanoid-robot-joint-reducer/index.html",
+    "Selection-Guides/planetary-gearbox-selection-guide/index.html",
+    "Comparisons/cycloidal-vs-harmonic-drive/index.html",
+    "Developers/ros2-robot-joint-actuator/index.html",
+]
+
 
 def fail(message: str) -> None:
     print(f"ERROR: {message}", file=sys.stderr)
@@ -23,35 +32,42 @@ def check_required_files() -> None:
     required = [
         SITE_DIR / "index.html",
         SITE_DIR / "sitemap.xml",
-        SITE_DIR / "Applications/6-42mm-planetary-gear-reducer/index.html",
-        SITE_DIR / "Applications/micro-robotics-gear-motor/index.html",
+        SITE_DIR / "sitemap-index.xml",
     ]
     missing = [str(path) for path in required if not path.is_file()]
     if missing:
-        fail("Missing required generated files: " + ", ".join(missing))
+        fail("Missing generated files: " + ", ".join(missing))
 
 
 def check_home_canonical() -> None:
     html = (SITE_DIR / "index.html").read_text(encoding="utf-8")
-    expected = f'<link rel="canonical" href="{EXPECTED_BASE}">'
-    if expected not in html:
-        fail(f"Homepage canonical is not exactly {EXPECTED_BASE}")
+    if f'<link rel="canonical" href="{EXPECTED_BASE}">' not in html:
+        fail("Homepage canonical is incorrect")
 
 
 def check_sitemap() -> None:
-    sitemap_path = SITE_DIR / "sitemap.xml"
-    root = ElementTree.parse(sitemap_path).getroot()
-    namespace = {"sm": "http://www.sitemaps.org/schemas/sitemap/0.9"}
-    locations = [node.text or "" for node in root.findall("sm:url/sm:loc", namespace)]
-    if not locations:
-        fail("Sitemap contains no URL locations")
-    invalid = [url for url in locations if not url.startswith(EXPECTED_BASE)]
-    if invalid:
-        fail("Sitemap contains URLs outside the project path: " + ", ".join(invalid[:10]))
+    root = ElementTree.parse(SITE_DIR / "sitemap.xml").getroot()
+    ns = {"sm": "http://www.sitemaps.org/schemas/sitemap/0.9"}
+    urls = [x.text or "" for x in root.findall("sm:url/sm:loc", ns)]
+    if not urls:
+        fail("Sitemap has no URLs")
+    bad = [url for url in urls if not url.startswith(EXPECTED_BASE)]
+    if bad:
+        fail("Sitemap contains non-project URLs: " + ", ".join(bad[:5]))
+
+    index = (SITE_DIR / "sitemap-index.xml").read_text(encoding="utf-8")
+    if "sitemap.xml" not in index or EXPECTED_BASE not in index:
+        fail("Sitemap index does not reference the project sitemap")
 
 
-def check_all_generated_urls() -> None:
-    invalid: list[tuple[str, str]] = []
+def check_redirects() -> None:
+    missing = [path for path in EXPECTED_REDIRECTS if not (SITE_DIR / path).is_file()]
+    if missing:
+        fail("Missing redirect pages: " + ", ".join(missing))
+
+
+def check_generated_urls() -> None:
+    invalid = []
     for path in SITE_DIR.rglob("*"):
         if not path.is_file() or path.suffix.lower() not in {".html", ".xml", ".txt", ".js", ".json"}:
             continue
@@ -60,18 +76,18 @@ def check_all_generated_urls() -> None:
             if url.startswith(HOST_BASE) and not url.startswith(EXPECTED_BASE):
                 invalid.append((str(path), url))
     if invalid:
-        details = "; ".join(f"{path}: {url}" for path, url in invalid[:10])
-        fail("Generated site contains root-domain URLs outside /SigGear-product-docs/: " + details)
+        fail("Root-domain URLs found: " + "; ".join(f"{p}: {u}" for p, u in invalid[:5]))
 
 
 def main() -> None:
     if not SITE_DIR.is_dir():
-        fail("Build directory 'site' does not exist")
+        fail("Missing site build directory")
     check_required_files()
     check_home_canonical()
     check_sitemap()
-    check_all_generated_urls()
-    print("Site URL validation passed.")
+    check_redirects()
+    check_generated_urls()
+    print("Site validation passed.")
 
 
 if __name__ == "__main__":
