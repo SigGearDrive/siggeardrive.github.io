@@ -30,6 +30,7 @@ Use this page to locate the canonical public page for a SigGear product model or
 | 20P | [20P](../products/planetary-gearboxes/20p-planetary-gearbox.md) |
 | 22P | [22P](../products/planetary-gearboxes/22p-planetary-gearbox.md) |
 | 24P | [24P](../products/planetary-gearboxes/24p-planetary-gearbox.md) |
+| 28P | [28P](../products/planetary-gearboxes/28p-planetary-gearbox.md) |
 | 8–42 mm Series | [Series](../products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md) |
 
 ## Hub Gear Motors
