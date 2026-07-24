@@ -2,60 +2,114 @@
 
 ## Application Overview
 
-Humanoid robots require compact joint actuators for positions such as the shoulder, elbow, wrist, hip, knee and ankle. Each joint has a different load case, motion cycle, installation envelope and control requirement, so actuator selection must be based on the complete operating condition rather than torque alone.
+Humanoid robots require compact joint actuators for the shoulder, elbow, wrist, hip, knee, ankle, neck and waist axes. Each joint has a different torque-speed cycle, external-load condition, installation envelope, thermal limit and control requirement. A humanoid robot joint actuator should therefore be selected from the complete operating profile, not from peak torque alone.
 
-SigGear supplies planetary and cycloidal joint-drive products for humanoid robot development. Available configurations may combine a BLDC motor, precision reducer, encoder and driver, depending on the selected model.
+SigGear supports humanoid robot development with integrated robot joint actuator options, planetary joint actuators, cycloidal joint modules and compact planetary gearbox solutions. Depending on the selected configuration, a joint drive may combine a motor, reducer, encoder and driver, or it may be supplied as a reducer or gearbox for customer-side motor integration.
 
-## Main Selection Factors
+This page is intended for early-stage model selection, supplier comparison and engineering communication. Final actuator selection, quotation and technical agreement still require review against the controlled drawing, selected ratio, duty cycle, mounting interface and ordered configuration.
 
-### Continuous and Peak Torque
+## What a Humanoid Joint Actuator Must Define
 
-Continuous torque must cover the sustained load and motion cycle. Peak torque must be evaluated together with the required duration, controller current limit, duty cycle, cooling and ambient conditions.
+A humanoid joint is not defined only by rated torque. The following parameters should be reviewed together:
 
-### Output Speed
+| Requirement | Why it matters |
+| --- | --- |
+| Continuous torque | Determines whether the joint can sustain walking, lifting, balancing or holding conditions without overheating. |
+| Peak torque and peak duration | Important for acceleration, recovery motion, impact events and short overload conditions. |
+| Output speed | Must match the robot motion profile and motor operating range. |
+| Outer diameter and axial thickness | Controls whether the actuator fits inside the limb, torso or joint shell. |
+| Weight | Affects leg swing inertia, arm payload, power consumption and whole-body balance. |
+| Backlash and positioning requirement | Influences stability, repeatability, force control and motion smoothness. |
+| Radial, axial and overturning loads | Affect the bearing, housing and output-interface design. |
+| Duty cycle and cooling | Determine whether torque values are usable continuously or only for short periods. |
+| Encoder, driver and communication interface | Affect closed-loop control, wiring, protocol integration and software development. |
 
-Required joint speed depends on the robot motion profile, reduction ratio and motor operating range. Higher peak speed does not replace verification of continuous operating conditions.
+## Joint Positions and Typical Review Focus
 
-### Size and Weight
+### Shoulder Joint
 
-Provide the maximum allowable outer diameter, axial thickness and mass for each joint position. Cable routing, bearings, mounting structures and covers must also be included in the available installation space.
+The shoulder may include pitch, roll and yaw axes. It often requires compact packaging, sufficient peak torque for arm acceleration and careful cable routing through the upper body. External loads from the arm, gripper and carried object should be considered.
 
-### External Loads
+### Elbow Joint
 
-Radial load, axial load, overturning moment and shock conditions affect the bearing and structural design. These loads must be reviewed separately from output torque.
+The elbow usually needs a balance between torque, speed and compact axial length. For prototype humanoid arms, an integrated actuator can reduce assembly work, but the final selection should still confirm continuous holding torque, backlash and thermal conditions.
 
-### Position Feedback and Control
+### Wrist Joint
 
-Encoder, driver and communication requirements vary by model and configuration. Confirm the required position, velocity and torque-control functions, as well as CAN, RS485 or other communication interfaces, during project review.
+The wrist is sensitive to size and weight. Lower inertia and compact output interfaces are usually important. Small planetary gearboxes or compact joint actuators may be considered when the required torque is lower than the shoulder or elbow.
 
-### Thermal and Duty-Cycle Conditions
+### Hip Joint
 
-Provide the motion cycle, operating time, rest time, ambient temperature, cooling method and installation structure. Peak torque and current values must not be treated as continuous ratings.
+The hip is one of the highest-load areas in a humanoid robot. It may require higher continuous torque, high peak torque and strong structural support. Overturning moment, radial load, shock load and housing stiffness are especially important.
+
+### Knee Joint
+
+The knee joint is strongly affected by walking, squatting, standing-up and impact recovery cycles. Continuous torque, peak duration, braking strategy, thermal behavior and mechanical safety margin should be reviewed carefully.
+
+### Ankle Joint
+
+The ankle often combines torque, shock load and packaging difficulty. It can be sensitive to backlash, compliance, sealing, cable routing and impact load. Prototype testing is usually important before locking the actuator model.
 
 ## Candidate SigGear Joint Products
 
-The following published models can be considered as starting points. Final selection requires engineering review.
+The following published SigGear models can be considered as starting points for humanoid robot joint evaluation. Final selection depends on the exact joint position, torque-speed cycle, duty cycle, external loads, size limits and control architecture.
 
 | Model | Transmission | Rated torque | Peak torque | Rated output speed | Configuration note |
 | --- | --- | ---: | ---: | ---: | --- |
-| [SG-6010C](../products/robot-joint-actuators/sg6010c.md) | Planetary | 6 Nm | 18 Nm | 310 rpm | Driver options depend on selected configuration |
-| [SG-6010D](../products/robot-joint-actuators/sg6010d.md) | Planetary | 16 Nm | 50 Nm | 100 rpm | Available with or without integrated driver |
-| [SG-8021](../products/robot-joint-actuators/sg8021.md) | Planetary | 10 Nm | 30 Nm | 160 rpm | Driver options depend on selected configuration |
-| [CPM-100-25](../products/cycloidal-joint-modules/cpm100-25.md) | Cycloidal pinwheel | 25 Nm | 75 Nm | 60 rpm | Available with or without integrated driver |
-| [CPM-80-25](../products/cycloidal-joint-modules/cpm80-25.md) | Cycloidal pinwheel | 10 Nm | 50 Nm | 120 rpm | Available with or without integrated driver |
-| [CPM-78-39](../products/cycloidal-joint-modules/cpm78-39.md) | Cycloidal pinwheel | 20 Nm | 52 Nm | 48 rpm | Standard catalog configuration uses Hall sensors and no integrated driver |
+| [SG-6010C](../products/robot-joint-actuators/sg6010c.md) | Planetary | 6 Nm | 18 Nm | 310 rpm | Driver options depend on selected configuration. |
+| [SG-6010D](../products/robot-joint-actuators/sg6010d.md) | Planetary | 16 Nm | 50 Nm | 100 rpm | Available with or without integrated driver. |
+| [SG-8021](../products/robot-joint-actuators/sg8021.md) | Planetary | 10 Nm | 30 Nm | 160 rpm | Driver options depend on selected configuration. |
+| [CPM-100-25](../products/cycloidal-joint-modules/cpm100-25.md) | Cycloidal pinwheel | 25 Nm | 75 Nm | 60 rpm | Available with or without integrated driver. |
+| [CPM-80-25](../products/cycloidal-joint-modules/cpm80-25.md) | Cycloidal pinwheel | 10 Nm | 50 Nm | 120 rpm | Available with or without integrated driver. |
+| [CPM-78-39](../products/cycloidal-joint-modules/cpm78-39.md) | Cycloidal pinwheel | 20 Nm | 52 Nm | 48 rpm | Standard catalog configuration uses Hall sensors and no integrated driver. |
 
-## Planetary or Cycloidal Joint Drive
+For smaller auxiliary joints, sensor mechanisms, hands, compact wrists or lightweight adjustment axes, SigGear can also evaluate [8–42 mm planetary gearbox](../products/planetary-gearboxes/8-42mm-planetary-gear-reducer.md) options when the customer already has a motor or needs a customized motor-gearbox combination.
 
-A planetary joint actuator may be considered when compact integration, output speed and a broad range of motor-and-driver configurations are important.
+## Integrated Actuator or Separate Gearbox and Motor
 
-A cycloidal joint module may be considered when the application requires a compact high-torque transmission and the selected model's speed, backlash and installation characteristics match the joint requirement.
+A humanoid project may use an integrated actuator or a separate gearbox-and-motor architecture.
 
-Neither transmission type should be selected from a general rule alone. Compare the complete torque-speed cycle, external loads, backlash requirement, thermal conditions, size, weight and control architecture.
+An integrated robot joint actuator may be suitable when the engineering team wants a more complete module with a matched motor, reducer, encoder and driver option. This can reduce early prototype integration work and speed up testing.
 
-## Joint-by-Joint Review
+A separate gearbox and motor solution may be suitable when the robot team already has its own motor, controller, encoder, housing or thermal design. In this case, the gearbox interface, input speed, motor shaft, mounting pattern and output shaft must be confirmed carefully.
 
-For each humanoid joint, provide a separate requirement set. Shoulder, hip and knee joints often have different torque and structural-load conditions from elbow, wrist and ankle joints. A single actuator model should not be assumed suitable for every position without calculation and prototype testing.
+SigGear can support both approaches depending on the model, quantity, customization scope and engineering feasibility.
+
+## Planetary or Cycloidal Drive for Humanoid Robots
+
+A planetary joint actuator may be considered when the project prioritizes compact integration, output speed, motor matching flexibility and broad configuration options.
+
+A cycloidal joint module may be considered when the application requires compact high-torque transmission and the selected model's speed, backlash, installation structure and duty cycle match the joint requirement.
+
+Neither transmission type should be selected from a general rule alone. Compare the complete torque-speed cycle, external loads, backlash target, thermal condition, size limit, weight target, control architecture and production plan.
+
+## Control, Encoder and Communication Review
+
+Humanoid robot teams should confirm the control architecture early. Important questions include:
+
+- Is the joint controlled by position, speed, torque or mixed control mode?
+- Is the driver integrated into the actuator or placed on a separate robot controller board?
+- Is CAN, RS485, PWM or another interface required?
+- What encoder resolution and position feedback accuracy are needed?
+- Is the control loop closed at the actuator, at the main robot controller or both?
+- Are there requirements for current limit, temperature monitoring, fault reporting or brake control?
+
+Communication and control functions vary by selected product and electronics configuration. Do not assume CAN, RS485, EtherCAT, PID, torque control or a specific protocol without confirming the driver and firmware version.
+
+## Torque, Speed and Thermal Selection
+
+For each joint, provide the full motion cycle instead of only the maximum torque value. Useful information includes:
+
+- Continuous torque during holding or walking
+- Peak torque and peak duration
+- Target output speed and acceleration
+- Operating voltage and current limit
+- Motion time, rest time and duty cycle
+- Ambient temperature and cooling method
+- Mounting structure and heat dissipation path
+- Expected test duration and service-life target
+
+Peak torque is not a continuous working rating. A joint that can provide short peak torque may still be unsuitable if the repeated duty cycle causes excessive temperature rise.
 
 ## Prototype and Customization Support
 
@@ -67,12 +121,33 @@ Depending on the selected model and project scope, SigGear can evaluate:
 - Cable and connector customization
 - Communication and control configuration
 - Customer branding and labeling
+- Prototype support before production planning
 
-Customization availability depends on technical feasibility, prototype quantity and expected production volume.
+Customization availability depends on technical feasibility, prototype quantity, expected annual volume and the level of engineering change required.
+
+## Information Needed for a Humanoid Joint Selection Review
+
+Please send one requirement set for each joint position. For example, shoulder, elbow, wrist, hip, knee and ankle should be reviewed separately.
+
+Provide:
+
+- Robot type and target application
+- Joint position and axis definition
+- Continuous torque
+- Peak torque and peak duration
+- Required output speed
+- Operating voltage and current limit
+- Maximum outer diameter, thickness and weight
+- Radial load, axial load and overturning moment
+- Backlash and positioning requirement
+- Encoder, driver and communication requirements
+- Duty cycle, ambient temperature and cooling method
+- Prototype quantity and estimated annual quantity
+- Preferred architecture: integrated actuator or separate gearbox and motor
 
 ## Request a Joint Selection Review
 
-Please send the robot joint position, continuous torque, peak torque and duration, output speed, voltage, size and weight limits, external loads, duty cycle, driver and communication requirements, prototype quantity and annual forecast.
+Send your humanoid robot joint requirements to SigGear for a preliminary model review. Early requirements can be rough, but torque, speed, size, voltage and quantity are needed before a meaningful recommendation can be made.
 
 **Wanrong Wang**  
 International Sales, SigGear  
