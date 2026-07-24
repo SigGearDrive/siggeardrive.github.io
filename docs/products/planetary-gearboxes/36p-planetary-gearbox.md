@@ -12,6 +12,9 @@ The SigGear 36P is a 36 mm micro planetary gearbox for compact motorized mechani
 | Product type | Micro planetary gearbox |
 | Nominal outer diameter | 36 mm |
 | Number of stages | 1 to 4 |
+| Housing material | Steel |
+| Gear material | Steel |
+| Output bearing | Ball bearings |
 | Manufacturing process | Machining |
 
 ## Key Specifications
@@ -25,6 +28,8 @@ The SigGear 36P is a 36 mm micro planetary gearbox for compact motorized mechani
 | Maximum momentary torque range | 80.0–200.0 kgf·cm |
 | Efficiency range | 66–90% |
 | Backlash at no load | ≤ 1.2° |
+| Maximum permissible speed, continuous operation | ≤ 8,000 rpm |
+| Operating temperature | −40 to 120 °C |
 | Adapted DC motor voltage | 3–48 VDC |
 | Adapted DC motor power | below 150 W |
 
@@ -39,6 +44,21 @@ Torque values are preserved in the source unit, kgf·cm. Maximum momentary torqu
 | 3 | 51.2 mm | 49 / 56.3 / 64.6 / 67 / 74.1 / 76.9 / 88.2 / 91.5 / 105 / 125 | 80.0 kgf·cm | 160.0 kgf·cm | 73% |
 | 4 | 61.5 mm | 179.4 / 205.9 / 236.3 / 245.1 / 271.2 / 281.3 / 311.2 / 322.8 / 334.9 / 370.5 / 384.3 / 441 / 457.5 / 525 / 625 | 100.0 kgf·cm | 200.0 kgf·cm | 66% |
 
+## Shaft, Load and Operating Limits
+
+| Parameter | Published value |
+| --- | ---: |
+| Housing material | Steel |
+| Gear material | Steel |
+| Bearing at output | Ball bearings |
+| Radial load, measured 10 mm from flange | ≤ 10.0 kgf |
+| Shaft axial load | ≤ 6.0 kgf |
+| Radial shaft play | ≤ 0.04 mm |
+| Thrust shaft play | ≤ 0.3 mm |
+| Backlash at no load | ≤ 1.2° |
+| Maximum permissible speed, continuous operation | ≤ 8,000 rpm |
+| Operating temperature | −40 to 120 °C |
+
 ## Motor Compatibility
 
 The adapted-motor sheet identifies DC motors with a nominal voltage of **3–48 VDC** and power **below 150 W**. If the motor cannot meet the gearbox installation requirements, the motor and gearbox interface details need to be negotiated separately.
@@ -48,8 +68,6 @@ These are adapted-motor conditions, not an electrical voltage or power rating fo
 ## Dimensions and Interface
 
 The published drawing shows a 36 mm body diameter and stage-dependent gearbox lengths of 30.6, 40.9, 51.2 and 61.5 mm. Use the approved drawing for shaft geometry, mounting holes, input-interface details and tolerance notation.
-
-The supplied 36P public images do not show a maximum continuous input speed value. Confirm the approved speed limit from the controlled specification before quotation.
 
 ## Typical Applications
 
