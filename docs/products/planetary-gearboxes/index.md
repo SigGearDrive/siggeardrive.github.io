@@ -82,6 +82,12 @@ The 36P page includes the complete currently published one- to four-stage ratio 
 
 [View the 36P 36 mm planetary gearbox](36p-planetary-gearbox.md)
 
+### 42P 42 mm Micro Planetary Gearbox
+
+The 42P page includes the currently published one- to four-stage ratio table, gearbox lengths, allowable torque, momentary torque, efficiency, backlash, manufacturing process and motor compatibility.
+
+[View the 42P 42 mm planetary gearbox](42p-planetary-gearbox.md)
+
 ## Integration and Customization
 
 Depending on the selected model, SigGear can evaluate motor matching, custom ratios, shafts, mounting structures, encoders, brakes, cables and connectors.

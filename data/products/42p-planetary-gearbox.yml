@@ -1,0 +1,46 @@
+schema_version: 1
+record_id: 42p-planetary-gearbox
+record_type: model
+model: 42P
+display_name: 42P 42 mm Micro Planetary Gearbox
+product_family: planetary_gearbox
+canonical_page: docs/products/planetary-gearboxes/42p-planetary-gearbox.md
+public_page_status: published
+record_status: published_inventory
+configuration_summary: Published configurations cover one to four stages with ratio, length, torque, efficiency and adapted-motor data for the selected configuration.
+published_specifications:
+  nominal_outer_diameter: "42 mm"
+  gearbox_length_range: "35.6–69.5 mm"
+  reduction_ratio_range: "3.8:1–660.7:1"
+  rated_allowable_torque_range: "80.0–150.0 kgf·cm"
+  maximum_momentary_torque_range: "160.0–300.0 kgf·cm"
+  efficiency_range: "66–90%"
+  backlash_at_no_load: "≤ 1.2°"
+  adapted_motor_voltage: "3–48 VDC"
+  adapted_motor_power: "below 200 W"
+  manufacturing_process: "Machining"
+sales_usage:
+  permitted:
+    - preliminary_selection
+    - public_product_summary
+  requires_confirmation:
+    - selected_ratio_and_stage_count
+    - continuous_torque_momentary_torque_and_duty_cycle
+    - motor_matching_and_input_interface
+    - output_shaft_and_mounting_interface
+    - radial_and_axial_loads
+    - speed_load_temperature_and_shaft_play_limits
+    - noise_service_life_and_operating_environment
+  prohibited:
+    - transfer_42p_specifications_to_another_frame_size
+    - treat_maximum_momentary_torque_as_continuous
+    - present_motor_voltage_as_gearbox_electrical_rating
+technical_review:
+  public_inventory_status: complete
+  controlled_source_reference: not_recorded_in_public_repository
+  technical_approval_status: not_recorded_in_public_repository
+  next_internal_action: reconcile_missing_speed_load_temperature_and_material_data_with_controlled_source
+source_control:
+  public_claim_source: canonical_page
+  technical_source_status: not_recorded_in_public_repository
+inventory_checked_on: "2026-07-24"
